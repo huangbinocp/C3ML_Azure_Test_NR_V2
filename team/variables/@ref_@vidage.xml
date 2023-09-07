@@ -1,0 +1,1 @@
+<variable-random-string max-lenght="16" min-lenght="16" name="Ref_Vidage" order="1" policy="1" random-seed="false" range="2" uid="9c601017-bb5d-456f-9cd4-c992dca5ac36" whenOutOfValues="CYCLE_VALUES"/>

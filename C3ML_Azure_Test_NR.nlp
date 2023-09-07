@@ -1,0 +1,14 @@
+# Project description file
+
+project.name=C3ML_Azure_Test_NR
+project.version=8.6
+project.original.version=8.6
+product.name=NeoLoad
+product.original.name=NeoLoad
+product.original.version=9.0.1
+project.is-open-test-settings-after-upload=false
+project.id=eefd53f7-40e3-4350-9518-6fa1b15fdff6
+project.config.path=config.zip
+project.config.storage=ZIP
+team.server.enabled=true
+team.server.project=/huangbinocp/C3ML_Azure_Test_NR.git

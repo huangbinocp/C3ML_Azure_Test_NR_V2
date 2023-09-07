@@ -1,0 +1,1081 @@
+<connection-tomcat7 domain="Catalina" interval="5000" login="tomcat"
+    name="tomcat_19000" password="LuMxDsR9hDi1x5jta7mLHA==$2"
+    server-address="fr098s0206.celesiogroup.com" server-port="19000" uid="ed529e36-f68d-4671-abdb-da284f7d7c8c">
+    <monitor-category name="RequestProcessor" short-display-name="RequestProcessor">
+        <monitor-category name="&quot;ajp-bio-18109&quot;" short-display-name="&quot;ajp-bio-18109&quot;">
+            <monitor-jmx attribute="requestCount" callTime="ON_BENCH"
+                computing="1" connection-type="30" format="NUMBER"
+                helpID="reference.design.monitors.tomcat.requestprocessor.requestcount"
+                monitor="0" monitorType=""
+                name="RequestProcessor/-ajp-bio-18109-/requestCount"
+                object-name="Catalina:name=&quot;ajp-bio-18109&quot;,type=GlobalRequestProcessor"
+                path="RequestProcessor/&quot;ajp-bio-18109&quot;/requestCount"
+                sampling="0" short-display-name="requestCount" unit="">
+                <description>Nombre de requêtes traitées par ce processeur depuis le dernier appel.</description>
+            </monitor-jmx>
+            <monitor-jmx attribute="errorCount" callTime="ON_BENCH"
+                computing="1" connection-type="30" format="NUMBER"
+                helpID="reference.design.monitors.tomcat.requestprocessor.errorcount"
+                monitor="0" monitorType=""
+                name="RequestProcessor/-ajp-bio-18109-/errorCount"
+                object-name="Catalina:name=&quot;ajp-bio-18109&quot;,type=GlobalRequestProcessor"
+                path="RequestProcessor/&quot;ajp-bio-18109&quot;/errorCount"
+                sampling="0" short-display-name="errorCount" unit="">
+                <description>Nombre d'erreurs depuis le dernier appel.</description>
+            </monitor-jmx>
+            <monitor-virtual attribute="% errorCount"
+                callTime="ON_BENCH" computing="0" connection-type="30"
+                format="NUMBER"
+                helpID="reference.design.monitors.tomcat.requestprocessor.%.errorcount"
+                monitor="0" monitorType=""
+                name="RequestProcessor/-ajp-bio-18109-/% errorCount"
+                object-name="Catalina:name=&quot;ajp-bio-18109&quot;,type=GlobalRequestProcessor"
+                operator="%"
+                path="RequestProcessor/&quot;ajp-bio-18109&quot;/% errorCount"
+                sampling="0" short-display-name="% errorCount"
+                threshold="e0d70d81-b1e8-4de2-bd00-e986c3c768fd" unit="%">
+                <description>Pourcentage d'erreurs depuis le dernier appel.</description>
+                <monitor-jmx attribute="errorCount" callTime="ON_BENCH"
+                    computing="1" connection-type="30" format="NUMBER"
+                    monitor="0" monitorType=""
+                    name="RequestProcessor/-ajp-bio-18109-/errorCount"
+                    object-name="Catalina:name=&quot;ajp-bio-18109&quot;,type=GlobalRequestProcessor"
+                    path="RequestProcessor/&quot;ajp-bio-18109&quot;/errorCount"
+                    sampling="0" short-display-name="errorCount" unit=""/>
+                <monitor-jmx attribute="requestCount"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER" monitor="0"
+                    monitorType=""
+                    name="RequestProcessor/-ajp-bio-18109-/requestCount"
+                    object-name="Catalina:name=&quot;ajp-bio-18109&quot;,type=GlobalRequestProcessor"
+                    path="RequestProcessor/&quot;ajp-bio-18109&quot;/requestCount"
+                    sampling="0" short-display-name="requestCount" unit=""/>
+            </monitor-virtual>
+            <monitor-jmx attribute="bytesSent" callTime="ON_BENCH"
+                computing="1" connection-type="30" format="NUMBER"
+                helpID="reference.design.monitors.tomcat.requestprocessor.bytessent"
+                monitor="0" monitorType=""
+                name="RequestProcessor/-ajp-bio-18109-/bytesSent"
+                object-name="Catalina:name=&quot;ajp-bio-18109&quot;,type=GlobalRequestProcessor"
+                path="RequestProcessor/&quot;ajp-bio-18109&quot;/bytesSent"
+                sampling="0" short-display-name="bytesSent" unit="bytes">
+                <description>Nombre d'octets envoyés par ce processeur depuis le dernier appel.</description>
+            </monitor-jmx>
+            <monitor-jmx attribute="maxTime" callTime="ON_BENCH"
+                computing="0" connection-type="30" format="NUMBER"
+                helpID="reference.design.monitors.tomcat.requestprocessor.maxtime"
+                monitor="0" monitorType=""
+                name="RequestProcessor/-ajp-bio-18109-/maxTime"
+                object-name="Catalina:name=&quot;ajp-bio-18109&quot;,type=GlobalRequestProcessor"
+                path="RequestProcessor/&quot;ajp-bio-18109&quot;/maxTime"
+                sampling="0" short-display-name="maxTime" unit="ms">
+                <description>Plus long temps mis par une requête pour être traité.</description>
+            </monitor-jmx>
+            <monitor-jmx attribute="processingTime" callTime="ON_BENCH"
+                computing="1" connection-type="30" format="NUMBER"
+                helpID="reference.design.monitors.tomcat.requestprocessor.processingtime"
+                monitor="0" monitorType=""
+                name="RequestProcessor/-ajp-bio-18109-/processingTime"
+                object-name="Catalina:name=&quot;ajp-bio-18109&quot;,type=GlobalRequestProcessor"
+                path="RequestProcessor/&quot;ajp-bio-18109&quot;/processingTime"
+                sampling="0" short-display-name="processingTime" unit="ms">
+                <description>Temps de traitement total depuis le dernier appel.</description>
+            </monitor-jmx>
+        </monitor-category>
+        <monitor-category name="&quot;http-bio-18180&quot;" short-display-name="&quot;http-bio-18180&quot;">
+            <monitor-jmx attribute="requestCount" callTime="ON_BENCH"
+                computing="1" connection-type="30" format="NUMBER"
+                helpID="reference.design.monitors.tomcat.requestprocessor.requestcount"
+                monitor="0" monitorType=""
+                name="RequestProcessor/-http-bio-18180-/requestCount"
+                object-name="Catalina:name=&quot;http-bio-18180&quot;,type=GlobalRequestProcessor"
+                path="RequestProcessor/&quot;http-bio-18180&quot;/requestCount"
+                sampling="0" short-display-name="requestCount" unit="">
+                <description>Nombre de requêtes traitées par ce processeur depuis le dernier appel.</description>
+            </monitor-jmx>
+            <monitor-jmx attribute="errorCount" callTime="ON_BENCH"
+                computing="1" connection-type="30" format="NUMBER"
+                helpID="reference.design.monitors.tomcat.requestprocessor.errorcount"
+                monitor="0" monitorType=""
+                name="RequestProcessor/-http-bio-18180-/errorCount"
+                object-name="Catalina:name=&quot;http-bio-18180&quot;,type=GlobalRequestProcessor"
+                path="RequestProcessor/&quot;http-bio-18180&quot;/errorCount"
+                sampling="0" short-display-name="errorCount" unit="">
+                <description>Nombre d'erreurs depuis le dernier appel.</description>
+            </monitor-jmx>
+            <monitor-virtual attribute="% errorCount"
+                callTime="ON_BENCH" computing="0" connection-type="30"
+                format="NUMBER"
+                helpID="reference.design.monitors.tomcat.requestprocessor.%.errorcount"
+                monitor="0" monitorType=""
+                name="RequestProcessor/-http-bio-18180-/% errorCount"
+                object-name="Catalina:name=&quot;http-bio-18180&quot;,type=GlobalRequestProcessor"
+                operator="%"
+                path="RequestProcessor/&quot;http-bio-18180&quot;/% errorCount"
+                sampling="0" short-display-name="% errorCount"
+                threshold="a1e6e8e3-f26d-4a39-b308-bca8eacffe61" unit="%">
+                <description>Pourcentage d'erreurs depuis le dernier appel.</description>
+                <monitor-jmx attribute="errorCount" callTime="ON_BENCH"
+                    computing="1" connection-type="30" format="NUMBER"
+                    monitor="0" monitorType=""
+                    name="RequestProcessor/-http-bio-18180-/errorCount"
+                    object-name="Catalina:name=&quot;http-bio-18180&quot;,type=GlobalRequestProcessor"
+                    path="RequestProcessor/&quot;http-bio-18180&quot;/errorCount"
+                    sampling="0" short-display-name="errorCount" unit=""/>
+                <monitor-jmx attribute="requestCount"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER" monitor="0"
+                    monitorType=""
+                    name="RequestProcessor/-http-bio-18180-/requestCount"
+                    object-name="Catalina:name=&quot;http-bio-18180&quot;,type=GlobalRequestProcessor"
+                    path="RequestProcessor/&quot;http-bio-18180&quot;/requestCount"
+                    sampling="0" short-display-name="requestCount" unit=""/>
+            </monitor-virtual>
+            <monitor-jmx attribute="bytesSent" callTime="ON_BENCH"
+                computing="1" connection-type="30" format="NUMBER"
+                helpID="reference.design.monitors.tomcat.requestprocessor.bytessent"
+                monitor="0" monitorType=""
+                name="RequestProcessor/-http-bio-18180-/bytesSent"
+                object-name="Catalina:name=&quot;http-bio-18180&quot;,type=GlobalRequestProcessor"
+                path="RequestProcessor/&quot;http-bio-18180&quot;/bytesSent"
+                sampling="0" short-display-name="bytesSent" unit="bytes">
+                <description>Nombre d'octets envoyés par ce processeur depuis le dernier appel.</description>
+            </monitor-jmx>
+            <monitor-jmx attribute="maxTime" callTime="ON_BENCH"
+                computing="0" connection-type="30" format="NUMBER"
+                helpID="reference.design.monitors.tomcat.requestprocessor.maxtime"
+                monitor="0" monitorType=""
+                name="RequestProcessor/-http-bio-18180-/maxTime"
+                object-name="Catalina:name=&quot;http-bio-18180&quot;,type=GlobalRequestProcessor"
+                path="RequestProcessor/&quot;http-bio-18180&quot;/maxTime"
+                sampling="0" short-display-name="maxTime" unit="ms">
+                <description>Plus long temps mis par une requête pour être traité.</description>
+            </monitor-jmx>
+            <monitor-jmx attribute="processingTime" callTime="ON_BENCH"
+                computing="1" connection-type="30" format="NUMBER"
+                helpID="reference.design.monitors.tomcat.requestprocessor.processingtime"
+                monitor="0" monitorType=""
+                name="RequestProcessor/-http-bio-18180-/processingTime"
+                object-name="Catalina:name=&quot;http-bio-18180&quot;,type=GlobalRequestProcessor"
+                path="RequestProcessor/&quot;http-bio-18180&quot;/processingTime"
+                sampling="0" short-display-name="processingTime" unit="ms">
+                <description>Temps de traitement total depuis le dernier appel.</description>
+            </monitor-jmx>
+        </monitor-category>
+    </monitor-category>
+    <monitor-category name="ThreadPool" short-display-name="ThreadPool">
+        <monitor-category name="&quot;ajp-bio-18109&quot;" short-display-name="&quot;ajp-bio-18109&quot;">
+            <monitor-jmx attribute="currentThreadsBusy"
+                callTime="ON_BENCH" computing="0" connection-type="30"
+                format="NUMBER"
+                helpID="reference.design.monitors.tomcat.threadpool.currentthreadsbusy"
+                monitor="0" monitorType=""
+                name="ThreadPool/-ajp-bio-18109-/currentThreadsBusy"
+                object-name="Catalina:name=&quot;ajp-bio-18109&quot;,type=ThreadPool"
+                path="ThreadPool/&quot;ajp-bio-18109&quot;/currentThreadsBusy"
+                sampling="0" short-display-name="currentThreadsBusy" unit="">
+                <description>Nombre de threads actifs dans le pool.</description>
+            </monitor-jmx>
+            <monitor-virtual attribute="% currentThreadsBusy"
+                callTime="ON_BENCH" computing="0" connection-type="30"
+                format="NUMBER"
+                helpID="reference.design.monitors.tomcat.threadpool.%.currentthreadsbusy"
+                monitor="0" monitorType=""
+                name="ThreadPool/-ajp-bio-18109-/% currentThreadsBusy"
+                object-name="Catalina:name=&quot;ajp-bio-18109&quot;,type=ThreadPool"
+                operator="%"
+                path="ThreadPool/&quot;ajp-bio-18109&quot;/% currentThreadsBusy"
+                sampling="0" short-display-name="% currentThreadsBusy"
+                threshold="141c4112-dc4b-4299-b43f-801c27b30abc" unit="%">
+                <description>Pourcentage de threads actifs dans le pool.</description>
+                <monitor-jmx attribute="currentThreadsBusy"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER" monitor="0"
+                    monitorType=""
+                    name="ThreadPool/-ajp-bio-18109-/currentThreadsBusy"
+                    object-name="Catalina:name=&quot;ajp-bio-18109&quot;,type=ThreadPool"
+                    path="ThreadPool/&quot;ajp-bio-18109&quot;/currentThreadsBusy"
+                    sampling="0" short-display-name="currentThreadsBusy" unit=""/>
+                <monitor-jmx attribute="maxThreads" callTime="ON_BENCH"
+                    computing="0" connection-type="30" format="NUMBER"
+                    monitor="0" monitorType=""
+                    name="ThreadPool/-ajp-bio-18109-/maxThreads"
+                    object-name="Catalina:name=&quot;ajp-bio-18109&quot;,type=ThreadPool"
+                    path="ThreadPool/&quot;ajp-bio-18109&quot;/maxThreads"
+                    sampling="0" short-display-name="maxThreads" unit=""/>
+            </monitor-virtual>
+            <monitor-jmx attribute="currentThreadCount"
+                callTime="ON_BENCH" computing="0" connection-type="30"
+                format="NUMBER"
+                helpID="reference.design.monitors.tomcat.threadpool.currentthreadcount"
+                monitor="0" monitorType=""
+                name="ThreadPool/-ajp-bio-18109-/currentThreadCount"
+                object-name="Catalina:name=&quot;ajp-bio-18109&quot;,type=ThreadPool"
+                path="ThreadPool/&quot;ajp-bio-18109&quot;/currentThreadCount"
+                sampling="0" short-display-name="currentThreadCount" unit="">
+                <description>Nombre de threads dans le pool.</description>
+            </monitor-jmx>
+            <monitor-jmx attribute="maxThreads" callTime="ON_BENCH"
+                computing="0" connection-type="30" format="NUMBER"
+                helpID="reference.design.monitors.tomcat.threadpool.maxthreads"
+                monitor="0" monitorType=""
+                name="ThreadPool/-ajp-bio-18109-/maxThreads"
+                object-name="Catalina:name=&quot;ajp-bio-18109&quot;,type=ThreadPool"
+                path="ThreadPool/&quot;ajp-bio-18109&quot;/maxThreads"
+                sampling="0" short-display-name="maxThreads" unit="">
+                <description>Nombre maximum de threads dans le pool.</description>
+            </monitor-jmx>
+            <monitor-jmx attribute="threadsConfiguration"
+                callTime="ON_START" computing="0" connection-type="30"
+                format="TEXT"
+                helpID="reference.design.monitors.tomcat.threadpool.threadsconfiguration"
+                monitor="0" monitorType=""
+                name="ThreadPool/-ajp-bio-18109-/threadsConfiguration"
+                object-name="Catalina:name=&quot;ajp-bio-18109&quot;,type=ThreadPool"
+                path="ThreadPool/&quot;ajp-bio-18109&quot;/threadsConfiguration"
+                sampling="0" short-display-name="threadsConfiguration"
+                type="multivalues" unit="">
+                <description>Description de la configuration du pool de threads.</description>
+                <monitor-value-pattern pattern="Maximum Threads: @maxThreads@"/>
+                <monitor-value-pattern pattern="Minimum Spare Threads: @minSpareThreads@"/>
+                <monitor-value-pattern pattern="Maximum Keep Alive: @maxKeepAliveRequests@"/>
+                <monitor-value-pattern pattern="Maximum Connections: @maxConnections@"/>
+            </monitor-jmx>
+        </monitor-category>
+        <monitor-category name="&quot;http-bio-18180&quot;" short-display-name="&quot;http-bio-18180&quot;">
+            <monitor-jmx attribute="currentThreadsBusy"
+                callTime="ON_BENCH" computing="0" connection-type="30"
+                format="NUMBER"
+                helpID="reference.design.monitors.tomcat.threadpool.currentthreadsbusy"
+                monitor="0" monitorType=""
+                name="ThreadPool/-http-bio-18180-/currentThreadsBusy"
+                object-name="Catalina:name=&quot;http-bio-18180&quot;,type=ThreadPool"
+                path="ThreadPool/&quot;http-bio-18180&quot;/currentThreadsBusy"
+                sampling="0" short-display-name="currentThreadsBusy" unit="">
+                <description>Nombre de threads actifs dans le pool.</description>
+            </monitor-jmx>
+            <monitor-virtual attribute="% currentThreadsBusy"
+                callTime="ON_BENCH" computing="0" connection-type="30"
+                format="NUMBER"
+                helpID="reference.design.monitors.tomcat.threadpool.%.currentthreadsbusy"
+                monitor="0" monitorType=""
+                name="ThreadPool/-http-bio-18180-/% currentThreadsBusy"
+                object-name="Catalina:name=&quot;http-bio-18180&quot;,type=ThreadPool"
+                operator="%"
+                path="ThreadPool/&quot;http-bio-18180&quot;/% currentThreadsBusy"
+                sampling="0" short-display-name="% currentThreadsBusy"
+                threshold="06381dd9-7110-4d78-b644-5427071c2a83" unit="%">
+                <description>Pourcentage de threads actifs dans le pool.</description>
+                <monitor-jmx attribute="currentThreadsBusy"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER" monitor="0"
+                    monitorType=""
+                    name="ThreadPool/-http-bio-18180-/currentThreadsBusy"
+                    object-name="Catalina:name=&quot;http-bio-18180&quot;,type=ThreadPool"
+                    path="ThreadPool/&quot;http-bio-18180&quot;/currentThreadsBusy"
+                    sampling="0" short-display-name="currentThreadsBusy" unit=""/>
+                <monitor-jmx attribute="maxThreads" callTime="ON_BENCH"
+                    computing="0" connection-type="30" format="NUMBER"
+                    monitor="0" monitorType=""
+                    name="ThreadPool/-http-bio-18180-/maxThreads"
+                    object-name="Catalina:name=&quot;http-bio-18180&quot;,type=ThreadPool"
+                    path="ThreadPool/&quot;http-bio-18180&quot;/maxThreads"
+                    sampling="0" short-display-name="maxThreads" unit=""/>
+            </monitor-virtual>
+            <monitor-jmx attribute="currentThreadCount"
+                callTime="ON_BENCH" computing="0" connection-type="30"
+                format="NUMBER"
+                helpID="reference.design.monitors.tomcat.threadpool.currentthreadcount"
+                monitor="0" monitorType=""
+                name="ThreadPool/-http-bio-18180-/currentThreadCount"
+                object-name="Catalina:name=&quot;http-bio-18180&quot;,type=ThreadPool"
+                path="ThreadPool/&quot;http-bio-18180&quot;/currentThreadCount"
+                sampling="0" short-display-name="currentThreadCount" unit="">
+                <description>Nombre de threads dans le pool.</description>
+            </monitor-jmx>
+            <monitor-jmx attribute="maxThreads" callTime="ON_BENCH"
+                computing="0" connection-type="30" format="NUMBER"
+                helpID="reference.design.monitors.tomcat.threadpool.maxthreads"
+                monitor="0" monitorType=""
+                name="ThreadPool/-http-bio-18180-/maxThreads"
+                object-name="Catalina:name=&quot;http-bio-18180&quot;,type=ThreadPool"
+                path="ThreadPool/&quot;http-bio-18180&quot;/maxThreads"
+                sampling="0" short-display-name="maxThreads" unit="">
+                <description>Nombre maximum de threads dans le pool.</description>
+            </monitor-jmx>
+            <monitor-jmx attribute="threadsConfiguration"
+                callTime="ON_START" computing="0" connection-type="30"
+                format="TEXT"
+                helpID="reference.design.monitors.tomcat.threadpool.threadsconfiguration"
+                monitor="0" monitorType=""
+                name="ThreadPool/-http-bio-18180-/threadsConfiguration"
+                object-name="Catalina:name=&quot;http-bio-18180&quot;,type=ThreadPool"
+                path="ThreadPool/&quot;http-bio-18180&quot;/threadsConfiguration"
+                sampling="0" short-display-name="threadsConfiguration"
+                type="multivalues" unit="">
+                <description>Description de la configuration du pool de threads.</description>
+                <monitor-value-pattern pattern="Maximum Threads: @maxThreads@"/>
+                <monitor-value-pattern pattern="Minimum Spare Threads: @minSpareThreads@"/>
+                <monitor-value-pattern pattern="Maximum Keep Alive: @maxKeepAliveRequests@"/>
+                <monitor-value-pattern pattern="Maximum Connections: @maxConnections@"/>
+            </monitor-jmx>
+        </monitor-category>
+    </monitor-category>
+    <monitor-category name="VM" short-display-name="VM">
+        <monitor-category name="Memory" short-display-name="Memory">
+            <monitor-jmx attribute="HeapMemoryUsage" callTime="ON_BENCH"
+                class="javax.management.openmbean.CompositeDataSupport"
+                computing="0" connection-type="30" format="NUMBER"
+                helpID="reference.design.monitors.tomcat.vm.used"
+                method="get" monitor="0" monitorType=""
+                name="VM/Memory/Used"
+                object-name="java.lang:type=Memory" parameters="used"
+                parametersTypes="java.lang.String" path="VM/Memory/Used"
+                sampling="0" short-display-name="Used" shortId="Used" unit="bytes">
+                <description>Représente la taille mémoire en cours d'utilisation (en octets).</description>
+            </monitor-jmx>
+            <monitor-virtual attribute="% Used" callTime="ON_BENCH"
+                computing="0" connection-type="30" format="NUMBER"
+                helpID="reference.design.monitors.tomcat.vm.%.used"
+                monitor="0" monitorType="" name="VM/Memory/% Used"
+                object-name="java.lang:type=Memory" operator="%"
+                path="VM/Memory/% Used" sampling="0"
+                short-display-name="% Used"
+                threshold="924b5319-eccb-49c1-89f3-e22d1521167c" unit="%">
+                <description>Représente le pourcentage de mémoire en cours d'utilisation.</description>
+                <monitor-jmx attribute="HeapMemoryUsage"
+                    callTime="ON_BENCH"
+                    class="javax.management.openmbean.CompositeDataSupport"
+                    computing="0" connection-type="30" format="NUMBER"
+                    method="get" monitor="0" monitorType=""
+                    name="VM/Memory/Used"
+                    object-name="java.lang:type=Memory"
+                    parameters="used" parametersTypes="java.lang.String"
+                    path="VM/Memory/Used" sampling="0"
+                    short-display-name="Used" shortId="Used" unit="bytes">
+                    <description>Used</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="HeapMemoryUsage"
+                    callTime="ON_BENCH"
+                    class="javax.management.openmbean.CompositeDataSupport"
+                    computing="0" connection-type="30" format="NUMBER"
+                    method="get" monitor="0" monitorType=""
+                    name="VM/Memory/Max"
+                    object-name="java.lang:type=Memory" parameters="max"
+                    parametersTypes="java.lang.String"
+                    path="VM/Memory/Max" sampling="0"
+                    short-display-name="Max" shortId="Max" unit="bytes">
+                    <description>Max</description>
+                </monitor-jmx>
+            </monitor-virtual>
+            <monitor-jmx attribute="HeapMemoryUsage" callTime="ON_BENCH"
+                class="javax.management.openmbean.CompositeDataSupport"
+                computing="0" connection-type="30" format="NUMBER"
+                helpID="reference.design.monitors.tomcat.vm.commited"
+                method="get" monitor="0" monitorType=""
+                name="VM/Memory/Commited"
+                object-name="java.lang:type=Memory"
+                parameters="committed"
+                parametersTypes="java.lang.String"
+                path="VM/Memory/Commited" sampling="0"
+                short-display-name="Commited" shortId="Commited" unit="bytes">
+                <description>Représente la taille mémoire (en octets) disponible garantie pouvant être utilisée par la VM.</description>
+            </monitor-jmx>
+            <monitor-jmx attribute="HeapMemoryUsage" callTime="ON_BENCH"
+                class="javax.management.openmbean.CompositeDataSupport"
+                computing="0" connection-type="30" format="NUMBER"
+                helpID="reference.design.monitors.tomcat.vm.max"
+                method="get" monitor="0" monitorType=""
+                name="VM/Memory/Max" object-name="java.lang:type=Memory"
+                parameters="max" parametersTypes="java.lang.String"
+                path="VM/Memory/Max" sampling="0"
+                short-display-name="Max" shortId="Max" unit="bytes">
+                <description>Représente la taille mémoire maximale (en octets) pouvant être utilisé par la VM. Cette valeur peut ne pas être défini.</description>
+            </monitor-jmx>
+        </monitor-category>
+        <monitor-category name="Garbage Collector" short-display-name="Garbage Collector">
+            <monitor-category name="PS MarkSweep" short-display-name="PS MarkSweep">
+                <monitor-jmx attribute="CollectionCount"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.vm.collectioncount"
+                    monitor="0" monitorType=""
+                    name="VM/Garbage Collector/PS MarkSweep/CollectionCount"
+                    object-name="java.lang:name=PS MarkSweep,type=GarbageCollector"
+                    path="VM/Garbage Collector/PS MarkSweep/CollectionCount"
+                    sampling="0" short-display-name="CollectionCount" unit="">
+                    <description>Représente le nombre de collectes faites depuis le dernier appel.</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="CollectionTime"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.vm.collectiontime"
+                    monitor="0" monitorType=""
+                    name="VM/Garbage Collector/PS MarkSweep/CollectionTime"
+                    object-name="java.lang:name=PS MarkSweep,type=GarbageCollector"
+                    path="VM/Garbage Collector/PS MarkSweep/CollectionTime"
+                    sampling="0" short-display-name="CollectionTime" unit="ms">
+                    <description>Représente le temps cumulé en milliseconde des collectes depuis le dernier appel.</description>
+                </monitor-jmx>
+            </monitor-category>
+            <monitor-category name="PS Scavenge" short-display-name="PS Scavenge">
+                <monitor-jmx attribute="CollectionCount"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.vm.collectioncount"
+                    monitor="0" monitorType=""
+                    name="VM/Garbage Collector/PS Scavenge/CollectionCount"
+                    object-name="java.lang:name=PS Scavenge,type=GarbageCollector"
+                    path="VM/Garbage Collector/PS Scavenge/CollectionCount"
+                    sampling="0" short-display-name="CollectionCount" unit="">
+                    <description>Représente le nombre de collectes faites depuis le dernier appel.</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="CollectionTime"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.vm.collectiontime"
+                    monitor="0" monitorType=""
+                    name="VM/Garbage Collector/PS Scavenge/CollectionTime"
+                    object-name="java.lang:name=PS Scavenge,type=GarbageCollector"
+                    path="VM/Garbage Collector/PS Scavenge/CollectionTime"
+                    sampling="0" short-display-name="CollectionTime" unit="ms">
+                    <description>Représente le temps cumulé en milliseconde des collectes depuis le dernier appel.</description>
+                </monitor-jmx>
+            </monitor-category>
+        </monitor-category>
+        <monitor-category name="Threads" short-display-name="Threads">
+            <monitor-jmx attribute="ThreadCount" callTime="ON_BENCH"
+                computing="0" connection-type="30" format="NUMBER"
+                helpID="reference.design.monitors.tomcat.vm.threadcount"
+                monitor="0" monitorType="" name="VM/Threads/ThreadCount"
+                object-name="java.lang:type=Threading"
+                path="VM/Threads/ThreadCount" sampling="0"
+                short-display-name="ThreadCount" unit="">
+                <description>Représente le nombre de threads en cours d’exécution (threads daemon et non-daemon).</description>
+            </monitor-jmx>
+            <monitor-jmx attribute="DaemonThreadCount"
+                callTime="ON_BENCH" computing="0" connection-type="30"
+                format="NUMBER"
+                helpID="reference.design.monitors.tomcat.vm.daemonthreadcount"
+                monitor="0" monitorType=""
+                name="VM/Threads/DaemonThreadCount"
+                object-name="java.lang:type=Threading"
+                path="VM/Threads/DaemonThreadCount" sampling="0"
+                short-display-name="DaemonThreadCount" unit="">
+                <description>Représente le nombre de threads daemon en cours d'exécution.</description>
+            </monitor-jmx>
+            <monitor-jmx attribute="PeakThreadCount" callTime="ON_BENCH"
+                computing="0" connection-type="30" format="NUMBER"
+                helpID="reference.design.monitors.tomcat.vm.peakthreadcount"
+                monitor="0" monitorType=""
+                name="VM/Threads/PeakThreadCount"
+                object-name="java.lang:type=Threading"
+                path="VM/Threads/PeakThreadCount" sampling="0"
+                short-display-name="PeakThreadCount" unit="">
+                <description>Représente le pic du nombre de threads depuis le démarrage de la VM.</description>
+            </monitor-jmx>
+        </monitor-category>
+    </monitor-category>
+    <monitor-category name="Description" short-display-name="Description">
+        <monitor-category name="Specification" short-display-name="Specification">
+            <monitor-jmx attribute="Host" callTime="ON_START"
+                computing="0" connection-type="30" format="TEXT"
+                helpID="reference.design.monitors.tomcat.description.host"
+                monitor="0" monitorType=""
+                name="Description/Specification/Host"
+                object-name="java.lang:type=OperatingSystem"
+                path="Description/Specification/Host" sampling="0"
+                short-display-name="Host" type="multivalues" unit="">
+                <description>Description du système d'exploitation ainsi que du matériel.</description>
+                <monitor-value-pattern pattern="Operating System: @Name@ @Version@ @Arch@"/>
+                <monitor-value-pattern pattern="Number of detected processors: @AvailableProcessors@"/>
+                <monitor-value-pattern pattern="Physical Memory Size: @TotalPhysicalMemorySize@ / Swap Space Size: @TotalSwapSpaceSize@"/>
+            </monitor-jmx>
+        </monitor-category>
+        <monitor-jmx attribute="JVM" callTime="ON_START" computing="0"
+            connection-type="30" format="TEXT"
+            helpID="reference.design.monitors.tomcat.description.jvm"
+            monitor="0" monitorType="" name="Description/JVM"
+            object-name="java.lang:type=Runtime" path="Description/JVM"
+            sampling="0" short-display-name="JVM" type="multivalues" unit="">
+            <description>Description de la machine virtuelle Java hébergeant le serveur Tomcat.</description>
+            <monitor-value-pattern pattern="JVM: @VmVersion@ @VmVendor@ @VmName@"/>
+        </monitor-jmx>
+    </monitor-category>
+    <monitor-category name="Cache" short-display-name="Cache">
+        <monitor-category name="localhost" short-display-name="localhost">
+            <monitor-category name="/GehisPluginPhml" short-display-name="/GehisPluginPhml">
+                <monitor-jmx attribute="cacheSize" callTime="ON_BENCH"
+                    computing="0" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.cache.cachesize"
+                    monitor="0" monitorType=""
+                    name="Cache/localhost//GehisPluginPhml/cacheSize"
+                    object-name="Catalina:context=/GehisPluginPhml,host=localhost,type=Cache"
+                    path="Cache/localhost//GehisPluginPhml/cacheSize"
+                    sampling="0" short-display-name="cacheSize" unit="KB">
+                    <description>Taille courante du cache en Ko.</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="hitsCount" callTime="ON_BENCH"
+                    computing="1" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.cache.hitscount"
+                    monitor="0" monitorType=""
+                    name="Cache/localhost//GehisPluginPhml/hitsCount"
+                    object-name="Catalina:context=/GehisPluginPhml,host=localhost,type=Cache"
+                    path="Cache/localhost//GehisPluginPhml/hitsCount"
+                    sampling="0" short-display-name="hitsCount" unit="">
+                    <description>Nombre de hit du cache depuis le dernier appel.</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="accessCount" callTime="ON_BENCH"
+                    computing="1" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.cache.accesscount"
+                    monitor="0" monitorType=""
+                    name="Cache/localhost//GehisPluginPhml/accessCount"
+                    object-name="Catalina:context=/GehisPluginPhml,host=localhost,type=Cache"
+                    path="Cache/localhost//GehisPluginPhml/accessCount"
+                    sampling="0" short-display-name="accessCount" unit="">
+                    <description>Nombre d'accès au cache depuis le dernier appel.</description>
+                </monitor-jmx>
+            </monitor-category>
+            <monitor-category name="/host-manager" short-display-name="/host-manager">
+                <monitor-jmx attribute="cacheSize" callTime="ON_BENCH"
+                    computing="0" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.cache.cachesize"
+                    monitor="0" monitorType=""
+                    name="Cache/localhost//host-manager/cacheSize"
+                    object-name="Catalina:context=/host-manager,host=localhost,type=Cache"
+                    path="Cache/localhost//host-manager/cacheSize"
+                    sampling="0" short-display-name="cacheSize" unit="KB">
+                    <description>Taille courante du cache en Ko.</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="hitsCount" callTime="ON_BENCH"
+                    computing="1" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.cache.hitscount"
+                    monitor="0" monitorType=""
+                    name="Cache/localhost//host-manager/hitsCount"
+                    object-name="Catalina:context=/host-manager,host=localhost,type=Cache"
+                    path="Cache/localhost//host-manager/hitsCount"
+                    sampling="0" short-display-name="hitsCount" unit="">
+                    <description>Nombre de hit du cache depuis le dernier appel.</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="accessCount" callTime="ON_BENCH"
+                    computing="1" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.cache.accesscount"
+                    monitor="0" monitorType=""
+                    name="Cache/localhost//host-manager/accessCount"
+                    object-name="Catalina:context=/host-manager,host=localhost,type=Cache"
+                    path="Cache/localhost//host-manager/accessCount"
+                    sampling="0" short-display-name="accessCount" unit="">
+                    <description>Nombre d'accès au cache depuis le dernier appel.</description>
+                </monitor-jmx>
+            </monitor-category>
+            <monitor-category name="/manager" short-display-name="/manager">
+                <monitor-jmx attribute="cacheSize" callTime="ON_BENCH"
+                    computing="0" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.cache.cachesize"
+                    monitor="0" monitorType=""
+                    name="Cache/localhost//manager/cacheSize"
+                    object-name="Catalina:context=/manager,host=localhost,type=Cache"
+                    path="Cache/localhost//manager/cacheSize"
+                    sampling="0" short-display-name="cacheSize" unit="KB">
+                    <description>Taille courante du cache en Ko.</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="hitsCount" callTime="ON_BENCH"
+                    computing="1" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.cache.hitscount"
+                    monitor="0" monitorType=""
+                    name="Cache/localhost//manager/hitsCount"
+                    object-name="Catalina:context=/manager,host=localhost,type=Cache"
+                    path="Cache/localhost//manager/hitsCount"
+                    sampling="0" short-display-name="hitsCount" unit="">
+                    <description>Nombre de hit du cache depuis le dernier appel.</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="accessCount" callTime="ON_BENCH"
+                    computing="1" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.cache.accesscount"
+                    monitor="0" monitorType=""
+                    name="Cache/localhost//manager/accessCount"
+                    object-name="Catalina:context=/manager,host=localhost,type=Cache"
+                    path="Cache/localhost//manager/accessCount"
+                    sampling="0" short-display-name="accessCount" unit="">
+                    <description>Nombre d'accès au cache depuis le dernier appel.</description>
+                </monitor-jmx>
+            </monitor-category>
+        </monitor-category>
+    </monitor-category>
+    <monitor-category name="Session" short-display-name="Session">
+        <monitor-category name="localhost" short-display-name="localhost">
+            <monitor-category name="/GehisPluginPhml" short-display-name="/GehisPluginPhml">
+                <monitor-jmx attribute="activeSessions"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.activesessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//GehisPluginPhml/activeSessions"
+                    object-name="Catalina:context=/GehisPluginPhml,host=localhost,type=Manager"
+                    path="Session/localhost//GehisPluginPhml/activeSessions"
+                    sampling="0" short-display-name="activeSessions" unit="">
+                    <description>Nombre courant de sessions actives.</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="sessionCounter"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.sessioncounter"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//GehisPluginPhml/sessionCounter"
+                    object-name="Catalina:context=/GehisPluginPhml,host=localhost,type=Manager"
+                    path="Session/localhost//GehisPluginPhml/sessionCounter"
+                    sampling="0" short-display-name="sessionCounter" unit="">
+                    <description>Nombre de sessions créées par ce manager depuis le dernier appel.</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="maxActive" callTime="ON_BENCH"
+                    computing="0" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.maxactive"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//GehisPluginPhml/maxActive"
+                    object-name="Catalina:context=/GehisPluginPhml,host=localhost,type=Manager"
+                    path="Session/localhost//GehisPluginPhml/maxActive"
+                    sampling="0" short-display-name="maxActive" unit="">
+                    <description>Nombre maximum de sessions actives depuis l'initialisation.</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="sessionMaxAliveTime"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.sessionmaxalivetime"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//GehisPluginPhml/sessionMaxAliveTime"
+                    object-name="Catalina:context=/GehisPluginPhml,host=localhost,type=Manager"
+                    path="Session/localhost//GehisPluginPhml/sessionMaxAliveTime"
+                    sampling="0"
+                    short-display-name="sessionMaxAliveTime" unit="">
+                    <description>Plus long temps qu'une session expirée à été active.</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="sessionAverageAliveTime"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.sessionaveragealivetime"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//GehisPluginPhml/sessionAverageAliveTime"
+                    object-name="Catalina:context=/GehisPluginPhml,host=localhost,type=Manager"
+                    path="Session/localhost//GehisPluginPhml/sessionAverageAliveTime"
+                    sampling="0"
+                    short-display-name="sessionAverageAliveTime" unit="ms">
+                    <description>Temps moyen qu'une session expirée a été active.</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="rejectedSessions"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.rejectedsessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//GehisPluginPhml/rejectedSessions"
+                    object-name="Catalina:context=/GehisPluginPhml,host=localhost,type=Manager"
+                    path="Session/localhost//GehisPluginPhml/rejectedSessions"
+                    sampling="0" short-display-name="rejectedSessions" unit="">
+                    <description>Nombre de sessions tomcat rejetées depuis le dernier appel à cause du maxActive atteint.</description>
+                </monitor-jmx>
+                <monitor-virtual attribute="% rejectedSessions"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.%.rejectedsessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//GehisPluginPhml/% rejectedSessions"
+                    object-name="Catalina:context=/GehisPluginPhml,host=localhost,type=Manager"
+                    operator="%"
+                    path="Session/localhost//GehisPluginPhml/% rejectedSessions"
+                    sampling="0" short-display-name="% rejectedSessions"
+                    threshold="fe9cc421-e1d5-45fb-8086-2e5cce756db4" unit="%">
+                    <description>Pourcentage de sessions tomcat rejetées depuis le dernier appel à cause du maxActive atteint.</description>
+                    <monitor-jmx attribute="rejectedSessions"
+                        callTime="ON_BENCH" computing="1"
+                        connection-type="30" format="NUMBER" monitor="0"
+                        monitorType=""
+                        name="Session/localhost//GehisPluginPhml/rejectedSessions"
+                        object-name="Catalina:context=/GehisPluginPhml,host=localhost,type=Manager"
+                        path="Session/localhost//GehisPluginPhml/rejectedSessions"
+                        sampling="0"
+                        short-display-name="rejectedSessions" unit=""/>
+                    <monitor-jmx attribute="sessionCounter"
+                        callTime="ON_BENCH" computing="1"
+                        connection-type="30" format="NUMBER" monitor="0"
+                        monitorType=""
+                        name="Session/localhost//GehisPluginPhml/sessionCounter"
+                        object-name="Catalina:context=/GehisPluginPhml,host=localhost,type=Manager"
+                        path="Session/localhost//GehisPluginPhml/sessionCounter"
+                        sampling="0" short-display-name="sessionCounter" unit=""/>
+                </monitor-virtual>
+                <monitor-jmx attribute="expiredSessions"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.expiredsessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//GehisPluginPhml/expiredSessions"
+                    object-name="Catalina:context=/GehisPluginPhml,host=localhost,type=Manager"
+                    path="Session/localhost//GehisPluginPhml/expiredSessions"
+                    sampling="0" short-display-name="expiredSessions" unit="">
+                    <description>Nombre de sessions expirées depuis le dernier appel (n'inclus pas les invalidations explicites).</description>
+                </monitor-jmx>
+            </monitor-category>
+            <monitor-category name="/host-manager" short-display-name="/host-manager">
+                <monitor-jmx attribute="activeSessions"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.activesessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//host-manager/activeSessions"
+                    object-name="Catalina:context=/host-manager,host=localhost,type=Manager"
+                    path="Session/localhost//host-manager/activeSessions"
+                    sampling="0" short-display-name="activeSessions" unit="">
+                    <description>Nombre courant de sessions actives.</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="sessionCounter"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.sessioncounter"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//host-manager/sessionCounter"
+                    object-name="Catalina:context=/host-manager,host=localhost,type=Manager"
+                    path="Session/localhost//host-manager/sessionCounter"
+                    sampling="0" short-display-name="sessionCounter" unit="">
+                    <description>Nombre de sessions créées par ce manager depuis le dernier appel.</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="maxActive" callTime="ON_BENCH"
+                    computing="0" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.maxactive"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//host-manager/maxActive"
+                    object-name="Catalina:context=/host-manager,host=localhost,type=Manager"
+                    path="Session/localhost//host-manager/maxActive"
+                    sampling="0" short-display-name="maxActive" unit="">
+                    <description>Nombre maximum de sessions actives depuis l'initialisation.</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="sessionMaxAliveTime"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.sessionmaxalivetime"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//host-manager/sessionMaxAliveTime"
+                    object-name="Catalina:context=/host-manager,host=localhost,type=Manager"
+                    path="Session/localhost//host-manager/sessionMaxAliveTime"
+                    sampling="0"
+                    short-display-name="sessionMaxAliveTime" unit="">
+                    <description>Plus long temps qu'une session expirée à été active.</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="sessionAverageAliveTime"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.sessionaveragealivetime"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//host-manager/sessionAverageAliveTime"
+                    object-name="Catalina:context=/host-manager,host=localhost,type=Manager"
+                    path="Session/localhost//host-manager/sessionAverageAliveTime"
+                    sampling="0"
+                    short-display-name="sessionAverageAliveTime" unit="ms">
+                    <description>Temps moyen qu'une session expirée a été active.</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="rejectedSessions"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.rejectedsessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//host-manager/rejectedSessions"
+                    object-name="Catalina:context=/host-manager,host=localhost,type=Manager"
+                    path="Session/localhost//host-manager/rejectedSessions"
+                    sampling="0" short-display-name="rejectedSessions" unit="">
+                    <description>Nombre de sessions tomcat rejetées depuis le dernier appel à cause du maxActive atteint.</description>
+                </monitor-jmx>
+                <monitor-virtual attribute="% rejectedSessions"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.%.rejectedsessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//host-manager/% rejectedSessions"
+                    object-name="Catalina:context=/host-manager,host=localhost,type=Manager"
+                    operator="%"
+                    path="Session/localhost//host-manager/% rejectedSessions"
+                    sampling="0" short-display-name="% rejectedSessions"
+                    threshold="74a3a78c-d399-48bb-96a6-a51858af852d" unit="%">
+                    <description>Pourcentage de sessions tomcat rejetées depuis le dernier appel à cause du maxActive atteint.</description>
+                    <monitor-jmx attribute="rejectedSessions"
+                        callTime="ON_BENCH" computing="1"
+                        connection-type="30" format="NUMBER" monitor="0"
+                        monitorType=""
+                        name="Session/localhost//host-manager/rejectedSessions"
+                        object-name="Catalina:context=/host-manager,host=localhost,type=Manager"
+                        path="Session/localhost//host-manager/rejectedSessions"
+                        sampling="0"
+                        short-display-name="rejectedSessions" unit=""/>
+                    <monitor-jmx attribute="sessionCounter"
+                        callTime="ON_BENCH" computing="1"
+                        connection-type="30" format="NUMBER" monitor="0"
+                        monitorType=""
+                        name="Session/localhost//host-manager/sessionCounter"
+                        object-name="Catalina:context=/host-manager,host=localhost,type=Manager"
+                        path="Session/localhost//host-manager/sessionCounter"
+                        sampling="0" short-display-name="sessionCounter" unit=""/>
+                </monitor-virtual>
+                <monitor-jmx attribute="expiredSessions"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.expiredsessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//host-manager/expiredSessions"
+                    object-name="Catalina:context=/host-manager,host=localhost,type=Manager"
+                    path="Session/localhost//host-manager/expiredSessions"
+                    sampling="0" short-display-name="expiredSessions" unit="">
+                    <description>Nombre de sessions expirées depuis le dernier appel (n'inclus pas les invalidations explicites).</description>
+                </monitor-jmx>
+            </monitor-category>
+            <monitor-category name="/manager" short-display-name="/manager">
+                <monitor-jmx attribute="activeSessions"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.activesessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//manager/activeSessions"
+                    object-name="Catalina:context=/manager,host=localhost,type=Manager"
+                    path="Session/localhost//manager/activeSessions"
+                    sampling="0" short-display-name="activeSessions" unit="">
+                    <description>Nombre courant de sessions actives.</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="sessionCounter"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.sessioncounter"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//manager/sessionCounter"
+                    object-name="Catalina:context=/manager,host=localhost,type=Manager"
+                    path="Session/localhost//manager/sessionCounter"
+                    sampling="0" short-display-name="sessionCounter" unit="">
+                    <description>Nombre de sessions créées par ce manager depuis le dernier appel.</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="maxActive" callTime="ON_BENCH"
+                    computing="0" connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.maxactive"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//manager/maxActive"
+                    object-name="Catalina:context=/manager,host=localhost,type=Manager"
+                    path="Session/localhost//manager/maxActive"
+                    sampling="0" short-display-name="maxActive" unit="">
+                    <description>Nombre maximum de sessions actives depuis l'initialisation.</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="sessionMaxAliveTime"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.sessionmaxalivetime"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//manager/sessionMaxAliveTime"
+                    object-name="Catalina:context=/manager,host=localhost,type=Manager"
+                    path="Session/localhost//manager/sessionMaxAliveTime"
+                    sampling="0"
+                    short-display-name="sessionMaxAliveTime" unit="">
+                    <description>Plus long temps qu'une session expirée à été active.</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="sessionAverageAliveTime"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.sessionaveragealivetime"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//manager/sessionAverageAliveTime"
+                    object-name="Catalina:context=/manager,host=localhost,type=Manager"
+                    path="Session/localhost//manager/sessionAverageAliveTime"
+                    sampling="0"
+                    short-display-name="sessionAverageAliveTime" unit="ms">
+                    <description>Temps moyen qu'une session expirée a été active.</description>
+                </monitor-jmx>
+                <monitor-jmx attribute="rejectedSessions"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.rejectedsessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//manager/rejectedSessions"
+                    object-name="Catalina:context=/manager,host=localhost,type=Manager"
+                    path="Session/localhost//manager/rejectedSessions"
+                    sampling="0" short-display-name="rejectedSessions" unit="">
+                    <description>Nombre de sessions tomcat rejetées depuis le dernier appel à cause du maxActive atteint.</description>
+                </monitor-jmx>
+                <monitor-virtual attribute="% rejectedSessions"
+                    callTime="ON_BENCH" computing="0"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.%.rejectedsessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//manager/% rejectedSessions"
+                    object-name="Catalina:context=/manager,host=localhost,type=Manager"
+                    operator="%"
+                    path="Session/localhost//manager/% rejectedSessions"
+                    sampling="0" short-display-name="% rejectedSessions"
+                    threshold="8d21bb74-657b-4097-b83f-db49348b91f7" unit="%">
+                    <description>Pourcentage de sessions tomcat rejetées depuis le dernier appel à cause du maxActive atteint.</description>
+                    <monitor-jmx attribute="rejectedSessions"
+                        callTime="ON_BENCH" computing="1"
+                        connection-type="30" format="NUMBER" monitor="0"
+                        monitorType=""
+                        name="Session/localhost//manager/rejectedSessions"
+                        object-name="Catalina:context=/manager,host=localhost,type=Manager"
+                        path="Session/localhost//manager/rejectedSessions"
+                        sampling="0"
+                        short-display-name="rejectedSessions" unit=""/>
+                    <monitor-jmx attribute="sessionCounter"
+                        callTime="ON_BENCH" computing="1"
+                        connection-type="30" format="NUMBER" monitor="0"
+                        monitorType=""
+                        name="Session/localhost//manager/sessionCounter"
+                        object-name="Catalina:context=/manager,host=localhost,type=Manager"
+                        path="Session/localhost//manager/sessionCounter"
+                        sampling="0" short-display-name="sessionCounter" unit=""/>
+                </monitor-virtual>
+                <monitor-jmx attribute="expiredSessions"
+                    callTime="ON_BENCH" computing="1"
+                    connection-type="30" format="NUMBER"
+                    helpID="reference.design.monitors.tomcat.session.expiredsessions"
+                    monitor="0" monitorType=""
+                    name="Session/localhost//manager/expiredSessions"
+                    object-name="Catalina:context=/manager,host=localhost,type=Manager"
+                    path="Session/localhost//manager/expiredSessions"
+                    sampling="0" short-display-name="expiredSessions" unit="">
+                    <description>Nombre de sessions expirées depuis le dernier appel (n'inclus pas les invalidations explicites).</description>
+                </monitor-jmx>
+            </monitor-category>
+        </monitor-category>
+    </monitor-category>
+    <threshold enabled="true" uid="e0d70d81-b1e8-4de2-bd00-e986c3c768fd">
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="LOW" valueMax="Infinity" valueMin="50.0">
+            <threshold-comment language="en">
+                <threshold-content>Too high number of errors</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Nombre élevé d'erreurs</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="HIGH" valueMax="Infinity" valueMin="100.0">
+            <threshold-comment language="en">
+                <threshold-content>Too high number of errors</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Nombre élevé d'erreurs</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+    </threshold>
+    <threshold enabled="true" uid="a1e6e8e3-f26d-4a39-b308-bca8eacffe61">
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="LOW" valueMax="Infinity" valueMin="50.0">
+            <threshold-comment language="en">
+                <threshold-content>Too high number of errors</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Nombre élevé d'erreurs</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="HIGH" valueMax="Infinity" valueMin="100.0">
+            <threshold-comment language="en">
+                <threshold-content>Too high number of errors</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Nombre élevé d'erreurs</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+    </threshold>
+    <threshold enabled="true" uid="141c4112-dc4b-4299-b43f-801c27b30abc">
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="LOW" valueMax="Infinity" valueMin="90.0">
+            <threshold-comment language="en">
+                <threshold-content>Too high number of busy threads</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Nombre élevé de threads actifs</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+    </threshold>
+    <threshold enabled="true" uid="06381dd9-7110-4d78-b644-5427071c2a83">
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="LOW" valueMax="Infinity" valueMin="90.0">
+            <threshold-comment language="en">
+                <threshold-content>Too high number of busy threads</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Nombre élevé de threads actifs</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+    </threshold>
+    <threshold enabled="true" uid="924b5319-eccb-49c1-89f3-e22d1521167c">
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="LOW" valueMax="Infinity" valueMin="80.0">
+            <threshold-comment language="en">
+                <threshold-content>Too high amount of memory used</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Quantité élevée de mémoire en cours d'utilisation</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="HIGH" valueMax="Infinity" valueMin="90.0">
+            <threshold-comment language="en">
+                <threshold-content>Too high amount of memory used</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Quantité élevée de mémoire en cours d'utilisation</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+    </threshold>
+    <threshold enabled="true" uid="fe9cc421-e1d5-45fb-8086-2e5cce756db4">
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="LOW" valueMax="Infinity" valueMin="50.0">
+            <threshold-comment language="en">
+                <threshold-content>Too high number of rejected sessions</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Nombre de sessions rejetées élevées</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="HIGH" valueMax="Infinity" valueMin="100.0">
+            <threshold-comment language="en">
+                <threshold-content>Too high number of rejected sessions</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Nombre de sessions rejetées élevées</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+    </threshold>
+    <threshold enabled="true" uid="74a3a78c-d399-48bb-96a6-a51858af852d">
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="LOW" valueMax="Infinity" valueMin="50.0">
+            <threshold-comment language="en">
+                <threshold-content>Too high number of rejected sessions</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Nombre de sessions rejetées élevées</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="HIGH" valueMax="Infinity" valueMin="100.0">
+            <threshold-comment language="en">
+                <threshold-content>Too high number of rejected sessions</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Nombre de sessions rejetées élevées</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+    </threshold>
+    <threshold enabled="true" uid="8d21bb74-657b-4097-b83f-db49348b91f7">
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="LOW" valueMax="Infinity" valueMin="50.0">
+            <threshold-comment language="en">
+                <threshold-content>Too high number of rejected sessions</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Nombre de sessions rejetées élevées</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="HIGH" valueMax="Infinity" valueMin="100.0">
+            <threshold-comment language="en">
+                <threshold-content>Too high number of rejected sessions</threshold-content>
+            </threshold-comment>
+            <threshold-comment language="fr">
+                <threshold-content>Nombre de sessions rejetées élevées</threshold-content>
+            </threshold-comment>
+        </threshold-condition>
+    </threshold>
+</connection-tomcat7>

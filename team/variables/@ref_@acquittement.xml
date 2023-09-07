@@ -1,0 +1,1 @@
+<variable-random-string max-lenght="18" min-lenght="18" name="Ref_Acquittement" order="1" policy="1" random-seed="false" range="2" uid="5ece15fe-c1f7-4a6c-962d-c55a052a7d7a" whenOutOfValues="CYCLE_VALUES"/>

@@ -1,0 +1,1 @@
+<variable-currentdate inc-type="0" inc-value="1" name="I_End_Date" order="1" pattern="dd-MM-yyyy HH:mm:ss" policy="1" range="2" uid="b220fdf7-2d64-42d8-bafc-69d56097e564" whenOutOfValues="CYCLE_VALUES"/>

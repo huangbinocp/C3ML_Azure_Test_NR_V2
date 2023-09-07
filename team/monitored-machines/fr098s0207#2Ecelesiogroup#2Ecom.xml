@@ -1,0 +1,6 @@
+<monitored-host enabled="false" host-name="fr098s0207.celesiogroup.com"
+    mehost-name="localhost" proxy-id="" uid="fr098s0207.celesiogroup.com">
+    <embedded-action>2800e164-ce08-440e-a4a3-7f84192e7b03</embedded-action>
+    <embedded-action>c503d34b-c47e-4b7e-8caa-863fe3d79c04</embedded-action>
+    <embedded-action>f3810453-a198-4f16-a66f-9fea9a18a2b1</embedded-action>
+</monitored-host>

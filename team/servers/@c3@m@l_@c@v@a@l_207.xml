@@ -1,0 +1,4 @@
+<http-server hostname="fr098s0207.celesiogroup.com" port="18080"
+    ssl="false" uid="C3ML_CVAL_207" urlrewriting-argument-name=""
+    urlrewriting-enabled="false" urlrewriting-path-extension="false"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";"/>

@@ -1,0 +1,4 @@
+<http-server hostname="bleu-commandes.ocp.fr" port="443" ssl="true"
+    uid="Azure_Prod_Externe" urlrewriting-argument-name=""
+    urlrewriting-enabled="true" urlrewriting-path-extension="false"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";"/>

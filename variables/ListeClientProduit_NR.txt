@@ -1,0 +1,17 @@
+type|client|product_quantity|attendu_requete|attendu_IHM
+order|3424338047|2125007;1|Detail=\"Le client n'est pas abonn|
+order|3417250428|2790992;1|Quantite_livree=\"1\"|
+order|3417226397|9570704;1|?|
+order|3424734697|7986636;1|Additif=\"FSP  Fabrication suspendue\"|
+order|3416918636|2019541;1|P.S|
+order|3417250416|6487440;1|NFP|
+order|3417250428|3225260;1|FSP|
+order|3417221203|3765660;1|NTA|
+order|3402344000|3171914;1|MT|
+order|3424734697|7627564;1|MMAG|
+order|3430122100|7720482;1|PHA|
+order|3417223072|4432972;1|RP|
+order|3018964162|1023145;1|PRIS|
+order|1126241349|1011760;1|Code_Reponse=\"4\" Additif=\"MT    Manque Transitoire\"|
+order|3018964200|2756647;1|Code_Reponse=\"4\" Additif=\"MT    Manque transitoire\"|
+order|0020000098|3115212;1|Detail=\"Client inconnu|

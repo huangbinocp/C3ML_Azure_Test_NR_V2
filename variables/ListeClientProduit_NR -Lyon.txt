@@ -1,0 +1,4 @@
+type|client|product_quantity|attendu_requete|attendu_IHM
+order|6928223456|2790992;1|Quantite_livree=\"1\"|Quantity_delivered=\"1\"
+request|6900400002|2125007;1|NTANe tenons article|NTA
+request|6914901007|9570704;1|?|?

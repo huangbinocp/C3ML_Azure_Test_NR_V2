@@ -1,0 +1,4 @@
+<http-server hostname="rec-c3ml-ihm" port="80" ssl="false"
+    uid="rec-c3ml-ihm" urlrewriting-argument-name="jsessionid"
+    urlrewriting-enabled="true" urlrewriting-path-extension="true"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";"/>

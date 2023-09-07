@@ -1,0 +1,4 @@
+<http-server hostname="bleu-int-plugin.ocp098.gehe.fr" port="18085"
+    ssl="true" uid="Azure_INT_Interne" urlrewriting-argument-name=""
+    urlrewriting-enabled="true" urlrewriting-path-extension="false"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";"/>
