@@ -1,10 +1,10 @@
-name: C3ML_Azure_Test_NR_V2
+name: C3ML_Azure_Test_NR
 on: workflow_dispatch
 env:
   TEST_NAME: '"C3ML_Azure_Test_NR_V1.2"'
   WORKSPACE_NAME: '"C3ML_Azure_Test_NR"'
   VERSION: 'AZURE Test C3ML NR'
-  NL_REPOSITORY: 'huangbinocp/C3ML_Azure_Test_NR_V2'
+  NL_REPOSITORY: 'huangbinocp/C3ML_Azure_Test_NR'
   NL_SCENARIO: 'C3ML_Azure_Test_NR_All_Scripts'
 jobs:  
   app_dev_tirs:
@@ -23,13 +23,14 @@ jobs:
          repository: ${{ env.NL_REPOSITORY }}
          token: ${{ secrets.MY_PAT }}
       - name: "2. Zip Neoload Folder"
-      -  run: zip -r NL_Script.zip . -x ".git/*" ".github/*"
+        run: zip -r NL_Script.zip . -x ".git/*" ".github/*"
       - name: "3. Install NeoLoad CLI"
         run: pip3 install -U neoload
       - name: "4. Prepare NeoLoad test"
         run: >
           neoload login --url ${{ matrix.api_url }} --workspace ${{ env.WORKSPACE_NAME }} ${{ secrets[matrix.token] }} \
-                  test-settings --scenario ${{ env.NL_SCENARIO }} createorpatch ${{ env.TEST_NAME }} 
+                  test-settings --scenario ${{ env.NL_SCENARIO }} createorpatch ${{ env.TEST_NAME }} \
+                  project --path NL_Script.zip upload
       - name: "5. NeoLoad run test"
         run: >
           neoload run 
