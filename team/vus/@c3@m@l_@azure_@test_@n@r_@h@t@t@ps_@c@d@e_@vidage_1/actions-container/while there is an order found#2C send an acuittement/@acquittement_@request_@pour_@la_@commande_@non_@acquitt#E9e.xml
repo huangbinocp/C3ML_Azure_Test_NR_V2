@@ -1,8 +1,0 @@
-<basic-logical-action-container element-number="1" execution-type="0"
-    name="Acquittement_Request_Pour_La_Commande_Non_Acquittée"
-    pacingEnd="0" pacingMode="MODE_PACING_SIMPLE" pacingStart="0"
-    pacingValue="3" slaProfileEnabled="false"
-    uid="abd906dd-33c6-42a4-a698-d65595f59b66" weightsEnabled="false">
-    <weighted-embedded-action uid="3ada85c8-adb3-4b34-9acc-90232369a585"/>
-    <weighted-embedded-action uid="4cef3433-5e3d-4877-96ca-e1728b4c7e7d"/>
-</basic-logical-action-container>

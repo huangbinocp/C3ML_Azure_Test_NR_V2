@@ -1,7 +1,0 @@
-<basic-logical-action-container element-number="1" execution-type="0"
-    name="Details de commande" pacingEnd="0" pacingMode="MODE_NO_PACING"
-    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
-    uid="5f140de9-e2ef-4f39-8b14-d637c11371f3" weightsEnabled="false">
-    <weighted-embedded-action uid="3d046434-6580-4aee-97cb-7e0e65fdbf58"/>
-    <weighted-embedded-action uid="213c9d22-18ea-4fb5-a879-a46142b08358"/>
-</basic-logical-action-container>
