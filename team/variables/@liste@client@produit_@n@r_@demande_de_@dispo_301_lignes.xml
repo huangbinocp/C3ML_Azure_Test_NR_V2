@@ -1,0 +1,7 @@
+<variable-file delimiters="|" filename="variables/ListeClientProduit_NR_Demande_de_Dispo_301_lignes.txt" name="ListeClientProduit_NR_Demande_de_Dispo_301_lignes" offset="1" order="1" policy="5" range="1" uid="1ace46c1-4d04-4404-ba8a-fb241a5451c5" useFirstLine="true" whenOutOfValues="STOP_TEST">
+<column name="attendu_IHM" number="4"/>
+<column name="attendu_requete" number="3"/>
+<column name="client" number="1"/>
+<column name="product_quantity" number="2"/>
+<column name="type" number="0"/>
+</variable-file>

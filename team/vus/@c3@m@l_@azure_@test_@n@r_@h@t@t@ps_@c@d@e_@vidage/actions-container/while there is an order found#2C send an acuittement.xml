@@ -1,0 +1,11 @@
+<while-action name="while there is an order found, send an acuittement" uid="166fe32b-a21f-4ede-9ad5-e469bc33f4e9">
+    <embedded-action>56abb2c9-8b1b-4019-814e-7e3929fb0be6</embedded-action>
+    <embedded-action>7537e78e-dc14-47ba-9971-c61c3cae07c5</embedded-action>
+    <embedded-action>65b552d3-7af9-41f6-b474-37e0ace77499</embedded-action>
+    <embedded-action>47199705-0653-4e29-8283-a0f6abad60cb</embedded-action>
+    <embedded-action>05a7f91e-2922-44b8-929f-ebbc36663d81</embedded-action>
+    <embedded-action>0860b020-7788-42c1-8179-91c3ddf57584</embedded-action>
+    <conditions match-type="1">
+        <condition operand1="${Extracted_Ref_Message}" operand2="R" operator="STARTS_WITH"/>
+    </conditions>
+</while-action>

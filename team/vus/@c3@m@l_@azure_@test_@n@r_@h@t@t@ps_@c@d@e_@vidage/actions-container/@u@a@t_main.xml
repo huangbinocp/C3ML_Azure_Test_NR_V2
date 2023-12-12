@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="UAT_main" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="313ab06d-f23c-49ce-9b2b-716349499c75" weightsEnabled="false">
+    <weighted-embedded-action uid="55c07f82-b3f8-4cec-95ea-f97bf97ad8ce"/>
+    <weighted-embedded-action uid="f5aa76dd-d837-4989-b532-abe9077410db"/>
+</basic-logical-action-container>

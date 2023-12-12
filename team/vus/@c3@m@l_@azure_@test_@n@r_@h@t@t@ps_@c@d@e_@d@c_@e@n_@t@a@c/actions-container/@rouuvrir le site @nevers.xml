@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Rouuvrir le site Nevers" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="eeb66372-bcdd-43d8-8b30-7d231baa0764" weightsEnabled="false">
+    <weighted-embedded-action uid="068b49d1-efcc-4d0e-aaec-d7589c725ec0"/>
+</basic-logical-action-container>

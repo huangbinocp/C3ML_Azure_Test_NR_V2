@@ -1,0 +1,8 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Site Nevers" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="66153f91-9c7d-4fb0-90e3-e2c6d85f9346" weightsEnabled="false">
+    <weighted-embedded-action uid="eaa5f46c-d100-421a-8182-fa883284039e"/>
+    <weighted-embedded-action uid="1b7e7930-57b6-48c1-9940-a6d11b22cd08"/>
+    <weighted-embedded-action uid="517671ee-e7e9-4416-bf8e-812b69caa21f"/>
+</basic-logical-action-container>

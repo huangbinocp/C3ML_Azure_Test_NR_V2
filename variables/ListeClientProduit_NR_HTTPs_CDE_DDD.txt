@@ -1,0 +1,8 @@
+type|client|product_quantity|attendu_requete|attendu_IHM
+request|6938317103|2678249;1|<DISPO/>|<AVAILABLE/>
+order|6938317103|2678249;1|Quantite_livree=\"1\"|Quantity_delivered=\"1\"
+order|6938317103|2678249;1|Doublon reference commande|Doublon reference commande
+request|6926625921|2678249;1|est pas abonne au service demande\" Statut=\"103\"|ERROR Reason=\"CPHML Customer 6926625921 does not subscribe to PO messages.\" Code=\"C0103\"
+order|6926625921|2678249;1|est pas abonne au service demande\" Statut=\"103\"|ERROR Reason=\"CPHML Customer 6926625921 does not subscribe to PO messages.\" Code=\"C0103\"
+request|6938317103|2678249;301|La quantite demandee est trop importante. Veuillez contacter Pharmaliens|La quantite demandee est trop importante. Veuillez contacter Pharmaliens
+order|6926625921|2678249;2001|FIN_SERVICE|ANNULEE

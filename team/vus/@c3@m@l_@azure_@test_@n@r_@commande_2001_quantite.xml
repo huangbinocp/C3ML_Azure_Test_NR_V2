@@ -1,0 +1,35 @@
+<virtual-user errorPolicy="DO_NOTHING"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="false"
+    type="LEGACY" uid="C3ML_Azure_Test_NR_Commande_2001_quantite">
+    <description>Le fichier de jeu de données en entrée : E:\C3ML_Projects\C3ML_Azure_Test_NR\variable\ListeClientProduit_NR_Commande_1501.txt .
+
+- passer une commande contenant 1501 lignes
+- Vérifier si la réponse est "FIN_SERVICE"
+- Vérifier si sur l'IHM, la commande est "ANNULEE"
+- Vérifier s'il y a un code d'erreur G5000 dans le journal d'erreur</description>
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed once when the Virtual User starts.</description>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements repeated until the Virtual User stops.</description>
+        <weighted-embedded-action uid="890d5c08-9f3b-4ba0-b0ec-429c751e3c72"/>
+        <weighted-embedded-action uid="6c6280d5-4247-483c-a371-f8f772d10518"/>
+        <weighted-embedded-action uid="738be9c7-6fb9-4960-b4ae-0b61c650009c"/>
+        <weighted-embedded-action uid="e0da19af-027a-46a5-99b3-193fa8bfc1c0"/>
+        <weighted-embedded-action uid="50ddaf81-5297-4f5f-9c40-4f3e0ff73775"/>
+        <weighted-embedded-action uid="64672063-1ada-4555-8ffa-db0299c07626"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed before the Virtual User stops.</description>
+    </end-container>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="1"
+        thinktimeRangeValue="0" thinktimeValue="0"/>
+</virtual-user>

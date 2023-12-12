@@ -1,0 +1,33 @@
+<virtual-user errorPolicy="DO_NOTHING"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="false"
+    type="LEGACY" uid="C3ML_Azure_Test_NR_Demande_de_Dispo_301_quantite">
+    <description>Le fichier de jeu de données en entrée : E:\C3ML_Projects\C3ML_Azure_Test_NR\variable\ListeClientProduit_NR_Commande_1501.txt .
+
+- passer une commande contenant 1501 lignes
+- Vérifier si la réponse est "FIN_SERVICE"
+- Vérifier si sur l'IHM, la commande est "ANNULEE"</description>
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed once when the Virtual User starts.</description>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements repeated until the Virtual User stops.</description>
+        <weighted-embedded-action uid="006e1716-f383-4612-9880-73a2f72d94ed"/>
+        <weighted-embedded-action uid="223a06fc-d106-462d-a3a8-a29160f0e67f"/>
+        <weighted-embedded-action uid="c602b21c-4dcb-4daf-92b6-bbbd6d7b61e4"/>
+        <weighted-embedded-action uid="14debb14-0f01-4029-8b30-35ea66a2912d"/>
+        <weighted-embedded-action uid="44642878-2bdb-4058-b34a-de1a0463fb17"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed before the Virtual User stops.</description>
+    </end-container>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="1"
+        thinktimeRangeValue="0" thinktimeValue="0"/>
+</virtual-user>

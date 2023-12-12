@@ -1,7 +1,0 @@
-<basic-logical-action-container element-number="1" execution-type="0"
-    name="Acquittement_Request" pacingEnd="0"
-    pacingMode="MODE_PACING_SIMPLE" pacingStart="0" pacingValue="3"
-    slaProfileEnabled="false" uid="a98cda4c-7d4f-4d14-abaf-1cc57372ac87" weightsEnabled="false">
-    <weighted-embedded-action uid="83ab0bad-7211-4569-8100-84e3476ea0de"/>
-    <weighted-embedded-action uid="cfad87b8-d077-4fe6-8276-a784f29d96c0"/>
-</basic-logical-action-container>

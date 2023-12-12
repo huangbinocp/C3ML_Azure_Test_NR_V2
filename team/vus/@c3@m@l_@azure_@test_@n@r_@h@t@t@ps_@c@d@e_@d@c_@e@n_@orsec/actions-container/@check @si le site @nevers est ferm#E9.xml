@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" enabled="false"
+    execution-type="0" name="Check Si le site Nevers est fermé"
+    pacingEnd="0" pacingMode="MODE_NO_PACING" pacingStart="0"
+    pacingValue="0" slaProfileEnabled="false"
+    uid="f91596ac-c289-4337-88e7-d7fff131404b" weightsEnabled="false">
+    <weighted-embedded-action uid="db55854a-8fdf-4079-8834-b660d5072e49"/>
+</basic-logical-action-container>

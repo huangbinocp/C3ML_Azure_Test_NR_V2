@@ -1,0 +1,7 @@
+<variable-file delimiters="|" filename="variables/ListeClientProduit_NR_HTTPs_CDE_Vidage.txt" name="list_client_product_quantity_NR_HTTPs_CDE_Vidage" offset="1" order="1" policy="5" range="1" uid="6b50495b-d03e-48c1-912e-bf281865654e" useFirstLine="true" whenOutOfValues="STOP_TEST">
+<column name="attendu_IHM" number="4"/>
+<column name="attendu_requete" number="3"/>
+<column name="client" number="1"/>
+<column name="product_quantity" number="2"/>
+<column name="type" number="0"/>
+</variable-file>

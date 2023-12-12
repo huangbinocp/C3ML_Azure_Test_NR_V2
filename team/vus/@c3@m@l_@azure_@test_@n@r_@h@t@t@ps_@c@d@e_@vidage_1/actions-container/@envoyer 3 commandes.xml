@@ -1,0 +1,14 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Envoyer 3 commandes" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="fcb144b6-f16b-4f8f-8298-0d5e87276086" weightsEnabled="false">
+    <weighted-embedded-action uid="c33f94e2-27a9-4154-986c-b4802a16c493"/>
+    <weighted-embedded-action uid="449dfef7-ac3c-48bc-9b56-0965281cf43d"/>
+    <weighted-embedded-action uid="abae71b3-6341-4139-92f3-66d5686371cc"/>
+    <weighted-embedded-action uid="e0d3dcce-e1af-4477-a7b2-10c1b2387d7a"/>
+    <weighted-embedded-action uid="78b8c4c0-d495-4831-881a-eaa91c29cf99"/>
+    <weighted-embedded-action uid="87aeb803-9e23-4c87-bff8-a8afcdde9fce"/>
+    <weighted-embedded-action uid="931583f1-02f9-47f7-8df9-2d7fc35cc418"/>
+    <weighted-embedded-action uid="6449323e-96a0-4d1e-a575-06fdc29ac531"/>
+    <weighted-embedded-action uid="ceeee799-4da1-42d0-aaf5-51cfee4ee442"/>
+</basic-logical-action-container>

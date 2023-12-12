@@ -1,0 +1,8 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Details de DDD" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="9aed5049-af34-4c14-9ae9-178a9ed4a000" weightsEnabled="false">
+    <weighted-embedded-action uid="1e4e6002-40c6-4438-9320-50073839f078"/>
+    <weighted-embedded-action uid="54fb253c-f757-4110-b626-81e9550e1fef"/>
+    <weighted-embedded-action uid="e4d5ddc5-bd97-4ecc-aabd-a5398c55901a"/>
+</basic-logical-action-container>

@@ -1,0 +1,102 @@
+<http-page executeResourcesDynamically="false" name="/c3ml-ihm/main"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@c3@m@l_@azure_@test_@n@r_@h@t@t@ps_@c@d@e_@vidage/%resources%/recorded-artifacts/55c07f82-b3f8-4cec-95ea-f97bf97ad8ce.zip"
+    slaProfileEnabled="false" thinkTime="1871"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="55c07f82-b3f8-4cec-95ea-f97bf97ad8ce">
+    <embedded-action>4fc6212a-6727-436c-9b20-e71802e08e91</embedded-action>
+    <embedded-action>c5685287-f3cf-4a29-8419-e1eab95c2cd1</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/c3ml-ihm/main" path="/c3ml-ihm/main"
+    postCharset="" postType="6"
+    recordedArtifactZipFileName="team/vus/@c3@m@l_@azure_@test_@n@r_@h@t@t@ps_@c@d@e_@vidage/%resources%/recorded-artifacts/55c07f82-b3f8-4cec-95ea-f97bf97ad8ce.zip"
+    recordedResponseCode="302" recordedResponseTime="363"
+    responseSize="0" serverUid="Azure_C3ML_IHM_UAT"
+    slaProfileEnabled="false" uid="4fc6212a-6727-436c-9b20-e71802e08e91" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_0c0f4440-ba62-47e8-917a-bd258e799792</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_cust_4fc6212a-6727-436c-9b20-e71802e08e91.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple=";"
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="5" extractTypeAdv="0" extractTypeSimple="5"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="ExtractedVariable_JSESSIONID"
+        refererUid="78717b20-84ef-46c8-975e-cee91744c004"
+        regExp="JSESSIONID=(.*?);" regExpAdv="" setDefaultValue="true"
+        startsWithSimple="JSESSIONID=" template="$1$" templateAdv="$1$"
+        uid="79008686-7545-4ef8-8f71-768f9ed91a73" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="sec-fetch-site" value="none"/>
+    <header name="cookie" value="JSESSIONID=FAA7DD1775A47B1E0C88C05A66CE2907; ApplicationGatewayAffinityCORS=5ee6e9dfd2605a15bac5d42c735de641; ApplicationGatewayAffinity=5ee6e9dfd2605a15bac5d42c735de641"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Not/A)Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;115&quot;, &quot;Chromium&quot;;v=&quot;115&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 302 
+date: Fri, 08 Dec 2023 13:32:43 GMT
+Content-Length: 0
+set-cookie: ApplicationGatewayAffinityCORS=bd4030230ca43e531589c930c8e70436; Path=/; SameSite=None; Secure
+set-cookie: ApplicationGatewayAffinity=bd4030230ca43e531589c930c8e70436; Path=/
+set-cookie: JSESSIONID=E01E587A30927D8452C50FE54CCD3BC8; Path=/c3ml-ihm; HttpOnly
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+pragma: no-cache
+expires: 0
+x-frame-options: DENY
+location: /c3ml-ihm/saml2/authenticate/c3ml-ihm-uat
+content-language: en-US
+content-security-policy: script-src 'self' 'unsafe-inline' *.ocp098.gehe.fr:18084</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="2" contentType="" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/c3ml-ihm/saml2/authenticate/c3ml-ihm-uat"
+    path="/c3ml-ihm/saml2/authenticate/c3ml-ihm-uat" postType="6"
+    recordedArtifactZipFileName="team/vus/@c3@m@l_@azure_@test_@n@r_@h@t@t@ps_@c@d@e_@vidage/%resources%/recorded-artifacts/55c07f82-b3f8-4cec-95ea-f97bf97ad8ce.zip"
+    recordedResponseCode="302" recordedResponseTime="47"
+    refererUid="4fc6212a-6727-436c-9b20-e71802e08e91" responseSize="0"
+    serverUid="Azure_C3ML_IHM_UAT" slaProfileEnabled="false"
+    uid="c5685287-f3cf-4a29-8419-e1eab95c2cd1" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_5217cf02-53d2-4e5f-b588-4b9763a0047a</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_cust_c5685287-f3cf-4a29-8419-e1eab95c2cd1.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="sec-fetch-site" value="none"/>
+    <header name="cookie" value="JSESSIONID=C8CDDD3FE468E0B4151791EF62882CD7; ApplicationGatewayAffinityCORS=5ee6e9dfd2605a15bac5d42c735de641; ApplicationGatewayAffinity=5ee6e9dfd2605a15bac5d42c735de641"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Not/A)Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;115&quot;, &quot;Chromium&quot;;v=&quot;115&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 302 
+date: Fri, 08 Dec 2023 13:32:43 GMT
+Content-Length: 0
+location: https://login.microsoftonline.com/e5d0182b-f458-403c-8d06-b825112408b6/saml2?SAMLRequest=fZJNT%2BMwEIbv%2FIrIdye2kwbXaoIKCIHEim4bOHBLnElrKbGDx0H8%2FE1bKrEXjpbfj9E8s7r5GvroEzwaZwvCY0YisNq1xu4L8lo9UEluyqsV1kMvRrWewsFu4WMCDNEaEXyYfXfO4jSA34H%2FNBpet88FOYQwokqSpoeJhllOzWGInR7ZUsZ7OEDcecUlk1mi06E%2F%2FibHkmR0GLaA45wJJLqfncbW4TTdJbN3e2PjwWjv0HXB2d5YiLUbEli0jEvR0C5bSJqxVFPZspw2Uiw4FxmTTX6qESR6ui%2FIevu3bZeS50BFl4nZITu6zBtGebro2LXMm0xcz1rECZ4shtqGgggmUsoFZbLiqUqFytKYc%2FlOoo13wWnX3xp73uDkrXI1GlS2HgBV0Gq3%2FvOsRMxUcxaheqyqDd287CoSvV1IiCOJmY1Fdd7971njdzEpz6jUaWL%2FM%2BH3gPoCk5QXHnSqwyr5GVd%2BP%2F8%2FhPIf
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+pragma: no-cache
+expires: 0
+x-frame-options: DENY
+content-security-policy: script-src 'self' 'unsafe-inline' *.ocp098.gehe.fr:18084</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

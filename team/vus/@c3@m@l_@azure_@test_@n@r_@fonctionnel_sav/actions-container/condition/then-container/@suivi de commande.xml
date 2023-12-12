@@ -1,6 +1,0 @@
-<basic-logical-action-container element-number="1" execution-type="0"
-    name="Suivi de commande" pacingEnd="0" pacingMode="MODE_NO_PACING"
-    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
-    uid="3cd37a39-c983-40be-a6ec-7ed9f8d93106" weightsEnabled="false">
-    <weighted-embedded-action uid="91029d6b-64e0-4c64-881a-106e32b46f65"/>
-</basic-logical-action-container>

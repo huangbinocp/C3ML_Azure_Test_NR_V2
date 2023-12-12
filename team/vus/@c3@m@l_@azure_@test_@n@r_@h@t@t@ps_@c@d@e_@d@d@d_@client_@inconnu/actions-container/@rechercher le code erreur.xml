@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Rechercher le code erreur" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="b082a02f-7563-47a8-94e1-6726f9577d17" weightsEnabled="false">
+    <weighted-embedded-action uid="5cd1c439-3af2-416b-a74b-504b388a0123"/>
+</basic-logical-action-container>

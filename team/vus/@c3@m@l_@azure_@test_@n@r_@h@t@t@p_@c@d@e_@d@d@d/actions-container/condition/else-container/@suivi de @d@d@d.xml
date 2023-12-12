@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Suivi de DDD" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="89b3e79d-8b3c-4a15-a1f1-5701d3f6a4a0" weightsEnabled="false">
+    <weighted-embedded-action uid="fbf04a6e-e9e0-4399-ba3c-1f1183e3705a"/>
+</basic-logical-action-container>

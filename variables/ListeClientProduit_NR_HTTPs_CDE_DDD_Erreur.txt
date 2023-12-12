@@ -1,0 +1,3 @@
+type|client|product_quantity|attendu_requete|attendu_IHM
+request|6938317103|3910435;1|<DISPO/>|<AVAILABLE/>
+order|6938317103|3910435;1|Quantite_livree=\"1\"|Quantity_delivered=\"1\"

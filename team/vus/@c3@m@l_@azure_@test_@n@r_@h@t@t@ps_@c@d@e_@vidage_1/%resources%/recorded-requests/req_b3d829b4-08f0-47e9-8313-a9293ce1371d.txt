@@ -1,0 +1,36 @@
+POST https://bleu-test-plugin.ocp098.gehe.fr:18085/GehisPluginPhml/ HTTP/2.0
+User-Agent: Jetty/1.0.0
+injector.pharmaml.id-client: ALJ-
+Accept: */*
+realm.csrp.name: Protocole CSRP
+realm.csrp.login: office1
+injector.http.timeout: 125000
+injector.pharmaml.id-officine: 9996218
+injector.pharmaml.shared-secret: CAFE
+cache-control: no-cache
+realm.csrp.password: off1
+accept-encoding: br,deflate,gzip
+Content-Type: application/xml
+content-pharmaml: 6f62e12a3d0e174bb5a4ae91735455a4
+Content-Length: 989
+
+<?xml version="1.0" encoding="UTF-8"?>
+<CSRP_ENVELOPPE xmlns="urn:x-csrp:fr.csrp.protocole:enveloppe"  Version_Protocole="1.0.0.0" Nature_Action="REQ_EMISSION" Id_Logiciel="WinPharma" Version_Logiciel="1.2.3.4" Usage="P">
+ <ENTETE>
+ <EMETTEUR Nature="OF" Code="00" Id="5830443002" Adresse="Rue de la gare"/>
+ <RECEPTEUR Nature="RE" Code="20" Id="OCP" Adresse="2, Rue Galien 93587 Saint-Ouen"/>
+  <REF_MESSAGE>RF_MES_uwvurqtivejhl</REF_MESSAGE>
+ </ENTETE><CORPS>
+  <MESSAGE_OFFICINE xmlns="urn:x-csrp:fr.csrp.protocole:message"  >
+ <ENTETE>
+ <EMETTEUR Nature_Partenaire="OF" Id_Client="5830443002"/>
+ <DESTINATAIRE Nature_Partenaire="RE" Code_Societe="20" Id_Societe="OCP"/>
+ </ENTETE>
+ <CORPS><COMMANDE Ref_Cde_Client="RF_CDE_uwvurqtivejhl">
+  <NORMALE>
+  <LIGNE_N Num_Ligne="1" Type_Codification= "CIP39" Code_Produit="2678249" Quantite="1" Partielle="true" Reliquat="false" Equivalent="false"></LIGNE_N>
+ </NORMALE>
+ </COMMANDE>
+  </CORPS>
+  </MESSAGE_OFFICINE></CORPS></CSRP_ENVELOPPE>
+

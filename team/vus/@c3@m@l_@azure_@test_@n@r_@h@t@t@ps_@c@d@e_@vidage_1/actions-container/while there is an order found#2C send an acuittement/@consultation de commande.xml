@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Consultation de commande" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="184062df-e330-4bec-bad6-3729d2619145" weightsEnabled="false">
+    <weighted-embedded-action uid="34f6cd18-c108-406e-871c-f519202acea3"/>
+</basic-logical-action-container>

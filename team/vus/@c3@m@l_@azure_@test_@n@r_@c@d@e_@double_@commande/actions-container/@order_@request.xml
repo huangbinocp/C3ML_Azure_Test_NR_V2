@@ -1,0 +1,10 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Order_Request" pacingEnd="0" pacingMode="MODE_PACING_SIMPLE"
+    pacingStart="0" pacingValue="3" slaProfileEnabled="false"
+    uid="7d988c7e-ff61-4142-905a-5af9699d9c3d" weightsEnabled="false">
+    <weighted-embedded-action uid="676714e6-bb6a-4d28-afa7-67931cc133be"/>
+    <weighted-embedded-action uid="d07c1e35-55f5-4b82-915c-d2213ce8d95a"/>
+    <weighted-embedded-action uid="06ed5955-c697-4668-9461-9ff1d1db33f6"/>
+    <weighted-embedded-action uid="5ead6a80-920c-4759-a48f-2a8f3bb17a5c"/>
+    <weighted-embedded-action uid="c2ea7047-482c-4f53-9aef-c1f7e663fa51"/>
+</basic-logical-action-container>

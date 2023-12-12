@@ -1,0 +1,539 @@
+<http-page executeResourcesDynamically="false"
+    name="/c3ml-ihm/js/ihm.js" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@c3@m@l_@azure_@test_@n@r_@h@t@t@ps_@c@d@e_@d@c_@e@n_@t@a@c/%resources%/recorded-artifacts/1db34a86-2cb8-44e3-b8d7-d5334248826c.zip"
+    slaProfileEnabled="false" thinkTime="7143"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="1db34a86-2cb8-44e3-b8d7-d5334248826c">
+    <embedded-action>300ad6fd-549f-4eb7-8806-6f2f11b37e3f</embedded-action>
+    <embedded-action>742ff97a-8964-46ef-a7e2-29ae949fe2c7</embedded-action>
+    <embedded-action>b865a3bb-5d7e-4790-91f1-ea840e8686f0</embedded-action>
+    <embedded-action>f61cce0d-a85b-4d05-aed6-6813d2513d32</embedded-action>
+    <embedded-action>d4ce9055-bbfb-4a27-ae54-52aa4f178452</embedded-action>
+    <embedded-action>47bf5c96-b5aa-4245-8ab3-67523fdd7068</embedded-action>
+    <embedded-action>40c3d998-73ab-4765-ac0d-bcbcb27f800b</embedded-action>
+    <embedded-action>5c9aee57-f402-4fa1-9bf8-3ac3a2a673c9</embedded-action>
+    <embedded-action>eb165f58-87e8-47bc-9b34-9bdddcaaf8a0</embedded-action>
+    <embedded-action>f6d5c0f1-997e-4d4d-8b02-7e5da3c202d0</embedded-action>
+    <embedded-action>e61c4271-9bb4-40a6-bf93-d8a8a4912e15</embedded-action>
+    <embedded-action>dfc0c315-3ffe-4a52-97aa-ac802a09d242</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="application/javascript"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Fri, 04 Aug 2023 11:57:38 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/c3ml-ihm/js/ihm.js" path="/c3ml-ihm/js/ihm.js"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@c3@m@l_@azure_@test_@n@r_@h@t@t@ps_@c@d@e_@d@c_@e@n_@t@a@c/%resources%/recorded-artifacts/1db34a86-2cb8-44e3-b8d7-d5334248826c.zip"
+    recordedResponseCode="200" responseSize="34484"
+    serverUid="Azure_C3ML_IHM_UAT" slaProfileEnabled="false"
+    uid="300ad6fd-549f-4eb7-8806-6f2f11b37e3f" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_ec6e11e2-0611-4592-99b7-11192af1017b</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_ec6e11e2-0611-4592-99b7-11192af1017b.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://bleu-test-ihm.ocp098.gehe.fr:18084/c3ml-ihm/sites"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="JSESSIONID=02E8210520AE5B4603E6934548D4F03D; ApplicationGatewayAffinityCORS=cabe94033f40009f7811e505fd3cc6c7; ApplicationGatewayAffinity=cabe94033f40009f7811e505fd3cc6c7"/>
+    <header name="accept-language" value="en-US,en;q=0.9,fr;q=0.8"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 26 Sep 2023 12:57:42 GMT&#xd;
+content-type: application/javascript&#xd;
+content-length: 34484&#xd;
+vary: Origin&#xd;
+vary: Access-Control-Request-Method&#xd;
+vary: Access-Control-Request-Headers&#xd;
+last-modified: Fri, 04 Aug 2023 11:57:38 GMT&#xd;
+accept-ranges: bytes&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 1; mode=block&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+pragma: no-cache&#xd;
+expires: 0&#xd;
+x-frame-options: DENY&#xd;
+content-security-policy: script-src 'self' 'unsafe-inline' *.ocp098.gehe.fr:18084</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/css"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Fri, 04 Aug 2023 11:57:38 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/c3ml-ihm/css/style.css"
+    path="/c3ml-ihm/css/style.css" postType="6"
+    recordedArtifactZipFileName="team/vus/@c3@m@l_@azure_@test_@n@r_@h@t@t@ps_@c@d@e_@d@c_@e@n_@t@a@c/%resources%/recorded-artifacts/1db34a86-2cb8-44e3-b8d7-d5334248826c.zip"
+    recordedResponseCode="200" responseSize="6640"
+    serverUid="Azure_C3ML_IHM_UAT" slaProfileEnabled="false"
+    uid="742ff97a-8964-46ef-a7e2-29ae949fe2c7" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_561a7f38-76f7-49d8-ac35-6c240153cf9d.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_561a7f38-76f7-49d8-ac35-6c240153cf9d.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://bleu-test-ihm.ocp098.gehe.fr:18084/c3ml-ihm/sites"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="JSESSIONID=02E8210520AE5B4603E6934548D4F03D; ApplicationGatewayAffinityCORS=cabe94033f40009f7811e505fd3cc6c7; ApplicationGatewayAffinity=cabe94033f40009f7811e505fd3cc6c7"/>
+    <header name="accept-language" value="en-US,en;q=0.9,fr;q=0.8"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="style"/>
+    <header name="accept" value="text/css,*/*;q=0.1"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 26 Sep 2023 12:57:42 GMT&#xd;
+content-type: text/css&#xd;
+content-length: 6640&#xd;
+vary: Origin&#xd;
+vary: Access-Control-Request-Method&#xd;
+vary: Access-Control-Request-Headers&#xd;
+last-modified: Fri, 04 Aug 2023 11:57:38 GMT&#xd;
+accept-ranges: bytes&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 1; mode=block&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+pragma: no-cache&#xd;
+expires: 0&#xd;
+x-frame-options: DENY&#xd;
+content-security-policy: script-src 'self' 'unsafe-inline' *.ocp098.gehe.fr:18084</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Fri, 04 Aug 2023 11:57:38 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/c3ml-ihm/js/calendar1.js"
+    path="/c3ml-ihm/js/calendar1.js" postType="6"
+    recordedArtifactZipFileName="team/vus/@c3@m@l_@azure_@test_@n@r_@h@t@t@ps_@c@d@e_@d@c_@e@n_@t@a@c/%resources%/recorded-artifacts/1db34a86-2cb8-44e3-b8d7-d5334248826c.zip"
+    recordedResponseCode="200" responseSize="6468"
+    serverUid="Azure_C3ML_IHM_UAT" slaProfileEnabled="false"
+    uid="b865a3bb-5d7e-4790-91f1-ea840e8686f0" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_c50fa7fe-7231-458a-a43b-f462a08ff4d8</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_c50fa7fe-7231-458a-a43b-f462a08ff4d8.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://bleu-test-ihm.ocp098.gehe.fr:18084/c3ml-ihm/sites"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="JSESSIONID=02E8210520AE5B4603E6934548D4F03D; ApplicationGatewayAffinityCORS=cabe94033f40009f7811e505fd3cc6c7; ApplicationGatewayAffinity=cabe94033f40009f7811e505fd3cc6c7"/>
+    <header name="accept-language" value="en-US,en;q=0.9,fr;q=0.8"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 26 Sep 2023 12:57:42 GMT&#xd;
+content-type: application/javascript&#xd;
+content-length: 6468&#xd;
+vary: Origin&#xd;
+vary: Access-Control-Request-Method&#xd;
+vary: Access-Control-Request-Headers&#xd;
+last-modified: Fri, 04 Aug 2023 11:57:38 GMT&#xd;
+accept-ranges: bytes&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 1; mode=block&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+pragma: no-cache&#xd;
+expires: 0&#xd;
+x-frame-options: DENY&#xd;
+content-security-policy: script-src 'self' 'unsafe-inline' *.ocp098.gehe.fr:18084</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Fri, 04 Aug 2023 11:57:38 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/c3ml-ihm/img/coin2.gif"
+    path="/c3ml-ihm/img/coin2.gif" postType="6"
+    recordedArtifactZipFileName="team/vus/@c3@m@l_@azure_@test_@n@r_@h@t@t@ps_@c@d@e_@d@c_@e@n_@t@a@c/%resources%/recorded-artifacts/1db34a86-2cb8-44e3-b8d7-d5334248826c.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="Azure_C3ML_IHM_UAT" slaProfileEnabled="false"
+    uid="f61cce0d-a85b-4d05-aed6-6813d2513d32" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_3036aadb-7bb4-48ed-b1d9-af52192d02e6.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://bleu-test-ihm.ocp098.gehe.fr:18084/c3ml-ihm/sites"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="JSESSIONID=02E8210520AE5B4603E6934548D4F03D; ApplicationGatewayAffinityCORS=cabe94033f40009f7811e505fd3cc6c7; ApplicationGatewayAffinity=cabe94033f40009f7811e505fd3cc6c7"/>
+    <header name="accept-language" value="en-US,en;q=0.9,fr;q=0.8"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="image"/>
+    <header name="accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 26 Sep 2023 12:57:43 GMT&#xd;
+content-type: image/gif&#xd;
+content-length: 207&#xd;
+vary: Origin&#xd;
+vary: Access-Control-Request-Method&#xd;
+vary: Access-Control-Request-Headers&#xd;
+last-modified: Fri, 04 Aug 2023 11:57:38 GMT&#xd;
+accept-ranges: bytes&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 1; mode=block&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+pragma: no-cache&#xd;
+expires: 0&#xd;
+x-frame-options: DENY&#xd;
+content-security-policy: script-src 'self' 'unsafe-inline' *.ocp098.gehe.fr:18084</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Fri, 04 Aug 2023 11:57:38 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/c3ml-ihm/img/coin1.gif"
+    path="/c3ml-ihm/img/coin1.gif" postType="6"
+    recordedArtifactZipFileName="team/vus/@c3@m@l_@azure_@test_@n@r_@h@t@t@ps_@c@d@e_@d@c_@e@n_@t@a@c/%resources%/recorded-artifacts/1db34a86-2cb8-44e3-b8d7-d5334248826c.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="Azure_C3ML_IHM_UAT" slaProfileEnabled="false"
+    uid="d4ce9055-bbfb-4a27-ae54-52aa4f178452" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_b839ac6f-d0cf-4f4d-83b3-53ca894c6461.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://bleu-test-ihm.ocp098.gehe.fr:18084/c3ml-ihm/sites"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="JSESSIONID=02E8210520AE5B4603E6934548D4F03D; ApplicationGatewayAffinityCORS=cabe94033f40009f7811e505fd3cc6c7; ApplicationGatewayAffinity=cabe94033f40009f7811e505fd3cc6c7"/>
+    <header name="accept-language" value="en-US,en;q=0.9,fr;q=0.8"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="image"/>
+    <header name="accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 26 Sep 2023 12:57:43 GMT&#xd;
+content-type: image/gif&#xd;
+content-length: 210&#xd;
+vary: Origin&#xd;
+vary: Access-Control-Request-Method&#xd;
+vary: Access-Control-Request-Headers&#xd;
+last-modified: Fri, 04 Aug 2023 11:57:38 GMT&#xd;
+accept-ranges: bytes&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 1; mode=block&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+pragma: no-cache&#xd;
+expires: 0&#xd;
+x-frame-options: DENY&#xd;
+content-security-policy: script-src 'self' 'unsafe-inline' *.ocp098.gehe.fr:18084</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Fri, 04 Aug 2023 11:57:38 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/c3ml-ihm/js/ihm.js" path="/c3ml-ihm/js/ihm.js"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@c3@m@l_@azure_@test_@n@r_@h@t@t@ps_@c@d@e_@d@c_@e@n_@t@a@c/%resources%/recorded-artifacts/1db34a86-2cb8-44e3-b8d7-d5334248826c.zip"
+    recordedResponseCode="200" responseSize="34484"
+    serverUid="Azure_C3ML_IHM_UAT" slaProfileEnabled="false"
+    uid="47bf5c96-b5aa-4245-8ab3-67523fdd7068" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_c218e1d5-cfb5-49c2-aacc-41b1ccbf0b77</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_c218e1d5-cfb5-49c2-aacc-41b1ccbf0b77.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://bleu-test-ihm.ocp098.gehe.fr:18084/c3ml-ihm/sites"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="JSESSIONID=02E8210520AE5B4603E6934548D4F03D; ApplicationGatewayAffinityCORS=cabe94033f40009f7811e505fd3cc6c7; ApplicationGatewayAffinity=cabe94033f40009f7811e505fd3cc6c7"/>
+    <header name="accept-language" value="en-US,en;q=0.9,fr;q=0.8"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 26 Sep 2023 12:57:43 GMT&#xd;
+content-type: application/javascript&#xd;
+content-length: 34484&#xd;
+vary: Origin&#xd;
+vary: Access-Control-Request-Method&#xd;
+vary: Access-Control-Request-Headers&#xd;
+last-modified: Fri, 04 Aug 2023 11:57:38 GMT&#xd;
+accept-ranges: bytes&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 1; mode=block&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+pragma: no-cache&#xd;
+expires: 0&#xd;
+x-frame-options: DENY&#xd;
+content-security-policy: script-src 'self' 'unsafe-inline' *.ocp098.gehe.fr:18084</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Fri, 04 Aug 2023 11:57:38 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/c3ml-ihm/img/empty.gif"
+    path="/c3ml-ihm/img/empty.gif" postType="6"
+    recordedArtifactZipFileName="team/vus/@c3@m@l_@azure_@test_@n@r_@h@t@t@ps_@c@d@e_@d@c_@e@n_@t@a@c/%resources%/recorded-artifacts/1db34a86-2cb8-44e3-b8d7-d5334248826c.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="Azure_C3ML_IHM_UAT" slaProfileEnabled="false"
+    uid="40c3d998-73ab-4765-ac0d-bcbcb27f800b" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_593abd12-4129-4480-8877-bb8ee8d72f73.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://bleu-test-ihm.ocp098.gehe.fr:18084/c3ml-ihm/sites"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="JSESSIONID=02E8210520AE5B4603E6934548D4F03D; ApplicationGatewayAffinityCORS=cabe94033f40009f7811e505fd3cc6c7; ApplicationGatewayAffinity=cabe94033f40009f7811e505fd3cc6c7"/>
+    <header name="accept-language" value="en-US,en;q=0.9,fr;q=0.8"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="image"/>
+    <header name="accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 26 Sep 2023 12:57:43 GMT&#xd;
+content-type: image/gif&#xd;
+content-length: 43&#xd;
+vary: Origin&#xd;
+vary: Access-Control-Request-Method&#xd;
+vary: Access-Control-Request-Headers&#xd;
+last-modified: Fri, 04 Aug 2023 11:57:38 GMT&#xd;
+accept-ranges: bytes&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 1; mode=block&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+pragma: no-cache&#xd;
+expires: 0&#xd;
+x-frame-options: DENY&#xd;
+content-security-policy: script-src 'self' 'unsafe-inline' *.ocp098.gehe.fr:18084</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Fri, 04 Aug 2023 11:57:38 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/c3ml-ihm/img/img.png"
+    path="/c3ml-ihm/img/img.png" postType="6"
+    recordedArtifactZipFileName="team/vus/@c3@m@l_@azure_@test_@n@r_@h@t@t@ps_@c@d@e_@d@c_@e@n_@t@a@c/%resources%/recorded-artifacts/1db34a86-2cb8-44e3-b8d7-d5334248826c.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="Azure_C3ML_IHM_UAT" slaProfileEnabled="false"
+    uid="5c9aee57-f402-4fa1-9bf8-3ac3a2a673c9" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_3911b0d2-7539-4544-9142-611f6dd5b122.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://bleu-test-ihm.ocp098.gehe.fr:18084/c3ml-ihm/sites"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="JSESSIONID=02E8210520AE5B4603E6934548D4F03D; ApplicationGatewayAffinityCORS=cabe94033f40009f7811e505fd3cc6c7; ApplicationGatewayAffinity=cabe94033f40009f7811e505fd3cc6c7"/>
+    <header name="accept-language" value="en-US,en;q=0.9,fr;q=0.8"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="image"/>
+    <header name="accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 26 Sep 2023 12:57:43 GMT&#xd;
+content-type: image/png&#xd;
+content-length: 15414&#xd;
+vary: Origin&#xd;
+vary: Access-Control-Request-Method&#xd;
+vary: Access-Control-Request-Headers&#xd;
+last-modified: Fri, 04 Aug 2023 11:57:38 GMT&#xd;
+accept-ranges: bytes&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 1; mode=block&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+pragma: no-cache&#xd;
+expires: 0&#xd;
+x-frame-options: DENY&#xd;
+content-security-policy: script-src 'self' 'unsafe-inline' *.ocp098.gehe.fr:18084</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Fri, 04 Aug 2023 11:57:38 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/c3ml-ihm/img/help_icon.gif"
+    path="/c3ml-ihm/img/help_icon.gif" postType="6"
+    recordedArtifactZipFileName="team/vus/@c3@m@l_@azure_@test_@n@r_@h@t@t@ps_@c@d@e_@d@c_@e@n_@t@a@c/%resources%/recorded-artifacts/1db34a86-2cb8-44e3-b8d7-d5334248826c.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="Azure_C3ML_IHM_UAT" slaProfileEnabled="false"
+    uid="eb165f58-87e8-47bc-9b34-9bdddcaaf8a0" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_0e9bccb8-3023-4924-bd9f-5402de11909c.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://bleu-test-ihm.ocp098.gehe.fr:18084/c3ml-ihm/sites"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="JSESSIONID=02E8210520AE5B4603E6934548D4F03D; ApplicationGatewayAffinityCORS=cabe94033f40009f7811e505fd3cc6c7; ApplicationGatewayAffinity=cabe94033f40009f7811e505fd3cc6c7"/>
+    <header name="accept-language" value="en-US,en;q=0.9,fr;q=0.8"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="image"/>
+    <header name="accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 26 Sep 2023 12:57:43 GMT&#xd;
+content-type: image/gif&#xd;
+content-length: 1065&#xd;
+vary: Origin&#xd;
+vary: Access-Control-Request-Method&#xd;
+vary: Access-Control-Request-Headers&#xd;
+last-modified: Fri, 04 Aug 2023 11:57:38 GMT&#xd;
+accept-ranges: bytes&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 1; mode=block&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+pragma: no-cache&#xd;
+expires: 0&#xd;
+x-frame-options: DENY&#xd;
+content-security-policy: script-src 'self' 'unsafe-inline' *.ocp098.gehe.fr:18084</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Fri, 04 Aug 2023 11:57:38 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/c3ml-ihm/img/passe.gif"
+    path="/c3ml-ihm/img/passe.gif" postType="6"
+    recordedArtifactZipFileName="team/vus/@c3@m@l_@azure_@test_@n@r_@h@t@t@ps_@c@d@e_@d@c_@e@n_@t@a@c/%resources%/recorded-artifacts/1db34a86-2cb8-44e3-b8d7-d5334248826c.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="Azure_C3ML_IHM_UAT" slaProfileEnabled="false"
+    uid="f6d5c0f1-997e-4d4d-8b02-7e5da3c202d0" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_76f15426-0ad6-48da-a7c8-d7e95746bfa2.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://bleu-test-ihm.ocp098.gehe.fr:18084/c3ml-ihm/sites"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="JSESSIONID=02E8210520AE5B4603E6934548D4F03D; ApplicationGatewayAffinityCORS=cabe94033f40009f7811e505fd3cc6c7; ApplicationGatewayAffinity=cabe94033f40009f7811e505fd3cc6c7"/>
+    <header name="accept-language" value="en-US,en;q=0.9,fr;q=0.8"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="image"/>
+    <header name="accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 26 Sep 2023 12:57:43 GMT&#xd;
+content-type: image/gif&#xd;
+content-length: 379&#xd;
+vary: Origin&#xd;
+vary: Access-Control-Request-Method&#xd;
+vary: Access-Control-Request-Headers&#xd;
+last-modified: Fri, 04 Aug 2023 11:57:38 GMT&#xd;
+accept-ranges: bytes&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 1; mode=block&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+pragma: no-cache&#xd;
+expires: 0&#xd;
+x-frame-options: DENY&#xd;
+content-security-policy: script-src 'self' 'unsafe-inline' *.ocp098.gehe.fr:18084</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Fri, 04 Aug 2023 11:57:38 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/c3ml-ihm/img/home.gif"
+    path="/c3ml-ihm/img/home.gif" postType="6"
+    recordedArtifactZipFileName="team/vus/@c3@m@l_@azure_@test_@n@r_@h@t@t@ps_@c@d@e_@d@c_@e@n_@t@a@c/%resources%/recorded-artifacts/1db34a86-2cb8-44e3-b8d7-d5334248826c.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="Azure_C3ML_IHM_UAT" slaProfileEnabled="false"
+    uid="e61c4271-9bb4-40a6-bf93-d8a8a4912e15" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_6c9ab83c-12ea-43cf-a97e-77484c94786f.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://bleu-test-ihm.ocp098.gehe.fr:18084/c3ml-ihm/sites"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="JSESSIONID=02E8210520AE5B4603E6934548D4F03D; ApplicationGatewayAffinityCORS=cabe94033f40009f7811e505fd3cc6c7; ApplicationGatewayAffinity=cabe94033f40009f7811e505fd3cc6c7"/>
+    <header name="accept-language" value="en-US,en;q=0.9,fr;q=0.8"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="image"/>
+    <header name="accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 26 Sep 2023 12:57:43 GMT&#xd;
+content-type: image/gif&#xd;
+content-length: 989&#xd;
+vary: Origin&#xd;
+vary: Access-Control-Request-Method&#xd;
+vary: Access-Control-Request-Headers&#xd;
+last-modified: Fri, 04 Aug 2023 11:57:38 GMT&#xd;
+accept-ranges: bytes&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 1; mode=block&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+pragma: no-cache&#xd;
+expires: 0&#xd;
+x-frame-options: DENY&#xd;
+content-security-policy: script-src 'self' 'unsafe-inline' *.ocp098.gehe.fr:18084</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Fri, 04 Aug 2023 11:57:38 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/c3ml-ihm/img/bqr3.gif"
+    path="/c3ml-ihm/img/bqr3.gif" postType="6"
+    recordedArtifactZipFileName="team/vus/@c3@m@l_@azure_@test_@n@r_@h@t@t@ps_@c@d@e_@d@c_@e@n_@t@a@c/%resources%/recorded-artifacts/1db34a86-2cb8-44e3-b8d7-d5334248826c.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="Azure_C3ML_IHM_UAT" slaProfileEnabled="false"
+    uid="dfc0c315-3ffe-4a52-97aa-ac802a09d242" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_f454aa3b-c05f-4db6-b05d-614d2752f054.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://bleu-test-ihm.ocp098.gehe.fr:18084/c3ml-ihm/css/style.css"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="JSESSIONID=02E8210520AE5B4603E6934548D4F03D; ApplicationGatewayAffinityCORS=cabe94033f40009f7811e505fd3cc6c7; ApplicationGatewayAffinity=cabe94033f40009f7811e505fd3cc6c7"/>
+    <header name="accept-language" value="en-US,en;q=0.9,fr;q=0.8"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="image"/>
+    <header name="accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 26 Sep 2023 12:57:43 GMT&#xd;
+content-type: image/gif&#xd;
+content-length: 64&#xd;
+vary: Origin&#xd;
+vary: Access-Control-Request-Method&#xd;
+vary: Access-Control-Request-Headers&#xd;
+last-modified: Fri, 04 Aug 2023 11:57:38 GMT&#xd;
+accept-ranges: bytes&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 1; mode=block&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+pragma: no-cache&#xd;
+expires: 0&#xd;
+x-frame-options: DENY&#xd;
+content-security-policy: script-src 'self' 'unsafe-inline' *.ocp098.gehe.fr:18084</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

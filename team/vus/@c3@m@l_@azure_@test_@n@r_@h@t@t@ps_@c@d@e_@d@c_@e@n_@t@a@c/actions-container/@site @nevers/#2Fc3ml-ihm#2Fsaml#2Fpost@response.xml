@@ -1,0 +1,589 @@
+<http-page executeResourcesDynamically="false"
+    name="/c3ml-ihm/saml/postResponse" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@c3@m@l_@azure_@test_@n@r_@h@t@t@ps_@c@d@e_@d@c_@e@n_@t@a@c/%resources%/recorded-artifacts/80bf1ae6-402b-43e0-ac00-4bf9cd69094d.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="80bf1ae6-402b-43e0-ac00-4bf9cd69094d">
+    <embedded-action>9a57504b-3041-4ac2-9b1a-55170466af7a</embedded-action>
+    <embedded-action>17e61622-21a4-4299-b0a2-7ced1895e882</embedded-action>
+    <embedded-action>0f5c031b-4241-435b-90dd-3212af5e84f0</embedded-action>
+    <embedded-action>6c51e4d2-36f4-4b48-82a4-cd55bd858019</embedded-action>
+    <embedded-action>fa202e6e-cd32-43df-b7ae-f1547486619b</embedded-action>
+    <embedded-action>4a13e1bc-f7f2-478d-a69b-97b8e5154d39</embedded-action>
+    <embedded-action>f0238849-cedd-400a-a4e1-cf289d81f976</embedded-action>
+    <embedded-action>90fa2ed6-51cd-4b88-94d5-a0c74093a7d5</embedded-action>
+    <embedded-action>d74ba482-7934-4e80-bc17-ce2d911110d0</embedded-action>
+    <embedded-action>48efcb2e-0089-4cc9-8c86-716d75280888</embedded-action>
+    <embedded-action>431f6b3e-3a66-4e40-b821-3bf4ec0e82e4</embedded-action>
+    <embedded-action>7ed3f9dd-3894-4a39-8a67-e36a6ace6a3b</embedded-action>
+    <embedded-action>1d97c61b-b4b7-497a-aac1-fe81bb5cb88e</embedded-action>
+</http-page>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/c3ml-ihm/saml/postResponse"
+    path="/c3ml-ihm/saml/postResponse" postCharset="iso-8859-1"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/@c3@m@l_@azure_@test_@n@r_@h@t@t@ps_@c@d@e_@d@c_@e@n_@t@a@c/%resources%/recorded-artifacts/80bf1ae6-402b-43e0-ac00-4bf9cd69094d.zip"
+    recordedResponseCode="302" responseSize="0"
+    serverUid="Azure_C3ML_IHM_UAT" slaProfileEnabled="false"
+    uid="9a57504b-3041-4ac2-9b1a-55170466af7a" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[U0FNTFJlc3BvbnNlPVBITmhiV3h3T2xKbGMzQnZibk5sSUVsRVBTSmZPVFJoWmpRMU1HRXRPVEkxTkMwME5UaGxMVGxsWkRrdE5qQmhOekk1T0RnMFpHUmpJaUJXWlhKemFXOXVQU0l5TGpBaUlFbHpjM1ZsU1c1emRHRnVkRDBpTWpBeU15MHdPUzB5TmxReE1qbzFOam8xT1M0NE1ESmFJaUJFWlhOMGFXNWhkR2x2YmowaWFIUjBjSE02THk5aWJHVjFMWFJsYzNRdGFXaHRMbTlqY0RBNU9DNW5aV2hsTG1aeU9qRTRNRGcwTDJNemJXd3RhV2h0TDNOaGJXd3ZjRzl6ZEZKbGMzQnZibk5sSWlCSmJsSmxjM0J2Ym5ObFZHODlJa0ZTVVRsbFpEUXlObU10TmpFeU9TMDBZV1U0TFRsaU1URXROR0k1WkRreU9UQTJPR0ZpSWlCNGJXeHVjenB6WVcxc2NEMGlkWEp1T205aGMybHpPbTVoYldWek9uUmpPbE5CVFV3Nk1pNHdPbkJ5YjNSdlkyOXNJajQ4U1hOemRXVnlJSGh0Ykc1elBTSjFjbTQ2YjJGemFYTTZibUZ0WlhNNmRHTTZVMEZOVERveUxqQTZZWE56WlhKMGFXOXVJajVvZEhSd2N6b3ZMM04wY3k1M2FXNWtiM2R6TG01bGRDOWxOV1F3TVRneVlpMW1ORFU0TFRRd00yTXRPR1F3TmkxaU9ESTFNVEV5TkRBNFlqWXZQQzlKYzNOMVpYSSUyQlBITmhiV3h3T2xOMFlYUjFjejQ4YzJGdGJIQTZVM1JoZEhWelEyOWtaU0JXWVd4MVpUMGlkWEp1T205aGMybHpPbTVoYldWek9uUmpPbE5CVFV3Nk1pNHdPbk4wWVhSMWN6cFRkV05qWlhOeklpOCUyQlBDOXpZVzFzY0RwVGRHRjBkWE0lMkJQRUZ6YzJWeWRHbHZiaUJKUkQwaVgyVTJNMlk0Wm1VekxUY3pOVFF0TkRVNU9DMDVOamsxTFRaa00yRTRPR05sTVRBd01DSWdTWE56ZFdWSmJuTjBZVzUwUFNJeU1ESXpMVEE1TFRJMlZERXlPalUyT2pVNUxqYzVPVm9pSUZabGNuTnBiMjQ5SWpJdU1DSWdlRzFzYm5NOUluVnlianB2WVhOcGN6cHVZVzFsY3pwMFl6cFRRVTFNT2pJdU1EcGhjM05sY25ScGIyNGlQanhKYzNOMVpYSSUyQmFIUjBjSE02THk5emRITXVkMmx1Wkc5M2N5NXVaWFF2WlRWa01ERTRNbUl0WmpRMU9DMDBNRE5qTFRoa01EWXRZamd5TlRFeE1qUXdPR0kyTHp3dlNYTnpkV1Z5UGp4VGFXZHVZWFIxY21VZ2VHMXNibk05SW1oMGRIQTZMeTkzZDNjdWR6TXViM0puTHpJd01EQXZNRGt2ZUcxc1pITnBaeU1pUGp4VGFXZHVaV1JKYm1adlBqeERZVzV2Ym1sallXeHBlbUYwYVc5dVRXVjBhRzlrSUVGc1oyOXlhWFJvYlQwaWFIUjBjRG92TDNkM2R5NTNNeTV2Y21jdk1qQXdNUzh4TUM5NGJXd3RaWGhqTFdNeE5HNGpJaTglMkJQRk5wWjI1aGRIVnlaVTFsZEdodlpDQkJiR2R2Y21sMGFHMDlJbWgwZEhBNkx5OTNkM2N1ZHpNdWIzSm5Mekl3TURFdk1EUXZlRzFzWkhOcFp5MXRiM0psSTNKellTMXphR0V5TlRZaUx6NDhVbVZtWlhKbGJtTmxJRlZTU1QwaUkxOWxOak5tT0dabE15MDNNelUwTFRRMU9UZ3RPVFk1TlMwMlpETmhPRGhqWlRFd01EQWlQanhVY21GdWMyWnZjbTF6UGp4VWNtRnVjMlp2Y20wZ1FXeG5iM0pwZEdodFBTSm9kSFJ3T2k4dmQzZDNMbmN6TG05eVp5OHlNREF3THpBNUwzaHRiR1J6YVdjalpXNTJaV3h2Y0dWa0xYTnBaMjVoZEhWeVpTSXZQanhVY21GdWMyWnZjbTBnUVd4bmIzSnBkR2h0UFNKb2RIUndPaTh2ZDNkM0xuY3pMbTl5Wnk4eU1EQXhMekV3TDNodGJDMWxlR010WXpFMGJpTWlMejQ4TDFSeVlXNXpabTl5YlhNJTJCUEVScFoyVnpkRTFsZEdodlpDQkJiR2R2Y21sMGFHMDlJbWgwZEhBNkx5OTNkM2N1ZHpNdWIzSm5Mekl3TURFdk1EUXZlRzFzWlc1akkzTm9ZVEkxTmlJdlBqeEVhV2RsYzNSV1lXeDFaVDVZZUdkUVR6Um9iMU5CTld0T05FY3lVV3h1YTFneFUzVjNiMjFJYkhwellVRXhWblpVZWs1VE5FaHpQVHd2UkdsblpYTjBWbUZzZFdVJTJCUEM5U1pXWmxjbVZ1WTJVJTJCUEM5VGFXZHVaV1JKYm1adlBqeFRhV2R1WVhSMWNtVldZV3gxWlQ1UlNFMVVkbFl5U0hkSWQxUkRObUk1YlROQk4wdHljRmxUTUZCcGN6TmpMMVp3ZUc5a1NWUkhRWEF6VDIxMk0xazRaRzltY2psaWRFeHRZMVpRZFdwUWIwUklkVzh5ZFdkdVEwbFljRXBvZHpaNmFXSmtOakZLUzFGUU1rOVVNRkJsUzJKak9FRkRXRkF6VlZoMWIyUXJNVGx3V0dVME5uTmxNV2hFVVd4WmRWbElibTVJVVZoT1VtUTVMM1ZzUzFOUFoyWXhOVE5LYjNkeVowTXlSSEpqVUhOT2RUTlNVbmRwVmpSVk1XVk9aVTFKUjNNNGFFSlJja2QzVjI5NGEwRlVZV1p4YVc5aFNHTlZXSFZVT0hJMFpsUm9TazVETTJaV01tUndWekpLTm0xQ1dtaDFjM0pQVTNGRmVsTnFhbnB0UjAxdE9YUjFWMUo0Y2pkTFlteEtRVkp0WlZkTFJWWnNaMmxUVEZOM1Z6ZzVlVzV3WkRKTVYzWm1NbFU1WVZSdVZXVkJkM05yTWtndk5rMDNOMEoxUWpJMlJGRkpNa28xUlZsWU4wSmhSMlprZW5oemVEbEVOVEZTYjJ4NlN6UkZTbHBpVjFFOVBUd3ZVMmxuYm1GMGRYSmxWbUZzZFdVJTJCUEV0bGVVbHVabTglMkJQRmcxTURsRVlYUmhQanhZTlRBNVEyVnlkR2xtYVdOaGRHVSUyQlRVbEpRemhFUTBOQlpHbG5RWGRKUWtGblNWRlhPV2R1V1ZCNmIxWmFlRUZxWVd3NVRHNXRNbEo2UVU1Q1oydHhhR3RwUnpsM01FSkJVWE5HUVVSQk1FMVVTWGROUVZsRVZsRlJSRVY1YkU1aFYwNTVZak5PZGxwdVVXZFJXSEF4WTIxVloxSnRWbXRhV0Vwb1pFZFdhMGxHVGxSVWVVSkVXbGhLTUdGWFduQlpNa1l3V2xSQlpVWjNNSGxOYWtFMFRWUnJlRTE2VFROTlZHUmhSbmN3ZVU1VVFUUk5WR3Q0VFhwTk0wMVVXbUZOUkZGNFRXcEJkMEpuVGxaQ1FVMVVTMVV4Y0ZrelNuWmpNamx0WkVOQ1FtVnVWbmxhVTBKSFdsZFNiR050UmpCYVYxRm5WVEZPVUVsRlRteGpibEp3V20xc2FsbFlVbXhOU1VsQ1NXcEJUa0puYTNGb2EybEhPWGN3UWtGUlJVWkJRVTlEUVZFNFFVMUpTVUpEWjB0RFFWRkZRVzh2T1hkbVpYSTBNbXMxWlhOdVJVOWpNWEJ6Ym5KelMyRlJibEZXY2pjdlRGZG9WV1JWWWpWdFZtTkJibGxRVFhOV1psaHhSVkpPVVVwMWFqaEJhVTR4UlVkWlFXeGlTekl2VWtkclNFOW1hVUZvVEVsb2JHaEhWREpsTkU1VWJXOWtLMVZ0VnprNVYyVXdXVGhCYmpsU1ZWcDFVVVZTY0RSTFYyMHlSazQ1TnlzMEwzWlNlU3R5YzI5ek1XeFhTbmhETUhGWVRtZFBTalEwY0ZoUlNXdEhjbXBIWW1WaWVVTnNNbmRPVWtkVGNIWmplVWxUVFdkM2ExWmhNMnhVTmtwalIzaENUQzg1TVRJNFVHaEtWRWxCYW5SSFNpczBWMjFZYjJvMWIxUjNaakl5VkRsNk5VMHhhelpZYURsNFRrOXBVazlGTHpBM2QzaEZhREI1ZFRSWk1VSmFRMUZWT0ROWVlVZFJZbmRvVmxabUsxQnVZazlzWjFOblExZGpWbXd6VW5rNGVqRkhRbUZOUjFCQlozbHRTME5RUW1SS00xSjFTMmxFZGtWb2NVdExkRGgyVG1wWVRqbEZkU3RsVmxCNlJsZG9VVWxFUVZGQlFrMUJNRWREVTNGSFUwbGlNMFJSUlVKRGQxVkJRVFJKUWtGUlEyRlVhVE42Tm1sV1EyMW5UVGszV1dNeGJGTnpiakpQVm5GbWRIUnRNVXAxYW5GeUwyWmhiM1JPZHpWbWFsQnRkVmhKYTA5cmExbzBMMjlDYWt3MlRHOW1aek42WlVaYVkzQllWbXRKWTNSeGNXRTNhVnByY2xJelRsSndRVWd4TDFOMFpVVTNZVkpCUldSS1JXTldhRWxwTlVkVk0zSjBZMjQ0VTI5NGRqaHpVRUYzTWsxdlJreHFUVlp3VkhOV2IwSXhSMEZVWjNaVmRuQlBVbGxoTW5SRU56WjBVSEJ6WkRWM1EyeFBkV0o0TTNsQk5GcGxWMkZCYURGRlZrTlhSRk0zUW1kNlFuVk1jVTVMVW5sdU1qUnNlV3g0Wms5V1NFbHVhM0F4TjBFeU1FeDRVRk5qUjJJNU1HUTVjVlk0VFVOSlZUVkNhV3MxY3pWMVkxWlBhRGRSYVRVM2RWQkZNR0pCU0ZJekwxaEVPVk5LWVVaUWIyZHlkazFMYmpKUU1HOXVNeTl3VUVwc1JHaEZXWFJaWkZsMWMwbFJia3R3YkRnd05HZzFhalpCU1hVNVpXUm5ZVFF3TUhoMWRFUmxRMkZFZDJzclBDOVlOVEE1UTJWeWRHbG1hV05oZEdVJTJCUEM5WU5UQTVSR0YwWVQ0OEwwdGxlVWx1Wm04JTJCUEM5VGFXZHVZWFIxY21VJTJCUEZOMVltcGxZM1ElMkJQRTVoYldWSlJDQkdiM0p0WVhROUluVnlianB2WVhOcGN6cHVZVzFsY3pwMFl6cFRRVTFNT2pFdU1UcHVZVzFsYVdRdFptOXliV0YwT21WdFlXbHNRV1JrY21WemN5SSUyQlFtbHVMa2gxWVc1blFHMWphMlZ6YzI5dUxtVjFQQzlPWVcxbFNVUSUyQlBGTjFZbXBsWTNSRGIyNW1hWEp0WVhScGIyNGdUV1YwYUc5a1BTSjFjbTQ2YjJGemFYTTZibUZ0WlhNNmRHTTZVMEZOVERveUxqQTZZMjA2WW1WaGNtVnlJajQ4VTNWaWFtVmpkRU52Ym1acGNtMWhkR2x2YmtSaGRHRWdTVzVTWlhOd2IyNXpaVlJ2UFNKQlVsRTVaV1EwTWpaakxUWXhNamt0TkdGbE9DMDVZakV4TFRSaU9XUTVNamt3TmpoaFlpSWdUbTkwVDI1UGNrRm1kR1Z5UFNJeU1ESXpMVEE1TFRJMlZERXpPalUyT2pVNUxqVTFOMW9pSUZKbFkybHdhV1Z1ZEQwaWFIUjBjSE02THk5aWJHVjFMWFJsYzNRdGFXaHRMbTlqY0RBNU9DNW5aV2hsTG1aeU9qRTRNRGcwTDJNemJXd3RhV2h0TDNOaGJXd3ZjRzl6ZEZKbGMzQnZibk5sSWk4JTJCUEM5VGRXSnFaV04wUTI5dVptbHliV0YwYVc5dVBqd3ZVM1ZpYW1WamRENDhRMjl1WkdsMGFXOXVjeUJPYjNSQ1pXWnZjbVU5SWpJd01qTXRNRGt0TWpaVU1USTZOVEU2TlRrdU5UVTNXaUlnVG05MFQyNVBja0ZtZEdWeVBTSXlNREl6TFRBNUxUSTJWREV6T2pVMk9qVTVMalUxTjFvaVBqeEJkV1JwWlc1alpWSmxjM1J5YVdOMGFXOXVQanhCZFdScFpXNWpaVDVqTTIxc0xXbG9iUzExWVhROEwwRjFaR2xsYm1ObFBqd3ZRWFZrYVdWdVkyVlNaWE4wY21samRHbHZiajQ4TDBOdmJtUnBkR2x2Ym5NJTJCUEVGMGRISnBZblYwWlZOMFlYUmxiV1Z1ZEQ0OFFYUjBjbWxpZFhSbElFNWhiV1U5SW1oMGRIQTZMeTl6WTJobGJXRnpMbTFwWTNKdmMyOW1kQzVqYjIwdmFXUmxiblJwZEhrdlkyeGhhVzF6TDNSbGJtRnVkR2xrSWo0OFFYUjBjbWxpZFhSbFZtRnNkV1UlMkJaVFZrTURFNE1tSXRaalExT0MwME1ETmpMVGhrTURZdFlqZ3lOVEV4TWpRd09HSTJQQzlCZEhSeWFXSjFkR1ZXWVd4MVpUNDhMMEYwZEhKcFluVjBaVDQ4UVhSMGNtbGlkWFJsSUU1aGJXVTlJbWgwZEhBNkx5OXpZMmhsYldGekxtMXBZM0p2YzI5bWRDNWpiMjB2YVdSbGJuUnBkSGt2WTJ4aGFXMXpMMjlpYW1WamRHbGtaVzUwYVdacFpYSWlQanhCZEhSeWFXSjFkR1ZXWVd4MVpUNWtOVFJpTXpabVlpMDFObVZoTFRRek9XRXRZVEV6TVMwMU4yUmxZVGxtWWpobU5ESThMMEYwZEhKcFluVjBaVlpoYkhWbFBqd3ZRWFIwY21saWRYUmxQanhCZEhSeWFXSjFkR1VnVG1GdFpUMGlhSFIwY0RvdkwzTmphR1Z0WVhNdWJXbGpjbTl6YjJaMExtTnZiUzlwWkdWdWRHbDBlUzlqYkdGcGJYTXZaR2x6Y0d4aGVXNWhiV1VpUGp4QmRIUnlhV0oxZEdWV1lXeDFaVDVJZFdGdVp5d2dRbWx1UEM5QmRIUnlhV0oxZEdWV1lXeDFaVDQ4TDBGMGRISnBZblYwWlQ0OFFYUjBjbWxpZFhSbElFNWhiV1U5SW1oMGRIQTZMeTl6WTJobGJXRnpMbTFwWTNKdmMyOW1kQzVqYjIwdmFXUmxiblJwZEhrdlkyeGhhVzF6TDJsa1pXNTBhWFI1Y0hKdmRtbGtaWElpUGp4QmRIUnlhV0oxZEdWV1lXeDFaVDVvZEhSd2N6b3ZMM04wY3k1M2FXNWtiM2R6TG01bGRDOWxOV1F3TVRneVlpMW1ORFU0TFRRd00yTXRPR1F3TmkxaU9ESTFNVEV5TkRBNFlqWXZQQzlCZEhSeWFXSjFkR1ZXWVd4MVpUNDhMMEYwZEhKcFluVjBaVDQ4UVhSMGNtbGlkWFJsSUU1aGJXVTlJbWgwZEhBNkx5OXpZMmhsYldGekxtMXBZM0p2YzI5bWRDNWpiMjB2WTJ4aGFXMXpMMkYxZEdodWJXVjBhRzlrYzNKbFptVnlaVzVqWlhNaVBqeEJkSFJ5YVdKMWRHVldZV3gxWlQ1b2RIUndPaTh2YzJOb1pXMWhjeTV0YVdOeWIzTnZablF1WTI5dEwzZHpMekl3TURndk1EWXZhV1JsYm5ScGRIa3ZZWFYwYUdWdWRHbGpZWFJwYjI1dFpYUm9iMlF2Y0dGemMzZHZjbVE4TDBGMGRISnBZblYwWlZaaGJIVmxQand2UVhSMGNtbGlkWFJsUGp4QmRIUnlhV0oxZEdVZ1RtRnRaVDBpYUhSMGNEb3ZMM05qYUdWdFlYTXVlRzFzYzI5aGNDNXZjbWN2ZDNNdk1qQXdOUzh3TlM5cFpHVnVkR2wwZVM5amJHRnBiWE12WjJsMlpXNXVZVzFsSWo0OFFYUjBjbWxpZFhSbFZtRnNkV1UlMkJRbWx1UEM5QmRIUnlhV0oxZEdWV1lXeDFaVDQ4TDBGMGRISnBZblYwWlQ0OFFYUjBjbWxpZFhSbElFNWhiV1U5SW1oMGRIQTZMeTl6WTJobGJXRnpMbmh0YkhOdllYQXViM0puTDNkekx6SXdNRFV2TURVdmFXUmxiblJwZEhrdlkyeGhhVzF6TDNOMWNtNWhiV1VpUGp4QmRIUnlhV0oxZEdWV1lXeDFaVDVJZFdGdVp6d3ZRWFIwY21saWRYUmxWbUZzZFdVJTJCUEM5QmRIUnlhV0oxZEdVJTJCUEVGMGRISnBZblYwWlNCT1lXMWxQU0pvZEhSd09pOHZjMk5vWlcxaGN5NTRiV3h6YjJGd0xtOXlaeTkzY3k4eU1EQTFMekExTDJsa1pXNTBhWFI1TDJOc1lXbHRjeTlsYldGcGJHRmtaSEpsYzNNaVBqeEJkSFJ5YVdKMWRHVldZV3gxWlQ1Q2FXNHVTSFZoYm1kQWIyTndMbVp5UEM5QmRIUnlhV0oxZEdWV1lXeDFaVDQ4TDBGMGRISnBZblYwWlQ0OFFYUjBjbWxpZFhSbElFNWhiV1U5SW1oMGRIQTZMeTl6WTJobGJXRnpMbmh0YkhOdllYQXViM0puTDNkekx6SXdNRFV2TURVdmFXUmxiblJwZEhrdlkyeGhhVzF6TDI1aGJXVWlQanhCZEhSeWFXSjFkR1ZXWVd4MVpUNUNhVzR1U0hWaGJtZEFiV05yWlhOemIyNHVaWFU4TDBGMGRISnBZblYwWlZaaGJIVmxQand2UVhSMGNtbGlkWFJsUGp4QmRIUnlhV0oxZEdVZ1RtRnRaVDBpVEc5bmFXNGlQanhCZEhSeWFXSjFkR1ZXWVd4MVpUNW9kV0Z1WjJKcGJqd3ZRWFIwY21saWRYUmxWbUZzZFdVJTJCUEM5QmRIUnlhV0oxZEdVJTJCUEM5QmRIUnlhV0oxZEdWVGRHRjBaVzFsYm5RJTJCUEVGMWRHaHVVM1JoZEdWdFpXNTBJRUYxZEdodVNXNXpkR0Z1ZEQwaU1qQXlNeTB3T1MweU5sUXhNam8xTmpvMU9TNDNOVGhhSWlCVFpYTnphVzl1U1c1a1pYZzlJbDlsTmpObU9HWmxNeTAzTXpVMExUUTFPVGd0T1RZNU5TMDJaRE5oT0RoalpURXdNREFpUGp4QmRYUm9ia052Ym5SbGVIUSUyQlBFRjFkR2h1UTI5dWRHVjRkRU5zWVhOelVtVm1QblZ5YmpwdllYTnBjenB1WVcxbGN6cDBZenBUUVUxTU9qSXVNRHBoWXpwamJHRnpjMlZ6T2xCaGMzTjNiM0prUEM5QmRYUm9ia052Ym5SbGVIUkRiR0Z6YzFKbFpqNDhMMEYxZEdodVEyOXVkR1Y0ZEQ0OEwwRjFkR2h1VTNSaGRHVnRaVzUwUGp3dlFYTnpaWEowYVc5dVBqd3ZjMkZ0YkhBNlVtVnpjRzl1YzJVJTJC]]></binaryPostContentBase64>
+    <requestContentFileDescription>recorded-requests/req_81a33139-907f-4f16-a10c-c3e0e791f960.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="SAMLResponse"
+        recordRawValue="PHNhbWxwOlJlc3BvbnNlIElEPSJfOTRhZjQ1MGEtOTI1NC00NThlLTllZDktNjBhNzI5ODg0ZGRjIiBWZXJzaW9uPSIyLjAiIElzc3VlSW5zdGFudD0iMjAyMy0wOS0yNlQxMjo1Njo1OS44MDJaIiBEZXN0aW5hdGlvbj0iaHR0cHM6Ly9ibGV1LXRlc3QtaWhtLm9jcDA5OC5nZWhlLmZyOjE4MDg0L2MzbWwtaWhtL3NhbWwvcG9zdFJlc3BvbnNlIiBJblJlc3BvbnNlVG89IkFSUTllZDQyNmMtNjEyOS00YWU4LTliMTEtNGI5ZDkyOTA2OGFiIiB4bWxuczpzYW1scD0idXJuOm9hc2lzOm5hbWVzOnRjOlNBTUw6Mi4wOnByb3RvY29sIj48SXNzdWVyIHhtbG5zPSJ1cm46b2FzaXM6bmFtZXM6dGM6U0FNTDoyLjA6YXNzZXJ0aW9uIj5odHRwczovL3N0cy53aW5kb3dzLm5ldC9lNWQwMTgyYi1mNDU4LTQwM2MtOGQwNi1iODI1MTEyNDA4YjYvPC9Jc3N1ZXI%2BPHNhbWxwOlN0YXR1cz48c2FtbHA6U3RhdHVzQ29kZSBWYWx1ZT0idXJuOm9hc2lzOm5hbWVzOnRjOlNBTUw6Mi4wOnN0YXR1czpTdWNjZXNzIi8%2BPC9zYW1scDpTdGF0dXM%2BPEFzc2VydGlvbiBJRD0iX2U2M2Y4ZmUzLTczNTQtNDU5OC05Njk1LTZkM2E4OGNlMTAwMCIgSXNzdWVJbnN0YW50PSIyMDIzLTA5LTI2VDEyOjU2OjU5Ljc5OVoiIFZlcnNpb249IjIuMCIgeG1sbnM9InVybjpvYXNpczpuYW1lczp0YzpTQU1MOjIuMDphc3NlcnRpb24iPjxJc3N1ZXI%2BaHR0cHM6Ly9zdHMud2luZG93cy5uZXQvZTVkMDE4MmItZjQ1OC00MDNjLThkMDYtYjgyNTExMjQwOGI2LzwvSXNzdWVyPjxTaWduYXR1cmUgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyMiPjxTaWduZWRJbmZvPjxDYW5vbmljYWxpemF0aW9uTWV0aG9kIEFsZ29yaXRobT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS8xMC94bWwtZXhjLWMxNG4jIi8%2BPFNpZ25hdHVyZU1ldGhvZCBBbGdvcml0aG09Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvMDQveG1sZHNpZy1tb3JlI3JzYS1zaGEyNTYiLz48UmVmZXJlbmNlIFVSST0iI19lNjNmOGZlMy03MzU0LTQ1OTgtOTY5NS02ZDNhODhjZTEwMDAiPjxUcmFuc2Zvcm1zPjxUcmFuc2Zvcm0gQWxnb3JpdGhtPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjZW52ZWxvcGVkLXNpZ25hdHVyZSIvPjxUcmFuc2Zvcm0gQWxnb3JpdGhtPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzEwL3htbC1leGMtYzE0biMiLz48L1RyYW5zZm9ybXM%2BPERpZ2VzdE1ldGhvZCBBbGdvcml0aG09Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvMDQveG1sZW5jI3NoYTI1NiIvPjxEaWdlc3RWYWx1ZT5YeGdQTzRob1NBNWtONEcyUWxua1gxU3V3b21IbHpzYUExVnZUek5TNEhzPTwvRGlnZXN0VmFsdWU%2BPC9SZWZlcmVuY2U%2BPC9TaWduZWRJbmZvPjxTaWduYXR1cmVWYWx1ZT5RSE1UdlYySHdId1RDNmI5bTNBN0tycFlTMFBpczNjL1ZweG9kSVRHQXAzT212M1k4ZG9mcjlidExtY1ZQdWpQb0RIdW8ydWduQ0lYcEpodzZ6aWJkNjFKS1FQMk9UMFBlS2JjOEFDWFAzVVh1b2QrMTlwWGU0NnNlMWhEUWxZdVlIbm5IUVhOUmQ5L3VsS1NPZ2YxNTNKb3dyZ0MyRHJjUHNOdTNSUndpVjRVMWVOZU1JR3M4aEJRckd3V294a0FUYWZxaW9hSGNVWHVUOHI0ZlRoSk5DM2ZWMmRwVzJKNm1CWmh1c3JPU3FFelNqanptR01tOXR1V1J4cjdLYmxKQVJtZVdLRVZsZ2lTTFN3Vzg5eW5wZDJMV3ZmMlU5YVRuVWVBd3NrMkgvNk03N0J1QjI2RFFJMko1RVlYN0JhR2ZkenhzeDlENTFSb2x6SzRFSlpiV1E9PTwvU2lnbmF0dXJlVmFsdWU%2BPEtleUluZm8%2BPFg1MDlEYXRhPjxYNTA5Q2VydGlmaWNhdGU%2BTUlJQzhEQ0NBZGlnQXdJQkFnSVFXOWduWVB6b1ZaeEFqYWw5TG5tMlJ6QU5CZ2txaGtpRzl3MEJBUXNGQURBME1USXdNQVlEVlFRREV5bE5hV055YjNOdlpuUWdRWHAxY21VZ1JtVmtaWEpoZEdWa0lGTlRUeUJEWlhKMGFXWnBZMkYwWlRBZUZ3MHlNakE0TVRreE16TTNNVGRhRncweU5UQTRNVGt4TXpNM01UWmFNRFF4TWpBd0JnTlZCQU1US1UxcFkzSnZjMjltZENCQmVuVnlaU0JHWldSbGNtRjBaV1FnVTFOUElFTmxjblJwWm1sallYUmxNSUlCSWpBTkJna3Foa2lHOXcwQkFRRUZBQU9DQVE4QU1JSUJDZ0tDQVFFQW8vOXdmZXI0Mms1ZXNuRU9jMXBzbnJzS2FRblFWcjcvTFdoVWRVYjVtVmNBbllQTXNWZlhxRVJOUUp1ajhBaU4xRUdZQWxiSzIvUkdrSE9maUFoTElobGhHVDJlNE5UbW9kK1VtVzk5V2UwWThBbjlSVVp1UUVScDRLV20yRk45Nys0L3ZSeStyc29zMWxXSnhDMHFYTmdPSjQ0cFhRSWtHcmpHYmVieUNsMndOUkdTcHZjeUlTTWd3a1ZhM2xUNkpjR3hCTC85MTI4UGhKVElBanRHSis0V21Yb2o1b1R3ZjIyVDl6NU0xazZYaDl4Tk9pUk9FLzA3d3hFaDB5dTRZMUJaQ1FVODNYYUdRYndoVlZmK1BuYk9sZ1NnQ1djVmwzUnk4ejFHQmFNR1BBZ3ltS0NQQmRKM1J1S2lEdkVocUtLdDh2TmpYTjlFdStlVlB6RldoUUlEQVFBQk1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQ2FUaTN6NmlWQ21nTTk3WWMxbFNzbjJPVnFmdHRtMUp1anFyL2Zhb3ROdzVmalBtdVhJa09ra1o0L29Cakw2TG9mZzN6ZUZaY3BYVmtJY3RxcWE3aVprclIzTlJwQUgxL1N0ZUU3YVJBRWRKRWNWaElpNUdVM3J0Y244U294djhzUEF3Mk1vRkxqTVZwVHNWb0IxR0FUZ3ZVdnBPUllhMnRENzZ0UHBzZDV3Q2xPdWJ4M3lBNFplV2FBaDFFVkNXRFM3Qmd6QnVMcU5LUnluMjRseWx4Zk9WSElua3AxN0EyMEx4UFNjR2I5MGQ5cVY4TUNJVTVCaWs1czV1Y1ZPaDdRaTU3dVBFMGJBSFIzL1hEOVNKYUZQb2dydk1LbjJQMG9uMy9wUEpsRGhFWXRZZFl1c0lRbktwbDgwNGg1ajZBSXU5ZWRnYTQwMHh1dERlQ2FEd2srPC9YNTA5Q2VydGlmaWNhdGU%2BPC9YNTA5RGF0YT48L0tleUluZm8%2BPC9TaWduYXR1cmU%2BPFN1YmplY3Q%2BPE5hbWVJRCBGb3JtYXQ9InVybjpvYXNpczpuYW1lczp0YzpTQU1MOjEuMTpuYW1laWQtZm9ybWF0OmVtYWlsQWRkcmVzcyI%2BQmluLkh1YW5nQG1ja2Vzc29uLmV1PC9OYW1lSUQ%2BPFN1YmplY3RDb25maXJtYXRpb24gTWV0aG9kPSJ1cm46b2FzaXM6bmFtZXM6dGM6U0FNTDoyLjA6Y206YmVhcmVyIj48U3ViamVjdENvbmZpcm1hdGlvbkRhdGEgSW5SZXNwb25zZVRvPSJBUlE5ZWQ0MjZjLTYxMjktNGFlOC05YjExLTRiOWQ5MjkwNjhhYiIgTm90T25PckFmdGVyPSIyMDIzLTA5LTI2VDEzOjU2OjU5LjU1N1oiIFJlY2lwaWVudD0iaHR0cHM6Ly9ibGV1LXRlc3QtaWhtLm9jcDA5OC5nZWhlLmZyOjE4MDg0L2MzbWwtaWhtL3NhbWwvcG9zdFJlc3BvbnNlIi8%2BPC9TdWJqZWN0Q29uZmlybWF0aW9uPjwvU3ViamVjdD48Q29uZGl0aW9ucyBOb3RCZWZvcmU9IjIwMjMtMDktMjZUMTI6NTE6NTkuNTU3WiIgTm90T25PckFmdGVyPSIyMDIzLTA5LTI2VDEzOjU2OjU5LjU1N1oiPjxBdWRpZW5jZVJlc3RyaWN0aW9uPjxBdWRpZW5jZT5jM21sLWlobS11YXQ8L0F1ZGllbmNlPjwvQXVkaWVuY2VSZXN0cmljdGlvbj48L0NvbmRpdGlvbnM%2BPEF0dHJpYnV0ZVN0YXRlbWVudD48QXR0cmlidXRlIE5hbWU9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vaWRlbnRpdHkvY2xhaW1zL3RlbmFudGlkIj48QXR0cmlidXRlVmFsdWU%2BZTVkMDE4MmItZjQ1OC00MDNjLThkMDYtYjgyNTExMjQwOGI2PC9BdHRyaWJ1dGVWYWx1ZT48L0F0dHJpYnV0ZT48QXR0cmlidXRlIE5hbWU9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vaWRlbnRpdHkvY2xhaW1zL29iamVjdGlkZW50aWZpZXIiPjxBdHRyaWJ1dGVWYWx1ZT5kNTRiMzZmYi01NmVhLTQzOWEtYTEzMS01N2RlYTlmYjhmNDI8L0F0dHJpYnV0ZVZhbHVlPjwvQXR0cmlidXRlPjxBdHRyaWJ1dGUgTmFtZT0iaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS9pZGVudGl0eS9jbGFpbXMvZGlzcGxheW5hbWUiPjxBdHRyaWJ1dGVWYWx1ZT5IdWFuZywgQmluPC9BdHRyaWJ1dGVWYWx1ZT48L0F0dHJpYnV0ZT48QXR0cmlidXRlIE5hbWU9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vaWRlbnRpdHkvY2xhaW1zL2lkZW50aXR5cHJvdmlkZXIiPjxBdHRyaWJ1dGVWYWx1ZT5odHRwczovL3N0cy53aW5kb3dzLm5ldC9lNWQwMTgyYi1mNDU4LTQwM2MtOGQwNi1iODI1MTEyNDA4YjYvPC9BdHRyaWJ1dGVWYWx1ZT48L0F0dHJpYnV0ZT48QXR0cmlidXRlIE5hbWU9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vY2xhaW1zL2F1dGhubWV0aG9kc3JlZmVyZW5jZXMiPjxBdHRyaWJ1dGVWYWx1ZT5odHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvYXV0aGVudGljYXRpb25tZXRob2QvcGFzc3dvcmQ8L0F0dHJpYnV0ZVZhbHVlPjwvQXR0cmlidXRlPjxBdHRyaWJ1dGUgTmFtZT0iaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvZ2l2ZW5uYW1lIj48QXR0cmlidXRlVmFsdWU%2BQmluPC9BdHRyaWJ1dGVWYWx1ZT48L0F0dHJpYnV0ZT48QXR0cmlidXRlIE5hbWU9Imh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL3N1cm5hbWUiPjxBdHRyaWJ1dGVWYWx1ZT5IdWFuZzwvQXR0cmlidXRlVmFsdWU%2BPC9BdHRyaWJ1dGU%2BPEF0dHJpYnV0ZSBOYW1lPSJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiPjxBdHRyaWJ1dGVWYWx1ZT5CaW4uSHVhbmdAb2NwLmZyPC9BdHRyaWJ1dGVWYWx1ZT48L0F0dHJpYnV0ZT48QXR0cmlidXRlIE5hbWU9Imh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiPjxBdHRyaWJ1dGVWYWx1ZT5CaW4uSHVhbmdAbWNrZXNzb24uZXU8L0F0dHJpYnV0ZVZhbHVlPjwvQXR0cmlidXRlPjxBdHRyaWJ1dGUgTmFtZT0iTG9naW4iPjxBdHRyaWJ1dGVWYWx1ZT5odWFuZ2JpbjwvQXR0cmlidXRlVmFsdWU%2BPC9BdHRyaWJ1dGU%2BPC9BdHRyaWJ1dGVTdGF0ZW1lbnQ%2BPEF1dGhuU3RhdGVtZW50IEF1dGhuSW5zdGFudD0iMjAyMy0wOS0yNlQxMjo1Njo1OS43NThaIiBTZXNzaW9uSW5kZXg9Il9lNjNmOGZlMy03MzU0LTQ1OTgtOTY5NS02ZDNhODhjZTEwMDAiPjxBdXRobkNvbnRleHQ%2BPEF1dGhuQ29udGV4dENsYXNzUmVmPnVybjpvYXNpczpuYW1lczp0YzpTQU1MOjIuMDphYzpjbGFzc2VzOlBhc3N3b3JkPC9BdXRobkNvbnRleHRDbGFzc1JlZj48L0F1dGhuQ29udGV4dD48L0F1dGhuU3RhdGVtZW50PjwvQXNzZXJ0aW9uPjwvc2FtbHA6UmVzcG9uc2U%2B"
+        separator="="
+        value="PHNhbWxwOlJlc3BvbnNlIElEPSJfOTRhZjQ1MGEtOTI1NC00NThlLTllZDktNjBhNzI5ODg0ZGRjIiBWZXJzaW9uPSIyLjAiIElzc3VlSW5zdGFudD0iMjAyMy0wOS0yNlQxMjo1Njo1OS44MDJaIiBEZXN0aW5hdGlvbj0iaHR0cHM6Ly9ibGV1LXRlc3QtaWhtLm9jcDA5OC5nZWhlLmZyOjE4MDg0L2MzbWwtaWhtL3NhbWwvcG9zdFJlc3BvbnNlIiBJblJlc3BvbnNlVG89IkFSUTllZDQyNmMtNjEyOS00YWU4LTliMTEtNGI5ZDkyOTA2OGFiIiB4bWxuczpzYW1scD0idXJuOm9hc2lzOm5hbWVzOnRjOlNBTUw6Mi4wOnByb3RvY29sIj48SXNzdWVyIHhtbG5zPSJ1cm46b2FzaXM6bmFtZXM6dGM6U0FNTDoyLjA6YXNzZXJ0aW9uIj5odHRwczovL3N0cy53aW5kb3dzLm5ldC9lNWQwMTgyYi1mNDU4LTQwM2MtOGQwNi1iODI1MTEyNDA4YjYvPC9Jc3N1ZXI+PHNhbWxwOlN0YXR1cz48c2FtbHA6U3RhdHVzQ29kZSBWYWx1ZT0idXJuOm9hc2lzOm5hbWVzOnRjOlNBTUw6Mi4wOnN0YXR1czpTdWNjZXNzIi8+PC9zYW1scDpTdGF0dXM+PEFzc2VydGlvbiBJRD0iX2U2M2Y4ZmUzLTczNTQtNDU5OC05Njk1LTZkM2E4OGNlMTAwMCIgSXNzdWVJbnN0YW50PSIyMDIzLTA5LTI2VDEyOjU2OjU5Ljc5OVoiIFZlcnNpb249IjIuMCIgeG1sbnM9InVybjpvYXNpczpuYW1lczp0YzpTQU1MOjIuMDphc3NlcnRpb24iPjxJc3N1ZXI+aHR0cHM6Ly9zdHMud2luZG93cy5uZXQvZTVkMDE4MmItZjQ1OC00MDNjLThkMDYtYjgyNTExMjQwOGI2LzwvSXNzdWVyPjxTaWduYXR1cmUgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDkveG1sZHNpZyMiPjxTaWduZWRJbmZvPjxDYW5vbmljYWxpemF0aW9uTWV0aG9kIEFsZ29yaXRobT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS8xMC94bWwtZXhjLWMxNG4jIi8+PFNpZ25hdHVyZU1ldGhvZCBBbGdvcml0aG09Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvMDQveG1sZHNpZy1tb3JlI3JzYS1zaGEyNTYiLz48UmVmZXJlbmNlIFVSST0iI19lNjNmOGZlMy03MzU0LTQ1OTgtOTY5NS02ZDNhODhjZTEwMDAiPjxUcmFuc2Zvcm1zPjxUcmFuc2Zvcm0gQWxnb3JpdGhtPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjZW52ZWxvcGVkLXNpZ25hdHVyZSIvPjxUcmFuc2Zvcm0gQWxnb3JpdGhtPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzEwL3htbC1leGMtYzE0biMiLz48L1RyYW5zZm9ybXM+PERpZ2VzdE1ldGhvZCBBbGdvcml0aG09Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvMDQveG1sZW5jI3NoYTI1NiIvPjxEaWdlc3RWYWx1ZT5YeGdQTzRob1NBNWtONEcyUWxua1gxU3V3b21IbHpzYUExVnZUek5TNEhzPTwvRGlnZXN0VmFsdWU+PC9SZWZlcmVuY2U+PC9TaWduZWRJbmZvPjxTaWduYXR1cmVWYWx1ZT5RSE1UdlYySHdId1RDNmI5bTNBN0tycFlTMFBpczNjL1ZweG9kSVRHQXAzT212M1k4ZG9mcjlidExtY1ZQdWpQb0RIdW8ydWduQ0lYcEpodzZ6aWJkNjFKS1FQMk9UMFBlS2JjOEFDWFAzVVh1b2QrMTlwWGU0NnNlMWhEUWxZdVlIbm5IUVhOUmQ5L3VsS1NPZ2YxNTNKb3dyZ0MyRHJjUHNOdTNSUndpVjRVMWVOZU1JR3M4aEJRckd3V294a0FUYWZxaW9hSGNVWHVUOHI0ZlRoSk5DM2ZWMmRwVzJKNm1CWmh1c3JPU3FFelNqanptR01tOXR1V1J4cjdLYmxKQVJtZVdLRVZsZ2lTTFN3Vzg5eW5wZDJMV3ZmMlU5YVRuVWVBd3NrMkgvNk03N0J1QjI2RFFJMko1RVlYN0JhR2ZkenhzeDlENTFSb2x6SzRFSlpiV1E9PTwvU2lnbmF0dXJlVmFsdWU+PEtleUluZm8+PFg1MDlEYXRhPjxYNTA5Q2VydGlmaWNhdGU+TUlJQzhEQ0NBZGlnQXdJQkFnSVFXOWduWVB6b1ZaeEFqYWw5TG5tMlJ6QU5CZ2txaGtpRzl3MEJBUXNGQURBME1USXdNQVlEVlFRREV5bE5hV055YjNOdlpuUWdRWHAxY21VZ1JtVmtaWEpoZEdWa0lGTlRUeUJEWlhKMGFXWnBZMkYwWlRBZUZ3MHlNakE0TVRreE16TTNNVGRhRncweU5UQTRNVGt4TXpNM01UWmFNRFF4TWpBd0JnTlZCQU1US1UxcFkzSnZjMjltZENCQmVuVnlaU0JHWldSbGNtRjBaV1FnVTFOUElFTmxjblJwWm1sallYUmxNSUlCSWpBTkJna3Foa2lHOXcwQkFRRUZBQU9DQVE4QU1JSUJDZ0tDQVFFQW8vOXdmZXI0Mms1ZXNuRU9jMXBzbnJzS2FRblFWcjcvTFdoVWRVYjVtVmNBbllQTXNWZlhxRVJOUUp1ajhBaU4xRUdZQWxiSzIvUkdrSE9maUFoTElobGhHVDJlNE5UbW9kK1VtVzk5V2UwWThBbjlSVVp1UUVScDRLV20yRk45Nys0L3ZSeStyc29zMWxXSnhDMHFYTmdPSjQ0cFhRSWtHcmpHYmVieUNsMndOUkdTcHZjeUlTTWd3a1ZhM2xUNkpjR3hCTC85MTI4UGhKVElBanRHSis0V21Yb2o1b1R3ZjIyVDl6NU0xazZYaDl4Tk9pUk9FLzA3d3hFaDB5dTRZMUJaQ1FVODNYYUdRYndoVlZmK1BuYk9sZ1NnQ1djVmwzUnk4ejFHQmFNR1BBZ3ltS0NQQmRKM1J1S2lEdkVocUtLdDh2TmpYTjlFdStlVlB6RldoUUlEQVFBQk1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQ2FUaTN6NmlWQ21nTTk3WWMxbFNzbjJPVnFmdHRtMUp1anFyL2Zhb3ROdzVmalBtdVhJa09ra1o0L29Cakw2TG9mZzN6ZUZaY3BYVmtJY3RxcWE3aVprclIzTlJwQUgxL1N0ZUU3YVJBRWRKRWNWaElpNUdVM3J0Y244U294djhzUEF3Mk1vRkxqTVZwVHNWb0IxR0FUZ3ZVdnBPUllhMnRENzZ0UHBzZDV3Q2xPdWJ4M3lBNFplV2FBaDFFVkNXRFM3Qmd6QnVMcU5LUnluMjRseWx4Zk9WSElua3AxN0EyMEx4UFNjR2I5MGQ5cVY4TUNJVTVCaWs1czV1Y1ZPaDdRaTU3dVBFMGJBSFIzL1hEOVNKYUZQb2dydk1LbjJQMG9uMy9wUEpsRGhFWXRZZFl1c0lRbktwbDgwNGg1ajZBSXU5ZWRnYTQwMHh1dERlQ2FEd2srPC9YNTA5Q2VydGlmaWNhdGU+PC9YNTA5RGF0YT48L0tleUluZm8+PC9TaWduYXR1cmU+PFN1YmplY3Q+PE5hbWVJRCBGb3JtYXQ9InVybjpvYXNpczpuYW1lczp0YzpTQU1MOjEuMTpuYW1laWQtZm9ybWF0OmVtYWlsQWRkcmVzcyI+QmluLkh1YW5nQG1ja2Vzc29uLmV1PC9OYW1lSUQ+PFN1YmplY3RDb25maXJtYXRpb24gTWV0aG9kPSJ1cm46b2FzaXM6bmFtZXM6dGM6U0FNTDoyLjA6Y206YmVhcmVyIj48U3ViamVjdENvbmZpcm1hdGlvbkRhdGEgSW5SZXNwb25zZVRvPSJBUlE5ZWQ0MjZjLTYxMjktNGFlOC05YjExLTRiOWQ5MjkwNjhhYiIgTm90T25PckFmdGVyPSIyMDIzLTA5LTI2VDEzOjU2OjU5LjU1N1oiIFJlY2lwaWVudD0iaHR0cHM6Ly9ibGV1LXRlc3QtaWhtLm9jcDA5OC5nZWhlLmZyOjE4MDg0L2MzbWwtaWhtL3NhbWwvcG9zdFJlc3BvbnNlIi8+PC9TdWJqZWN0Q29uZmlybWF0aW9uPjwvU3ViamVjdD48Q29uZGl0aW9ucyBOb3RCZWZvcmU9IjIwMjMtMDktMjZUMTI6NTE6NTkuNTU3WiIgTm90T25PckFmdGVyPSIyMDIzLTA5LTI2VDEzOjU2OjU5LjU1N1oiPjxBdWRpZW5jZVJlc3RyaWN0aW9uPjxBdWRpZW5jZT5jM21sLWlobS11YXQ8L0F1ZGllbmNlPjwvQXVkaWVuY2VSZXN0cmljdGlvbj48L0NvbmRpdGlvbnM+PEF0dHJpYnV0ZVN0YXRlbWVudD48QXR0cmlidXRlIE5hbWU9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vaWRlbnRpdHkvY2xhaW1zL3RlbmFudGlkIj48QXR0cmlidXRlVmFsdWU+ZTVkMDE4MmItZjQ1OC00MDNjLThkMDYtYjgyNTExMjQwOGI2PC9BdHRyaWJ1dGVWYWx1ZT48L0F0dHJpYnV0ZT48QXR0cmlidXRlIE5hbWU9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vaWRlbnRpdHkvY2xhaW1zL29iamVjdGlkZW50aWZpZXIiPjxBdHRyaWJ1dGVWYWx1ZT5kNTRiMzZmYi01NmVhLTQzOWEtYTEzMS01N2RlYTlmYjhmNDI8L0F0dHJpYnV0ZVZhbHVlPjwvQXR0cmlidXRlPjxBdHRyaWJ1dGUgTmFtZT0iaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS9pZGVudGl0eS9jbGFpbXMvZGlzcGxheW5hbWUiPjxBdHRyaWJ1dGVWYWx1ZT5IdWFuZywgQmluPC9BdHRyaWJ1dGVWYWx1ZT48L0F0dHJpYnV0ZT48QXR0cmlidXRlIE5hbWU9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vaWRlbnRpdHkvY2xhaW1zL2lkZW50aXR5cHJvdmlkZXIiPjxBdHRyaWJ1dGVWYWx1ZT5odHRwczovL3N0cy53aW5kb3dzLm5ldC9lNWQwMTgyYi1mNDU4LTQwM2MtOGQwNi1iODI1MTEyNDA4YjYvPC9BdHRyaWJ1dGVWYWx1ZT48L0F0dHJpYnV0ZT48QXR0cmlidXRlIE5hbWU9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vY2xhaW1zL2F1dGhubWV0aG9kc3JlZmVyZW5jZXMiPjxBdHRyaWJ1dGVWYWx1ZT5odHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvYXV0aGVudGljYXRpb25tZXRob2QvcGFzc3dvcmQ8L0F0dHJpYnV0ZVZhbHVlPjwvQXR0cmlidXRlPjxBdHRyaWJ1dGUgTmFtZT0iaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvZ2l2ZW5uYW1lIj48QXR0cmlidXRlVmFsdWU+QmluPC9BdHRyaWJ1dGVWYWx1ZT48L0F0dHJpYnV0ZT48QXR0cmlidXRlIE5hbWU9Imh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL3N1cm5hbWUiPjxBdHRyaWJ1dGVWYWx1ZT5IdWFuZzwvQXR0cmlidXRlVmFsdWU+PC9BdHRyaWJ1dGU+PEF0dHJpYnV0ZSBOYW1lPSJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiPjxBdHRyaWJ1dGVWYWx1ZT5CaW4uSHVhbmdAb2NwLmZyPC9BdHRyaWJ1dGVWYWx1ZT48L0F0dHJpYnV0ZT48QXR0cmlidXRlIE5hbWU9Imh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiPjxBdHRyaWJ1dGVWYWx1ZT5CaW4uSHVhbmdAbWNrZXNzb24uZXU8L0F0dHJpYnV0ZVZhbHVlPjwvQXR0cmlidXRlPjxBdHRyaWJ1dGUgTmFtZT0iTG9naW4iPjxBdHRyaWJ1dGVWYWx1ZT5odWFuZ2JpbjwvQXR0cmlidXRlVmFsdWU+PC9BdHRyaWJ1dGU+PC9BdHRyaWJ1dGVTdGF0ZW1lbnQ+PEF1dGhuU3RhdGVtZW50IEF1dGhuSW5zdGFudD0iMjAyMy0wOS0yNlQxMjo1Njo1OS43NThaIiBTZXNzaW9uSW5kZXg9Il9lNjNmOGZlMy03MzU0LTQ1OTgtOTY5NS02ZDNhODhjZTEwMDAiPjxBdXRobkNvbnRleHQ+PEF1dGhuQ29udGV4dENsYXNzUmVmPnVybjpvYXNpczpuYW1lczp0YzpTQU1MOjIuMDphYzpjbGFzc2VzOlBhc3N3b3JkPC9BdXRobkNvbnRleHRDbGFzc1JlZj48L0F1dGhuQ29udGV4dD48L0F1dGhuU3RhdGVtZW50PjwvQXNzZXJ0aW9uPjwvc2FtbHA6UmVzcG9uc2U+" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="referer" value="https://login.microsoftonline.com/"/>
+    <header name="sec-fetch-site" value="cross-site"/>
+    <header name="cookie" value="JSESSIONID=02E8210520AE5B4603E6934548D4F03D; ApplicationGatewayAffinityCORS=cabe94033f40009f7811e505fd3cc6c7; ApplicationGatewayAffinity=cabe94033f40009f7811e505fd3cc6c7"/>
+    <header name="accept-language" value="en-US,en;q=0.9,fr;q=0.8"/>
+    <header name="origin" value="https://login.microsoftonline.com"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="content-type" value="application/x-www-form-urlencoded"/>
+    <header name="cache-control" value="max-age=0"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 302&#xd;
+date: Tue, 26 Sep 2023 12:57:01 GMT&#xd;
+Content-Length: 0&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 1; mode=block&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+pragma: no-cache&#xd;
+expires: 0&#xd;
+x-frame-options: DENY&#xd;
+location: /c3ml-ihm/main&#xd;
+content-language: en-US&#xd;
+content-security-policy: script-src 'self' 'unsafe-inline' *.ocp098.gehe.fr:18084</responseHeaders>
+    <record-html-infos extractorName="hiddenform" extractorOccurence="1"
+        extractorRegExp="false" htmlType="2"/>
+</http-action>
+<http-action actionType="2" contentType="text/html;charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/c3ml-ihm/main" path="/c3ml-ihm/main"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@c3@m@l_@azure_@test_@n@r_@h@t@t@ps_@c@d@e_@d@c_@e@n_@t@a@c/%resources%/recorded-artifacts/80bf1ae6-402b-43e0-ac00-4bf9cd69094d.zip"
+    recordedResponseCode="200"
+    refererUid="9a57504b-3041-4ac2-9b1a-55170466af7a"
+    responseSize="19770" serverUid="Azure_C3ML_IHM_UAT"
+    slaProfileEnabled="false" uid="17e61622-21a4-4299-b0a2-7ced1895e882" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_406bab30-ecae-49eb-9ee5-c895130d5ca3.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_406bab30-ecae-49eb-9ee5-c895130d5ca3.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="referer" value="https://login.microsoftonline.com/"/>
+    <header name="sec-fetch-site" value="cross-site"/>
+    <header name="cookie" value="JSESSIONID=02E8210520AE5B4603E6934548D4F03D; ApplicationGatewayAffinityCORS=cabe94033f40009f7811e505fd3cc6c7; ApplicationGatewayAffinity=cabe94033f40009f7811e505fd3cc6c7"/>
+    <header name="accept-language" value="en-US,en;q=0.9,fr;q=0.8"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="cache-control" value="max-age=0"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 26 Sep 2023 12:57:01 GMT&#xd;
+content-type: text/html;charset=UTF-8&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 1; mode=block&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+pragma: no-cache&#xd;
+expires: 0&#xd;
+x-frame-options: DENY&#xd;
+content-language: en-US&#xd;
+content-security-policy: script-src 'self' 'unsafe-inline' *.ocp098.gehe.fr:18084</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/css"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Mon, 20 Nov 2023 10:45:48 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/c3ml-ihm/css/style.css"
+    path="/c3ml-ihm/css/style.css" postType="6"
+    recordedArtifactZipFileName="team/vus/@c3@m@l_@azure_@test_@n@r_@h@t@t@ps_@c@d@e_@d@c_@e@n_@t@a@c/%resources%/recorded-artifacts/80bf1ae6-402b-43e0-ac00-4bf9cd69094d.zip"
+    recordedResponseCode="200" responseSize="6640"
+    serverUid="Azure_C3ML_IHM_UAT" slaProfileEnabled="false"
+    uid="0f5c031b-4241-435b-90dd-3212af5e84f0" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_bdc8496c-35a1-40dc-b3b4-784a5642c366.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_bdc8496c-35a1-40dc-b3b4-784a5642c366.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://bleu-test-ihm.ocp098.gehe.fr:18084/c3ml-ihm/main"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="JSESSIONID=02E8210520AE5B4603E6934548D4F03D; ApplicationGatewayAffinityCORS=cabe94033f40009f7811e505fd3cc6c7; ApplicationGatewayAffinity=cabe94033f40009f7811e505fd3cc6c7"/>
+    <header name="accept-language" value="en-US,en;q=0.9,fr;q=0.8"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="style"/>
+    <header name="accept" value="text/css,*/*;q=0.1"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 26 Sep 2023 12:57:01 GMT&#xd;
+content-type: text/css&#xd;
+content-length: 6640&#xd;
+vary: Origin&#xd;
+vary: Access-Control-Request-Method&#xd;
+vary: Access-Control-Request-Headers&#xd;
+last-modified: Fri, 04 Aug 2023 11:57:38 GMT&#xd;
+accept-ranges: bytes&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 1; mode=block&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+pragma: no-cache&#xd;
+expires: 0&#xd;
+x-frame-options: DENY&#xd;
+content-security-policy: script-src 'self' 'unsafe-inline' *.ocp098.gehe.fr:18084</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Mon, 20 Nov 2023 10:45:48 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/c3ml-ihm/js/ihm.js" path="/c3ml-ihm/js/ihm.js"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@c3@m@l_@azure_@test_@n@r_@h@t@t@ps_@c@d@e_@d@c_@e@n_@t@a@c/%resources%/recorded-artifacts/80bf1ae6-402b-43e0-ac00-4bf9cd69094d.zip"
+    recordedResponseCode="200"
+    refererUid="17e61622-21a4-4299-b0a2-7ced1895e882"
+    responseSize="34484" serverUid="Azure_C3ML_IHM_UAT"
+    slaProfileEnabled="false" uid="6c51e4d2-36f4-4b48-82a4-cd55bd858019" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_a7d04fc7-b326-404e-9eb3-838d014c37df</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_a7d04fc7-b326-404e-9eb3-838d014c37df.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://bleu-test-ihm.ocp098.gehe.fr:18084/c3ml-ihm/main"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="JSESSIONID=02E8210520AE5B4603E6934548D4F03D; ApplicationGatewayAffinityCORS=cabe94033f40009f7811e505fd3cc6c7; ApplicationGatewayAffinity=cabe94033f40009f7811e505fd3cc6c7"/>
+    <header name="accept-language" value="en-US,en;q=0.9,fr;q=0.8"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 26 Sep 2023 12:57:01 GMT&#xd;
+content-type: application/javascript&#xd;
+content-length: 34484&#xd;
+vary: Origin&#xd;
+vary: Access-Control-Request-Method&#xd;
+vary: Access-Control-Request-Headers&#xd;
+last-modified: Fri, 04 Aug 2023 11:57:38 GMT&#xd;
+accept-ranges: bytes&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 1; mode=block&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+pragma: no-cache&#xd;
+expires: 0&#xd;
+x-frame-options: DENY&#xd;
+content-security-policy: script-src 'self' 'unsafe-inline' *.ocp098.gehe.fr:18084</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="3"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="application/javascript"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Mon, 20 Nov 2023 10:45:48 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/c3ml-ihm/js/calendar1.js"
+    path="/c3ml-ihm/js/calendar1.js" postType="6"
+    recordedArtifactZipFileName="team/vus/@c3@m@l_@azure_@test_@n@r_@h@t@t@ps_@c@d@e_@d@c_@e@n_@t@a@c/%resources%/recorded-artifacts/80bf1ae6-402b-43e0-ac00-4bf9cd69094d.zip"
+    recordedResponseCode="200"
+    refererUid="17e61622-21a4-4299-b0a2-7ced1895e882"
+    responseSize="6468" serverUid="Azure_C3ML_IHM_UAT"
+    slaProfileEnabled="false" uid="fa202e6e-cd32-43df-b7ae-f1547486619b" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_e5e06ac8-3e3c-4849-97fe-9a945f639794</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_e5e06ac8-3e3c-4849-97fe-9a945f639794.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://bleu-test-ihm.ocp098.gehe.fr:18084/c3ml-ihm/main"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="JSESSIONID=02E8210520AE5B4603E6934548D4F03D; ApplicationGatewayAffinityCORS=cabe94033f40009f7811e505fd3cc6c7; ApplicationGatewayAffinity=cabe94033f40009f7811e505fd3cc6c7"/>
+    <header name="accept-language" value="en-US,en;q=0.9,fr;q=0.8"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="script"/>
+    <header name="accept" value="*/*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 26 Sep 2023 12:57:01 GMT&#xd;
+content-type: application/javascript&#xd;
+content-length: 6468&#xd;
+vary: Origin&#xd;
+vary: Access-Control-Request-Method&#xd;
+vary: Access-Control-Request-Headers&#xd;
+last-modified: Fri, 04 Aug 2023 11:57:38 GMT&#xd;
+accept-ranges: bytes&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 1; mode=block&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+pragma: no-cache&#xd;
+expires: 0&#xd;
+x-frame-options: DENY&#xd;
+content-security-policy: script-src 'self' 'unsafe-inline' *.ocp098.gehe.fr:18084</responseHeaders>
+    <record-html-infos extractorContent="" extractorOccurence="4"
+        extractorRegExp="false" htmlType="1"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Mon, 20 Nov 2023 10:45:48 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/c3ml-ihm/img/coin2.gif"
+    path="/c3ml-ihm/img/coin2.gif" postType="6"
+    recordedArtifactZipFileName="team/vus/@c3@m@l_@azure_@test_@n@r_@h@t@t@ps_@c@d@e_@d@c_@e@n_@t@a@c/%resources%/recorded-artifacts/80bf1ae6-402b-43e0-ac00-4bf9cd69094d.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="Azure_C3ML_IHM_UAT" slaProfileEnabled="false"
+    uid="4a13e1bc-f7f2-478d-a69b-97b8e5154d39" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_d843886c-af7a-421e-81ac-c856236d82b3.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://bleu-test-ihm.ocp098.gehe.fr:18084/c3ml-ihm/main"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="JSESSIONID=02E8210520AE5B4603E6934548D4F03D; ApplicationGatewayAffinityCORS=cabe94033f40009f7811e505fd3cc6c7; ApplicationGatewayAffinity=cabe94033f40009f7811e505fd3cc6c7"/>
+    <header name="accept-language" value="en-US,en;q=0.9,fr;q=0.8"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="image"/>
+    <header name="accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 26 Sep 2023 12:57:01 GMT&#xd;
+content-type: image/gif&#xd;
+content-length: 207&#xd;
+vary: Origin&#xd;
+vary: Access-Control-Request-Method&#xd;
+vary: Access-Control-Request-Headers&#xd;
+last-modified: Fri, 04 Aug 2023 11:57:38 GMT&#xd;
+accept-ranges: bytes&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 1; mode=block&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+pragma: no-cache&#xd;
+expires: 0&#xd;
+x-frame-options: DENY&#xd;
+content-security-policy: script-src 'self' 'unsafe-inline' *.ocp098.gehe.fr:18084</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Mon, 20 Nov 2023 10:45:48 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/c3ml-ihm/img/coin1.gif"
+    path="/c3ml-ihm/img/coin1.gif" postType="6"
+    recordedArtifactZipFileName="team/vus/@c3@m@l_@azure_@test_@n@r_@h@t@t@ps_@c@d@e_@d@c_@e@n_@t@a@c/%resources%/recorded-artifacts/80bf1ae6-402b-43e0-ac00-4bf9cd69094d.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="Azure_C3ML_IHM_UAT" slaProfileEnabled="false"
+    uid="f0238849-cedd-400a-a4e1-cf289d81f976" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_3b0fabae-c62a-4c38-a186-d812fca15bbb.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://bleu-test-ihm.ocp098.gehe.fr:18084/c3ml-ihm/main"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="JSESSIONID=02E8210520AE5B4603E6934548D4F03D; ApplicationGatewayAffinityCORS=cabe94033f40009f7811e505fd3cc6c7; ApplicationGatewayAffinity=cabe94033f40009f7811e505fd3cc6c7"/>
+    <header name="accept-language" value="en-US,en;q=0.9,fr;q=0.8"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="image"/>
+    <header name="accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 26 Sep 2023 12:57:01 GMT&#xd;
+content-type: image/gif&#xd;
+content-length: 210&#xd;
+vary: Origin&#xd;
+vary: Access-Control-Request-Method&#xd;
+vary: Access-Control-Request-Headers&#xd;
+last-modified: Fri, 04 Aug 2023 11:57:38 GMT&#xd;
+accept-ranges: bytes&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 1; mode=block&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+pragma: no-cache&#xd;
+expires: 0&#xd;
+x-frame-options: DENY&#xd;
+content-security-policy: script-src 'self' 'unsafe-inline' *.ocp098.gehe.fr:18084</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Mon, 20 Nov 2023 10:45:48 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/c3ml-ihm/img/fleche_bleu.gif"
+    path="/c3ml-ihm/img/fleche_bleu.gif" postType="6"
+    recordedArtifactZipFileName="team/vus/@c3@m@l_@azure_@test_@n@r_@h@t@t@ps_@c@d@e_@d@c_@e@n_@t@a@c/%resources%/recorded-artifacts/80bf1ae6-402b-43e0-ac00-4bf9cd69094d.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="Azure_C3ML_IHM_UAT" slaProfileEnabled="false"
+    uid="90fa2ed6-51cd-4b88-94d5-a0c74093a7d5" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_c42f1a40-cb84-48c2-b9ab-1f416a64b2fa.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://bleu-test-ihm.ocp098.gehe.fr:18084/c3ml-ihm/main"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="JSESSIONID=02E8210520AE5B4603E6934548D4F03D; ApplicationGatewayAffinityCORS=cabe94033f40009f7811e505fd3cc6c7; ApplicationGatewayAffinity=cabe94033f40009f7811e505fd3cc6c7"/>
+    <header name="accept-language" value="en-US,en;q=0.9,fr;q=0.8"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="image"/>
+    <header name="accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 26 Sep 2023 12:57:01 GMT&#xd;
+content-type: image/gif&#xd;
+content-length: 107&#xd;
+vary: Origin&#xd;
+vary: Access-Control-Request-Method&#xd;
+vary: Access-Control-Request-Headers&#xd;
+last-modified: Fri, 04 Aug 2023 11:57:38 GMT&#xd;
+accept-ranges: bytes&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 1; mode=block&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+pragma: no-cache&#xd;
+expires: 0&#xd;
+x-frame-options: DENY&#xd;
+content-security-policy: script-src 'self' 'unsafe-inline' *.ocp098.gehe.fr:18084</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Mon, 20 Nov 2023 10:45:48 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/c3ml-ihm/img/empty.gif"
+    path="/c3ml-ihm/img/empty.gif" postType="6"
+    recordedArtifactZipFileName="team/vus/@c3@m@l_@azure_@test_@n@r_@h@t@t@ps_@c@d@e_@d@c_@e@n_@t@a@c/%resources%/recorded-artifacts/80bf1ae6-402b-43e0-ac00-4bf9cd69094d.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="Azure_C3ML_IHM_UAT" slaProfileEnabled="false"
+    uid="d74ba482-7934-4e80-bc17-ce2d911110d0" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_871aff4f-0ea1-4ce1-90d6-e21c7cc62e00.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://bleu-test-ihm.ocp098.gehe.fr:18084/c3ml-ihm/main"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="JSESSIONID=02E8210520AE5B4603E6934548D4F03D; ApplicationGatewayAffinityCORS=cabe94033f40009f7811e505fd3cc6c7; ApplicationGatewayAffinity=cabe94033f40009f7811e505fd3cc6c7"/>
+    <header name="accept-language" value="en-US,en;q=0.9,fr;q=0.8"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="image"/>
+    <header name="accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 26 Sep 2023 12:57:01 GMT&#xd;
+content-type: image/gif&#xd;
+content-length: 43&#xd;
+vary: Origin&#xd;
+vary: Access-Control-Request-Method&#xd;
+vary: Access-Control-Request-Headers&#xd;
+last-modified: Fri, 04 Aug 2023 11:57:38 GMT&#xd;
+accept-ranges: bytes&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 1; mode=block&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+pragma: no-cache&#xd;
+expires: 0&#xd;
+x-frame-options: DENY&#xd;
+content-security-policy: script-src 'self' 'unsafe-inline' *.ocp098.gehe.fr:18084</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Mon, 20 Nov 2023 10:45:48 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/c3ml-ihm/img/img.png"
+    path="/c3ml-ihm/img/img.png" postType="6"
+    recordedArtifactZipFileName="team/vus/@c3@m@l_@azure_@test_@n@r_@h@t@t@ps_@c@d@e_@d@c_@e@n_@t@a@c/%resources%/recorded-artifacts/80bf1ae6-402b-43e0-ac00-4bf9cd69094d.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="Azure_C3ML_IHM_UAT" slaProfileEnabled="false"
+    uid="48efcb2e-0089-4cc9-8c86-716d75280888" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_6089c600-86fd-4e09-af7b-b5ce7299125d.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://bleu-test-ihm.ocp098.gehe.fr:18084/c3ml-ihm/main"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="JSESSIONID=02E8210520AE5B4603E6934548D4F03D; ApplicationGatewayAffinityCORS=cabe94033f40009f7811e505fd3cc6c7; ApplicationGatewayAffinity=cabe94033f40009f7811e505fd3cc6c7"/>
+    <header name="accept-language" value="en-US,en;q=0.9,fr;q=0.8"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="image"/>
+    <header name="accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 26 Sep 2023 12:57:01 GMT&#xd;
+content-type: image/png&#xd;
+content-length: 15414&#xd;
+vary: Origin&#xd;
+vary: Access-Control-Request-Method&#xd;
+vary: Access-Control-Request-Headers&#xd;
+last-modified: Fri, 04 Aug 2023 11:57:38 GMT&#xd;
+accept-ranges: bytes&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 1; mode=block&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+pragma: no-cache&#xd;
+expires: 0&#xd;
+x-frame-options: DENY&#xd;
+content-security-policy: script-src 'self' 'unsafe-inline' *.ocp098.gehe.fr:18084</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Mon, 20 Nov 2023 10:45:48 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/c3ml-ihm/img/help_icon.gif"
+    path="/c3ml-ihm/img/help_icon.gif" postType="6"
+    recordedArtifactZipFileName="team/vus/@c3@m@l_@azure_@test_@n@r_@h@t@t@ps_@c@d@e_@d@c_@e@n_@t@a@c/%resources%/recorded-artifacts/80bf1ae6-402b-43e0-ac00-4bf9cd69094d.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="Azure_C3ML_IHM_UAT" slaProfileEnabled="false"
+    uid="431f6b3e-3a66-4e40-b821-3bf4ec0e82e4" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_ccb953cd-2071-43c7-9903-8c424f405432.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://bleu-test-ihm.ocp098.gehe.fr:18084/c3ml-ihm/main"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="JSESSIONID=02E8210520AE5B4603E6934548D4F03D; ApplicationGatewayAffinityCORS=cabe94033f40009f7811e505fd3cc6c7; ApplicationGatewayAffinity=cabe94033f40009f7811e505fd3cc6c7"/>
+    <header name="accept-language" value="en-US,en;q=0.9,fr;q=0.8"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="image"/>
+    <header name="accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 26 Sep 2023 12:57:01 GMT&#xd;
+content-type: image/gif&#xd;
+content-length: 1065&#xd;
+vary: Origin&#xd;
+vary: Access-Control-Request-Method&#xd;
+vary: Access-Control-Request-Headers&#xd;
+last-modified: Fri, 04 Aug 2023 11:57:38 GMT&#xd;
+accept-ranges: bytes&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 1; mode=block&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+pragma: no-cache&#xd;
+expires: 0&#xd;
+x-frame-options: DENY&#xd;
+content-security-policy: script-src 'self' 'unsafe-inline' *.ocp098.gehe.fr:18084</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Mon, 20 Nov 2023 10:45:48 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/c3ml-ihm/img/passe.gif"
+    path="/c3ml-ihm/img/passe.gif" postType="6"
+    recordedArtifactZipFileName="team/vus/@c3@m@l_@azure_@test_@n@r_@h@t@t@ps_@c@d@e_@d@c_@e@n_@t@a@c/%resources%/recorded-artifacts/80bf1ae6-402b-43e0-ac00-4bf9cd69094d.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="Azure_C3ML_IHM_UAT" slaProfileEnabled="false"
+    uid="7ed3f9dd-3894-4a39-8a67-e36a6ace6a3b" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_01d11f7e-f33c-4eca-b277-f0332a64d15d.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://bleu-test-ihm.ocp098.gehe.fr:18084/c3ml-ihm/main"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="JSESSIONID=02E8210520AE5B4603E6934548D4F03D; ApplicationGatewayAffinityCORS=cabe94033f40009f7811e505fd3cc6c7; ApplicationGatewayAffinity=cabe94033f40009f7811e505fd3cc6c7"/>
+    <header name="accept-language" value="en-US,en;q=0.9,fr;q=0.8"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="image"/>
+    <header name="accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 26 Sep 2023 12:57:01 GMT&#xd;
+content-type: image/gif&#xd;
+content-length: 379&#xd;
+vary: Origin&#xd;
+vary: Access-Control-Request-Method&#xd;
+vary: Access-Control-Request-Headers&#xd;
+last-modified: Fri, 04 Aug 2023 11:57:38 GMT&#xd;
+accept-ranges: bytes&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 1; mode=block&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+pragma: no-cache&#xd;
+expires: 0&#xd;
+x-frame-options: DENY&#xd;
+content-security-policy: script-src 'self' 'unsafe-inline' *.ocp098.gehe.fr:18084</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Mon, 20 Nov 2023 10:45:48 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/c3ml-ihm/img/bqr3.gif"
+    path="/c3ml-ihm/img/bqr3.gif" postType="6"
+    recordedArtifactZipFileName="team/vus/@c3@m@l_@azure_@test_@n@r_@h@t@t@ps_@c@d@e_@d@c_@e@n_@t@a@c/%resources%/recorded-artifacts/80bf1ae6-402b-43e0-ac00-4bf9cd69094d.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="Azure_C3ML_IHM_UAT" slaProfileEnabled="false"
+    uid="1d97c61b-b4b7-497a-aac1-fe81bb5cb88e" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_3f18462d-da7b-4c41-9ee1-7397c6e2ed32.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://bleu-test-ihm.ocp098.gehe.fr:18084/c3ml-ihm/css/style.css"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="cookie" value="JSESSIONID=02E8210520AE5B4603E6934548D4F03D; ApplicationGatewayAffinityCORS=cabe94033f40009f7811e505fd3cc6c7; ApplicationGatewayAffinity=cabe94033f40009f7811e505fd3cc6c7"/>
+    <header name="accept-language" value="en-US,en;q=0.9,fr;q=0.8"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="image"/>
+    <header name="accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Tue, 26 Sep 2023 12:57:01 GMT&#xd;
+content-type: image/gif&#xd;
+content-length: 64&#xd;
+vary: Origin&#xd;
+vary: Access-Control-Request-Method&#xd;
+vary: Access-Control-Request-Headers&#xd;
+last-modified: Fri, 04 Aug 2023 11:57:38 GMT&#xd;
+accept-ranges: bytes&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 1; mode=block&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+pragma: no-cache&#xd;
+expires: 0&#xd;
+x-frame-options: DENY&#xd;
+content-security-policy: script-src 'self' 'unsafe-inline' *.ocp098.gehe.fr:18084</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

@@ -1,0 +1,37 @@
+<virtual-user errorPolicy="DO_NOTHING"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="false"
+    type="LEGACY" uid="C3ML_Azure_Test_NR_HTTPs_CDE_DDD_Client_Inconnu">
+    <description>Le fichier de jeu de données en entrée : E:\C3ML_Projects\C3ML_Azure_Test_NR\variables\ListeClientProduit_NR.txt .
+
+Il est valable pour les « request » or « order », on peut mélanger CDE et DDD.
+Pour chaque ligne, il faut bien renseigner le client, le produit et la quantité, résultat attendu requête, et résultat attendu IHM, séparés par « | ».
+-	Résultat attendu requête : résultat attendu de la requête (lancée par postman par exemple)
+-	Résultat attendu IHM : résultat attendu de l’IHM C3ML (en cliquant comme indiqué ci-dessous sur « voir le message XML »)
+
+Le temps de chargement de la fenêtre pour une DDD ou CDE est aussi calculé et affiché dans le log.</description>
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed once when the Virtual User starts.</description>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements repeated until the Virtual User stops.</description>
+        <weighted-embedded-action uid="93906c09-0d7d-48ca-b01d-526c961d7f63"/>
+        <weighted-embedded-action uid="1fa1e3ed-b31a-414e-9ab1-63625a9c1aea"/>
+        <weighted-embedded-action uid="8ea22a68-ab2b-4b46-8cbb-b7a45da03dde"/>
+        <weighted-embedded-action uid="0dde9869-59e2-479c-bc57-73942e7029ff"/>
+        <weighted-embedded-action uid="ce091905-d509-4047-941f-2b16e168e5be"/>
+        <weighted-embedded-action uid="b082a02f-7563-47a8-94e1-6726f9577d17"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed before the Virtual User stops.</description>
+    </end-container>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="1"
+        thinktimeRangeValue="0" thinktimeValue="0"/>
+</virtual-user>

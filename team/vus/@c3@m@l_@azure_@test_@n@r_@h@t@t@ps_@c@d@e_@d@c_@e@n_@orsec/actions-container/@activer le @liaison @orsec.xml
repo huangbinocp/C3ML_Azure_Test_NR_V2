@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Activer le Liaison Orsec" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="63605092-a0ff-4b44-9ec7-d93d33b85613" weightsEnabled="false">
+    <weighted-embedded-action uid="264b32fc-3fca-4f36-bbdc-2cf75bf012f4"/>
+</basic-logical-action-container>

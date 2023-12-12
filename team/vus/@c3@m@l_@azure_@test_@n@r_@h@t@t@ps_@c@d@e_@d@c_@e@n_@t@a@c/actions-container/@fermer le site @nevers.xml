@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" enabled="false"
+    execution-type="0" name="Fermer le site Nevers" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="722ee0a8-056f-4d10-9f1b-4ccba7fbaabb" weightsEnabled="false">
+    <weighted-embedded-action uid="f27a6a18-6560-4608-889b-464221f061a6"/>
+    <weighted-embedded-action uid="1db34a86-2cb8-44e3-b8d7-d5334248826c"/>
+</basic-logical-action-container>

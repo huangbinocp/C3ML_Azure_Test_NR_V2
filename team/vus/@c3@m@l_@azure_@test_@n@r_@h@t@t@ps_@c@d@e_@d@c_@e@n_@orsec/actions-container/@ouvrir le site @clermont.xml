@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Ouvrir le site Clermont" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="631953ab-ffc5-4706-a13e-7b68e6f69cba" weightsEnabled="false">
+    <weighted-embedded-action uid="a44b54a9-990d-42f8-b066-1c131222e6d6"/>
+</basic-logical-action-container>

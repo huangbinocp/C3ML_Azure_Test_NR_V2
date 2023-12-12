@@ -1,0 +1,4 @@
+<http-server hostname="update.googleapis.com" port="443" ssl="true"
+    uid="update.googleapis.com" urlrewriting-argument-name=""
+    urlrewriting-enabled="false" urlrewriting-path-extension="false"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";"/>

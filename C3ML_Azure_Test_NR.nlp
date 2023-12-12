@@ -12,3 +12,5 @@ project.config.path=config.zip
 project.config.storage=ZIP
 team.server.enabled=true
 team.server.project=/huangbinocp/C3ML_Azure_Test_NR.git
+project.workspace=64fb2d275e44d47ccd1dbef0
+project.test-settings=c993551e-49ae-4607-8669-1c11b38dbb68

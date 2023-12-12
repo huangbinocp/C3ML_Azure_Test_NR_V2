@@ -1,0 +1,111 @@
+<http-page executeResourcesDynamically="false"
+    name="/c3ml-ihm/commandes" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@c3@m@l_@azure_@test_@n@r_@commande_1501_lignes/%resources%/recorded-artifacts/fc819d22-f1f9-4f29-b771-9e35b105181e.zip"
+    slaProfileEnabled="false" thinkTime="17834"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="fc819d22-f1f9-4f29-b771-9e35b105181e">
+    <embedded-action>cdb8d84d-23e4-4733-8306-91b0812ce66c</embedded-action>
+</http-page>
+<http-action actionType="1"
+    confFormExtractorParameters="customerIdAcc,processDcIdNb,processC3mlReceiptStart,customerShortName,processProcStat,processC3mlReceiptEnd,Submit,processIdSeq,processProtocolVer,processBrand,page,tri,triInverse,processIdGain,processUsage,processVersion,processSoftware"
+    contentType="text/html;charset=UTF-8" extractorInjectPathPolicy="1"
+    extractorPath="/c3ml-ihm/commandes" extractorPathPolicy="1"
+    extractorServerUid="Azure_C3ML_IHM_UAT" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/c3ml-ihm/commandes" path="/c3ml-ihm/commandes"
+    postCharset="iso-8859-1" postType="1"
+    recordedArtifactZipFileName="team/vus/@c3@m@l_@azure_@test_@n@r_@commande_1501_lignes/%resources%/recorded-artifacts/fc819d22-f1f9-4f29-b771-9e35b105181e.zip"
+    recordedResponseCode="200" recordedResponseTime="305"
+    responseSize="257419" serverUid="Azure_C3ML_IHM_UAT"
+    slaProfileEnabled="false" uid="cdb8d84d-23e4-4733-8306-91b0812ce66c" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[Y3VzdG9tZXJJZEFjYz02OTAwNDAwMDAyJnByb2Nlc3NEY0lkTmI9JnByb2Nlc3NDM21sUmVjZWlwdFN0YXJ0PTctMDgtMjAyMyswMCUzQTAwJTNBMDAmY3VzdG9tZXJTaG9ydE5hbWU9JnByb2Nlc3NQcm9jU3RhdD0mcHJvY2Vzc0MzbWxSZWNlaXB0RW5kPTctMDgtMjAyMysyMyUzQTU5JTNBNTkmU3VibWl0PVJlY2hlcmNoZSZwcm9jZXNzSWRTZXE9JnByb2Nlc3NQcm90b2NvbFZlcj0mcHJvY2Vzc0JyYW5kPSZwYWdlPTEmdHJpPSZ0cmlJbnZlcnNlPSZwcm9jZXNzSWRHYWluPSZwcm9jZXNzVXNhZ2U9JnByb2Nlc3NWZXJzaW9uPSZwcm9jZXNzU29mdHdhcmU9]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_cust_c7a22968-a46c-4092-b9be-f3144ee7857c.0.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_cust_cdb8d84d-23e4-4733-8306-91b0812ce66c.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="')&quot;" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="ExtractedVariable_processIdSeq"
+        refererUid="9c95a01b-504a-4991-bbac-5a8979992b13"
+        regExp="\?processIdSeq=(.*?)'\)&quot;" regExpAdv=""
+        setDefaultValue="true" startsWithSimple="?processIdSeq="
+        template="$1$" templateAdv="$1$"
+        uid="334b0158-751e-4b75-ab99-b902f0120f6b" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <parameter encodeName="true" encodeValue="true" name="customerIdAcc"
+        recordRawValue="6900400002" separator="="
+        value="${Extracted_Client_Id}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="processDcIdNb"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="processC3mlReceiptStart"
+        recordRawValue="7-08-2023+00%3A00%3A00" separator="="
+        value="${i_start_date}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="customerShortName" recordRawValue="" separator="="
+        value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="processProcStat" recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="processC3mlReceiptEnd"
+        recordRawValue="7-08-2023+23%3A59%3A59" separator="="
+        value="${i_end_date}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="Submit"
+        recordRawValue="Recherche" separator="=" value="Recherche" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="processIdSeq"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="processProtocolVer" recordRawValue="" separator="="
+        value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="processBrand"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        extractVariable="page" name="page" recordRawValue="1"
+        separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="tri"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="triInverse"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="processIdGain"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="processUsage"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="processVersion" recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="processSoftware" recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="referer" value="https://bleu-test-ihm.ocp098.gehe.fr:18084/c3ml-ihm/commandes"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="JSESSIONID=${ExtractedVariable_JSESSIONID}; ApplicationGatewayAffinityCORS=${ExtractedVariable_ApplicationGatewayAffinityCORS}; ApplicationGatewayAffinity=${ExtractedVariable_ApplicationGatewayAffinity}"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://bleu-test-ihm.ocp098.gehe.fr:18084"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Not/A)Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;115&quot;, &quot;Chromium&quot;;v=&quot;115&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="content-type" value="application/x-www-form-urlencoded"/>
+    <header name="cache-control" value="max-age=0"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200 
+date: Mon, 18 Sep 2023 14:06:44 GMT
+content-type: text/html;charset=UTF-8
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+pragma: no-cache
+expires: 0
+x-frame-options: DENY
+content-language: en-US
+content-security-policy: script-src 'self' 'unsafe-inline' *.ocp098.gehe.fr:18084</responseHeaders>
+    <extractor-html-infos extractorId="CommandeModel"
+        extractorOccurence="1" extractorRegExp="false" htmlType="2"/>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

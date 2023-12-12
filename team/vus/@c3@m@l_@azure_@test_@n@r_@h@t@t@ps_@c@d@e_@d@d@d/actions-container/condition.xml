@@ -1,0 +1,22 @@
+<if-action name="condition" uid="4273bf33-fc17-4acd-a4fc-84446f6b26b1">
+    <then-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Eléments exécutés lorsque la condition est vérifiée.</description>
+        <weighted-embedded-action uid="44b5a7c1-adea-4b60-b0af-6db2c6e7d493"/>
+        <weighted-embedded-action uid="2473b5a0-d887-43f2-8262-6678d816c87c"/>
+        <weighted-embedded-action uid="f4e74b94-a716-4758-97ac-101f614153ec"/>
+        <weighted-embedded-action uid="097821b3-f697-4943-b52b-91f341ed6ac3"/>
+    </then-container>
+    <else-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Eléments exécutés lorsque la condition n'est pas vérifiée.</description>
+        <weighted-embedded-action uid="471a714e-f070-4020-9dea-ec0fc387a553"/>
+        <weighted-embedded-action uid="f58927dc-5ef1-40fa-8476-3cebe8c65518"/>
+        <weighted-embedded-action uid="c8aa09ed-121f-4993-a329-c25497bbad77"/>
+    </else-container>
+    <conditions match-type="1">
+        <condition operand1="${myType}" operand2="order" operator="EQUALS"/>
+    </conditions>
+</if-action>

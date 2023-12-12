@@ -1,0 +1,22 @@
+<if-action name="Vérification de l'IHM" uid="699ba4cb-ba3b-4d9f-b9c9-1038573de4d4">
+    <then-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Eléments exécutés lorsque la condition est vérifiée.</description>
+        <weighted-embedded-action uid="5c80a8d2-ab7f-4005-b672-797c4a8438cd"/>
+        <weighted-embedded-action uid="b1596119-a098-4485-a28a-7d8f9f408784"/>
+        <weighted-embedded-action uid="06bb8eec-288a-4779-9f84-01bfcb597a36"/>
+        <weighted-embedded-action uid="300d89b5-4696-4f82-998e-8eadf86af11c"/>
+    </then-container>
+    <else-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Eléments exécutés lorsque la condition n'est pas vérifiée.</description>
+        <weighted-embedded-action uid="82f78fb1-410c-47a3-ac86-2cdc97d4347c"/>
+        <weighted-embedded-action uid="1bb38029-2e90-4a99-bce0-564b36c5917d"/>
+        <weighted-embedded-action uid="163443c0-3a51-4af7-aa5d-6e573930c0df"/>
+    </else-container>
+    <conditions match-type="1">
+        <condition operand1="${myType}" operand2="order" operator="EQUALS"/>
+    </conditions>
+</if-action>

@@ -1,0 +1,7 @@
+<variable-file delimiters="|" filename="variables/ListeClientProduit_NR_CDE_DDD_Non_Abonne.txt" name="ListeClientProduit_NR_CDE_DDD_Non_Abonne" offset="1" order="1" policy="5" range="1" uid="1dd19267-45b5-462a-ac12-0ef41198f22c" useFirstLine="true" whenOutOfValues="STOP_TEST">
+<column name="attendu_IHM" number="4"/>
+<column name="attendu_requete" number="3"/>
+<column name="client" number="1"/>
+<column name="product_quantity" number="2"/>
+<column name="type" number="0"/>
+</variable-file>

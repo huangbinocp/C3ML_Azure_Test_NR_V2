@@ -1,0 +1,46 @@
+<virtual-user errorPolicy="DO_NOTHING"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="false"
+    type="LEGACY" uid="C3ML_Azure_Test_NR_HTTPs_DDD_DC_EN_TAC">
+    <description>Le fichier de jeu de données en entrée : E:\C3ML_Projects\C3ML_Azure_Test_NR\variables\ListeClientProduit_NR.txt .
+
+Il est valable pour les « request » or « order », on peut mélanger CDE et DDD.
+Pour chaque ligne, il faut bien renseigner le client, le produit et la quantité, résultat attendu requête, et résultat attendu IHM, séparés par « | ».
+-	Résultat attendu requête : résultat attendu de la requête (lancée par postman par exemple)
+-	Résultat attendu IHM : résultat attendu de l’IHM C3ML (en cliquant comme indiqué ci-dessous sur « voir le message XML »)
+
+Le temps de chargement de la fenêtre pour une DDD ou CDE est aussi calculé et affiché dans le log.</description>
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed once when the Virtual User starts.</description>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements repeated until the Virtual User stops.</description>
+        <weighted-embedded-action uid="d660259d-a096-43b4-8707-ae547a06aa5e"/>
+        <weighted-embedded-action uid="df804231-069f-4cb2-a588-888ad2be5c8a"/>
+        <weighted-embedded-action uid="8a8bb1d7-c2fc-409f-9f9a-420f5b397592"/>
+        <weighted-embedded-action uid="75e8ab42-61ad-4e28-908f-2d1c6fca71f9"/>
+        <weighted-embedded-action uid="581b45ad-9c63-4f33-9e00-ff54640f36a8"/>
+        <weighted-embedded-action uid="82a9d11b-3008-4b6a-9685-d1e05aa98df6"/>
+        <weighted-embedded-action uid="836de06f-2342-459f-9a98-4b83934e13c2"/>
+        <weighted-embedded-action uid="021c566f-db78-4001-a9fc-8aba1d6e9023"/>
+        <weighted-embedded-action uid="129b55a3-41ec-4d9b-a3ca-a326186624d6"/>
+        <weighted-embedded-action uid="7f4b4241-bd8c-42a7-9f0a-d46f99d8be53"/>
+        <weighted-embedded-action uid="efbde0ec-f605-4093-aa3e-1213c6716630"/>
+        <weighted-embedded-action uid="41a5e7de-b409-40de-9143-8cd695f73f8d"/>
+        <weighted-embedded-action uid="107b6004-1b98-4d81-91d7-8677bdc67c7a"/>
+        <weighted-embedded-action uid="ad5c481d-4efd-42d1-aca7-e1832d9b3110"/>
+        <weighted-embedded-action uid="a0ce5a1a-37cf-4292-bfcd-c0a846997091"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed before the Virtual User stops.</description>
+    </end-container>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="1"
+        thinktimeRangeValue="0" thinktimeValue="0"/>
+</virtual-user>

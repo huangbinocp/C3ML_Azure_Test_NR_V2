@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Order_Request" pacingEnd="0" pacingMode="MODE_PACING_SIMPLE"
+    pacingStart="0" pacingValue="3" slaProfileEnabled="false"
+    uid="62290a92-de81-4d3e-b762-e919e4044b83" weightsEnabled="false">
+    <weighted-embedded-action uid="0bbddfcf-a649-4c1d-94ba-7582c3687a05"/>
+    <weighted-embedded-action uid="d6cfae73-fab0-4428-a647-37d6544e538b"/>
+</basic-logical-action-container>

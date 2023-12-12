@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Consultationi de DDD" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="a7550eb3-96da-42c4-ab2a-f5724a55bdb2" weightsEnabled="false">
+    <weighted-embedded-action uid="958dadcc-8ca2-4fb2-8e2f-29364e1436c2"/>
+</basic-logical-action-container>

@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Vidage" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="0860b020-7788-42c1-8179-91c3ddf57584" weightsEnabled="false">
+    <weighted-embedded-action uid="75362785-9a06-4295-8687-91070d9a6fb9"/>
+</basic-logical-action-container>

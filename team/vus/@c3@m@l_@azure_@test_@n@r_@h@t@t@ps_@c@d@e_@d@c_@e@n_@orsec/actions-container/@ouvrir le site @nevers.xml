@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Ouvrir le site Nevers" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="b511d0ce-d047-429f-b063-adb2437d88a1" weightsEnabled="false">
+    <weighted-embedded-action uid="c45ebe05-3e99-41d1-af63-0e4a8c642d4a"/>
+</basic-logical-action-container>

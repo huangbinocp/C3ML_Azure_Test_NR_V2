@@ -1,0 +1,83 @@
+<http-page executeResourcesDynamically="false" name="/c3ml-ihm/sites"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@c3@m@l_@azure_@test_@n@r_@h@t@t@ps_@c@d@e_@vidage_1/%resources%/recorded-artifacts/a681aac9-0d7a-4ff6-afec-3dd5f012f94b.zip"
+    slaProfileEnabled="false" thinkTime="23916"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="a681aac9-0d7a-4ff6-afec-3dd5f012f94b">
+    <embedded-action>c6139ac2-e4fc-4dfe-8a55-c933580b5ba4</embedded-action>
+</http-page>
+<http-action actionType="4"
+    confFormExtractorParameters="dc2update,dc,dcLinkStatus,dcLinkType,dcLinkSite,dcLink,dcLinkType,dcLinkSite,dcLink,dcLinkType,dcLinkSite,dcLink"
+    contentType="" extractorInjectPathPolicy="2"
+    extractorPath="/c3ml-ihm/sites" extractorPathPolicy="1"
+    extractorServerUid="Azure_C3ML_IHM_UAT" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/c3ml-ihm/sites" path="/c3ml-ihm/sites"
+    postCharset="iso-8859-1" postType="1"
+    recordedArtifactZipFileName="team/vus/@c3@m@l_@azure_@test_@n@r_@h@t@t@ps_@c@d@e_@vidage_1/%resources%/recorded-artifacts/a681aac9-0d7a-4ff6-afec-3dd5f012f94b.zip"
+    recordedResponseCode="302" recordedResponseTime="3785"
+    refererUid="8d07c4b9-4d07-4084-822a-9c099c7527b8" responseSize="0"
+    serverUid="Azure_C3ML_IHM_UAT" slaProfileEnabled="false"
+    uid="c6139ac2-e4fc-4dfe-8a55-c933580b5ba4" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[ZGMydXBkYXRlPTQ0JmRjPTQ0JmRjTGlua1N0YXR1cz1DTE9TRSZkY0xpbmtUeXBlPU9SU0VDJmRjTGlua1NpdGU9OTAmZGNMaW5rPU4mZGNMaW5rVHlwZT1PUlNFQyZkY0xpbmtTaXRlPTcwJmRjTGluaz1OJmRjTGlua1R5cGU9T1JTRUMmZGNMaW5rU2l0ZT00NCZkY0xpbms9Tg==]]></binaryPostContentBase64>
+    <requestContentFileDescription>recorded-requests/req_c6139ac2-e4fc-4dfe-8a55-c933580b5ba4.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="dc2update"
+        recordRawValue="44" separator="=" value="44" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="dc"
+        recordRawValue="44" separator="=" value="44" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="dcLinkStatus"
+        recordRawValue="CLOSE" separator="=" value="CLOSE" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        extractVariable="dcLinkType" name="dcLinkType"
+        recordRawValue="ORSEC" separator="=" value="ORSEC" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        extractVariable="dcLinkSite" name="dcLinkSite"
+        recordRawValue="90" separator="=" value="90" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="dcLink"
+        recordRawValue="N" separator="=" value="N" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="dcLinkType"
+        recordRawValue="ORSEC" separator="=" value="" valueMode="USE_HTML"/>
+    <parameter encodeName="true" encodeValue="true" name="dcLinkSite"
+        recordRawValue="70" separator="=" value="" valueMode="USE_HTML"/>
+    <parameter encodeName="true" encodeValue="true" name="dcLink"
+        recordRawValue="N" separator="=" value="N" valueMode="USE_HTML"/>
+    <parameter encodeName="true" encodeValue="true" name="dcLinkType"
+        recordRawValue="ORSEC" separator="=" value="" valueMode="USE_HTML"/>
+    <parameter encodeName="true" encodeValue="true" name="dcLinkSite"
+        recordRawValue="44" separator="=" value="" valueMode="USE_HTML"/>
+    <parameter encodeName="true" encodeValue="true" name="dcLink"
+        recordRawValue="N" separator="=" value="Y" valueMode="USE_HTML"/>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="referer" value="https://bleu-test-ihm.ocp098.gehe.fr:18084/c3ml-ihm/sites?id=44&amp;label=NEVERS"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="JSESSIONID=02E8210520AE5B4603E6934548D4F03D; ApplicationGatewayAffinityCORS=cabe94033f40009f7811e505fd3cc6c7; ApplicationGatewayAffinity=cabe94033f40009f7811e505fd3cc6c7"/>
+    <header name="accept-language" value="en-US,en;q=0.9,fr;q=0.8"/>
+    <header name="origin" value="https://bleu-test-ihm.ocp098.gehe.fr:18084"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;117&quot;, &quot;Not;A=Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;117&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="content-type" value="application/x-www-form-urlencoded"/>
+    <header name="cache-control" value="max-age=0"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 302 
+date: Fri, 08 Dec 2023 13:32:49 GMT
+Content-Length: 0
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+pragma: no-cache
+expires: 0
+x-frame-options: DENY
+location: /c3ml-ihm/errorC3mlIhm
+content-language: en-US
+content-security-policy: script-src 'self' 'unsafe-inline' *.ocp098.gehe.fr:18084</responseHeaders>
+    <extractor-html-infos extractorId="siteModel" extractorOccurence="1"
+        extractorRegExp="false" htmlType="2"/>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

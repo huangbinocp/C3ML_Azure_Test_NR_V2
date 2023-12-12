@@ -1,0 +1,3 @@
+type|client|product_quantity|attendu_requete|attendu_IHM
+order|6938317103|1234567;1|Produit inconnu|LINE Description=\"INCONNU:&lt;00&gt;&lt;1234567      &gt;
+request|6938317103|1234567;1|Produit inconnu|LINE Quantity_delivered=\"0\" Description=\"INCONNU

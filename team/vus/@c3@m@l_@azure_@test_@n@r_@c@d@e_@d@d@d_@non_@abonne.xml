@@ -1,0 +1,34 @@
+<virtual-user errorPolicy="DO_NOTHING"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="false"
+    type="LEGACY" uid="C3ML_Azure_Test_NR_CDE_DDD_Non_Abonne">
+    <description>Le fichier de jeu de données en entrée : E:\C3ML_Projects\C3ML_Azure_Test_NR\variable\ListeClientProduit_NR_Commande_1501.txt .
+
+- passer une commande contenant 1501 lignes
+- Vérifier si la réponse est "FIN_SERVICE"
+- Vérifier si sur l'IHM, la commande est "ANNULEE"
+- Vérifier s'il y a un code d'erreur G5000 dans le journal d'erreur</description>
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed once when the Virtual User starts.</description>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements repeated until the Virtual User stops.</description>
+        <weighted-embedded-action uid="5f57a92c-0a35-4ce3-9968-2b96c44b2495"/>
+        <weighted-embedded-action uid="f99ed844-9384-468b-918a-009727ffc1ed"/>
+        <weighted-embedded-action uid="6c334843-a33d-4b70-9f4d-75d8928b48ae"/>
+        <weighted-embedded-action uid="8c2eb07a-4fd8-49b1-9c80-ed20da966921"/>
+        <weighted-embedded-action uid="a2582a46-371b-4369-bb8c-770a1bf0471b"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed before the Virtual User stops.</description>
+    </end-container>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="1"
+        thinktimeRangeValue="0" thinktimeValue="0"/>
+</virtual-user>

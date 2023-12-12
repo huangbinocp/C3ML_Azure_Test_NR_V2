@@ -1,0 +1,54 @@
+<http-page executeResourcesDynamically="false"
+    name="/c3ml-ihm/commandedetail" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@c3@m@l_@azure_@test_@n@r_@h@t@t@ps_@c@d@e_@code_@special_198/%resources%/recorded-artifacts/a7c5af84-bf5b-4ab0-b61f-cfca97b9368e.zip"
+    slaProfileEnabled="false" thinkTime="8186"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="a7c5af84-bf5b-4ab0-b61f-cfca97b9368e">
+    <embedded-action>2abf9b74-b7ce-43c5-9797-1924f27d127d</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html;charset=ISO-8859-1"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/c3ml-ihm/commandedetail"
+    path="/c3ml-ihm/commandedetail" postCharset="" postType="6"
+    recordedArtifactZipFileName="team/vus/@c3@m@l_@azure_@test_@n@r_@h@t@t@ps_@c@d@e_@code_@special_198/%resources%/recorded-artifacts/a7c5af84-bf5b-4ab0-b61f-cfca97b9368e.zip"
+    recordedResponseCode="200" recordedResponseTime="79"
+    responseSize="22503" serverUid="Azure_C3ML_IHM_UAT"
+    slaProfileEnabled="false" uid="2abf9b74-b7ce-43c5-9797-1924f27d127d" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_773d7017-929c-4c2c-95e7-d8a8d93a2c63.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_773d7017-929c-4c2c-95e7-d8a8d93a2c63.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="assertion_1" notType="false" pattern="${Resultat_attendu_IHM}"/>
+    </assertions>
+    <parameter encodeName="true" encodeValue="true" name="processIdSeq"
+        recordRawValue="3542305" separator="="
+        value="${ExtractedVariable_processIdSeq}" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="referer" value="https://bleu-test-ihm.ocp098.gehe.fr:18084/c3ml-ihm/commandes"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="JSESSIONID=${ExtractedVariable_JSESSIONID}; ApplicationGatewayAffinityCORS=5ee6e9dfd2605a15bac5d42c735de641; ApplicationGatewayAffinity=5ee6e9dfd2605a15bac5d42c735de641"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Not/A)Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;115&quot;, &quot;Chromium&quot;;v=&quot;115&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200 
+date: Tue, 08 Aug 2023 08:42:52 GMT
+content-type: text/html;charset=ISO-8859-1
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+pragma: no-cache
+expires: 0
+x-frame-options: DENY
+content-language: en-US
+content-security-policy: script-src 'self' 'unsafe-inline' *.ocp098.gehe.fr:18084</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

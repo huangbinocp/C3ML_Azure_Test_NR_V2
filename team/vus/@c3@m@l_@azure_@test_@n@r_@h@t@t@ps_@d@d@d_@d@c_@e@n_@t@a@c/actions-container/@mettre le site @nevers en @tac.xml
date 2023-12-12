@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Mettre le site Nevers en Tac" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="581b45ad-9c63-4f33-9e00-ff54640f36a8" weightsEnabled="false">
+    <weighted-embedded-action uid="29cc5362-f0a8-4212-80b3-875728390047"/>
+</basic-logical-action-container>

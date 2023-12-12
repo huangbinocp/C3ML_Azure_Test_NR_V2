@@ -1,0 +1,3 @@
+type|client|product_quantity|attendu_requete|attendu_IHM
+order|6926625921|2678249;1|est pas abonne au service demande\" Statut=\"103\"|does not subscribe to
+request|6926625921|2678249;1|est pas abonne au service demande\" Statut=\"103\"|does not subscribe to

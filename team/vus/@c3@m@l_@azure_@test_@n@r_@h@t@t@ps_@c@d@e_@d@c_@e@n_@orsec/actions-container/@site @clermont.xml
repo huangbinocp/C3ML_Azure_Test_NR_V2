@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Site Clermont" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="2a68e355-dca9-42bd-8d56-5ce2143c50a4" weightsEnabled="false">
+    <weighted-embedded-action uid="5ec9503d-1f52-4e04-95e7-e099cccb4772"/>
+</basic-logical-action-container>

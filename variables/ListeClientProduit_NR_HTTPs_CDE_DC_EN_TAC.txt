@@ -1,0 +1,2 @@
+type|client|product_quantity|attendu_requete|attendu_IHM
+order|5830443002|2678249;1|Quantite_livree=\"1\"|TRAITEE
