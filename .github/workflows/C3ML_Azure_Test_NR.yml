@@ -1,14 +1,14 @@
 name: C3ML_Azure_Test_NR
 on: workflow_dispatch
 env:
-  TEST_NAME: '"C3ML_Azure_Test_NR"'
-  WORKSPACE_NAME: '"C3ML_AZURE"'
-  VERSION: 'AZURE OCP'
-  NL_REPOSITORY: 'phx-grandslam/FR_C3ML_Azure_Test_NR'
-  NL_SCENARIO: 'Test_NR'
+  TEST_NAME: '"C3ML_Azure_Test_NR_V1.2"'
+  WORKSPACE_NAME: '"C3ML_Azure_Test_NR"'
+  VERSION: 'AZURE Test C3ML NR'
+  NL_REPOSITORY: 'huangbinocp/C3ML_Azure_Test_NR'
+  NL_SCENARIO: 'C3ML_Azure_Test_NR_All_Scripts'
 jobs:  
   app_dev_tirs:
-    name: C3ML_Azure_TEST Tirs
+    name: C3ML_Azure_TEST_NR Tirs
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
