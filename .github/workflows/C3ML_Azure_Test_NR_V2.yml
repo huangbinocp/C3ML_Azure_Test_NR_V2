@@ -17,18 +17,13 @@ jobs:
           - api_url: https://neoload-api.saas.neotys.com/
             token: C3ML_AZURE_GIT
     steps:
-      - name: "1. Checkout Neoload project repository"
-        uses: actions/checkout@master
-        with:
-         repository: ${{ env.NL_REPOSITORY }}
-         token: ${{ secrets.MY_PAT }}
-      - name: "2. Install NeoLoad CLI"
+      - name: "1. Install NeoLoad CLI"
         run: pip3 install -U neoload
-      - name: "3. Prepare NeoLoad test"
+      - name: "2. Prepare NeoLoad test"
         run: >
           neoload login --url ${{ matrix.api_url }} --workspace ${{ env.WORKSPACE_NAME }} ${{ secrets[matrix.token] }} \
                   test-settings --scenario ${{ env.NL_SCENARIO }} createorpatch ${{ env.TEST_NAME }} 
-      - name: "4. NeoLoad run test"
+      - name: "3. NeoLoad run test"
         run: >
           neoload run 
           --external-url $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID 
