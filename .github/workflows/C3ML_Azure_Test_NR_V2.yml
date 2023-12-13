@@ -3,8 +3,7 @@ on: workflow_dispatch
 env:
   TEST_NAME: '"C3ML_Azure_Test_NR_V1.2"'
   WORKSPACE_NAME: '"C3ML_Azure_Test_NR"'
-  VERSION: 'AZURE Test C3ML NR'
-  NL_REPOSITORY: 'huangbinocp/C3ML_Azure_Test_NR_V2'
+  VERSION: 'AZURE Test C3ML NR V1.2'
   NL_SCENARIO: 'C3ML_Azure_Test_NR_All_Scripts'
 jobs:  
   app_dev_tirs:
@@ -26,9 +25,7 @@ jobs:
       - name: "3. NeoLoad run test"
         run: >
           neoload run 
-          --external-url $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID 
-          --external-url-label "Github Action Run ${{ env.VERSION }}.$GITHUB_RUN_NUMBER" 
-          --name "Test de NR C3ML avec Injecteur VM - Github build ${{ env.VERSION }}.$GITHUB_RUN_NUMBER" 
+          --name "Test de NR C3ML avec Injecteur VM - Github build ${{ env.VERSION }}" 
           --description "Test de non Régression C3ML." 
           --reservation-duration 2400
           ${{ env.TEST_NAME }}
